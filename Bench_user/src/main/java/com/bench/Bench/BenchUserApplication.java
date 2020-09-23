@@ -12,6 +12,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients
 public class BenchUserApplication {
 
+
     public static void main(String[] args) {
         SpringApplication.run(BenchUserApplication.class, args);
     }
