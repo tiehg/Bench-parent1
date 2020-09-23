@@ -1,10 +1,10 @@
-package com.bench.bench_article;
+package com.bench.Bench;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BenchArticleApplicationTests {
+class BenchUserApplicationTests {
 
     @Test
     void contextLoads() {

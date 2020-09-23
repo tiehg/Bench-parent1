@@ -1,4 +1,4 @@
-package com.bemnch.bench_back;
+package com.bemnch.Bench;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

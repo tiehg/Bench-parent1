@@ -1,4 +1,4 @@
-package com.bench.bench_user.dao;
+package com.bench.Bench.dao;
 
 import com.bench.bean.S3Favorites;
 import com.bench.bean.S3FavoritesExample;

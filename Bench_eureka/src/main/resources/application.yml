@@ -5,6 +5,10 @@ spring:
   application:
     name: server
 
+ribbon:
+  eureka:
+    enabled: true
+
 eureka:
   client:
     registerWithEureka: false

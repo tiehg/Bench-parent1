@@ -1,4 +1,4 @@
-package com.bench.bench_article.dao;
+package com.bench.Bench.dao;
 
 import com.bench.bean.S3Category;
 import com.bench.bean.S3CategoryExample;

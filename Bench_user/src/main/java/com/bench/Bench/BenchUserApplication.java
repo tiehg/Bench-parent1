@@ -1,4 +1,4 @@
-package com.bench.bench_user;
+package com.bench.Bench;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;

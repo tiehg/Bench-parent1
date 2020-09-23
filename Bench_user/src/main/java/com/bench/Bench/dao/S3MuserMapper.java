@@ -1,4 +1,4 @@
-package com.bench.bench_user.dao;
+package com.bench.Bench.dao;
 
 import com.bench.bean.S3Muser;
 import com.bench.bean.S3MuserExample;

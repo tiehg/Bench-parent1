@@ -1,4 +1,4 @@
-package com.bench.bench_eureka;
+package com.bench.Bench;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,9 +1,10 @@
-package com.bench.bench_user.web;
+package com.bench.Bench.web;
 
 import java.util.List;
 
 import javax.annotation.Resource;
 
+import com.bench.Bench.dao.S3UserMapper;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
