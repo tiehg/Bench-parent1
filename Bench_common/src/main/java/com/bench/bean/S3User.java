@@ -7,51 +7,48 @@ import javax.validation.constraints.NotEmpty;
 
 import org.hibernate.validator.constraints.Length;
 
-public class S3User implements java.io.Serializable{
-    /**
+public class S3User implements java.io.Serializable {
+	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 
 	private Integer id;
-    @NotEmpty(message = "用户名不能为空")
-    @Length(min=2,message ="用户名最少为2个字符" )
-    private String account;
-    @NotEmpty(message = "邮箱不能为空")
-    @Email
-    private String email;
+	@NotEmpty(message = "用户名不能为空")
+	@Length(min = 2, message = "用户名最少为2个字符")
+	private String account;
+	@NotEmpty(message = "邮箱不能为空")
+	@Email
+	private String email;
 
-    private String address;
-    @NotEmpty(message = "密码不能为空")
-    @Length(min=6,message ="密码最少为6个字符" )
-    private String pwd;
-    @NotEmpty(message = "电话号码不能为空")
-    @Length(min=11,max=11,message ="电话号码只能为11个字符" )
-    private String phone;
+	private String address;
+	@NotEmpty(message = "密码不能为空")
+	@Length(min = 6, message = "密码最少为6个字符")
+	private String pwd;
+	@NotEmpty(message = "电话号码不能为空")
+	@Length(min = 11, max = 11, message = "电话号码只能为11个字符")
+	private String phone;
 
-    private Integer ulevel;
+	private Integer ulevel;
 
-    private Date regtime;
+	private Date regtime;
 
-    private String signature;
+	private String signature;
 
-    private String urich;
+	private String urich;
 
-    private String uhead;
+	private String uhead;
 
-    private String uviplevel;
+	private String uviplevel;
 
-    private String usex;
+	private String certificainfo;
+	
+	@NotEmpty
+	private String repwd;
+	
+	
 
-    private String certificainfo;
-    
-  private String repwd;
-    private String vercode;
-    
-    
-
-
-    public String getRepwd() {
+	public String getRepwd() {
 		return repwd;
 	}
 
@@ -59,123 +56,107 @@ public class S3User implements java.io.Serializable{
 		this.repwd = repwd;
 	}
 
-	public String getVercode() {
-		return vercode;
+	public Integer getId() {
+		return id;
 	}
 
-	public void setVercode(String vercode) {
-		this.vercode = vercode;
+	public void setId(Integer id) {
+		this.id = id;
 	}
 
-    public Integer getId() {
-        return id;
-    }
+	public String getAccount() {
+		return account;
+	}
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
+	public void setAccount(String account) {
+		this.account = account == null ? null : account.trim();
+	}
 
-    public String getAccount() {
-        return account;
-    }
+	public String getEmail() {
+		return email;
+	}
 
-    public void setAccount(String account) {
-        this.account = account == null ? null : account.trim();
-    }
+	public void setEmail(String email) {
+		this.email = email == null ? null : email.trim();
+	}
 
-    public String getEmail() {
-        return email;
-    }
+	public String getAddress() {
+		return address;
+	}
 
-    public void setEmail(String email) {
-        this.email = email == null ? null : email.trim();
-    }
+	public void setAddress(String address) {
+		this.address = address == null ? null : address.trim();
+	}
 
-    public String getAddress() {
-        return address;
-    }
+	public String getPwd() {
+		return pwd;
+	}
 
-    public void setAddress(String address) {
-        this.address = address == null ? null : address.trim();
-    }
+	public void setPwd(String pwd) {
+		this.pwd = pwd == null ? null : pwd.trim();
+	}
 
-    public String getPwd() {
-        return pwd;
-    }
+	public String getPhone() {
+		return phone;
+	}
 
-    public void setPwd(String pwd) {
-        this.pwd = pwd == null ? null : pwd.trim();
-    }
+	public void setPhone(String phone) {
+		this.phone = phone == null ? null : phone.trim();
+	}
 
-    public String getPhone() {
-        return phone;
-    }
+	public Integer getUlevel() {
+		return ulevel;
+	}
 
-    public void setPhone(String phone) {
-        this.phone = phone == null ? null : phone.trim();
-    }
+	public void setUlevel(Integer ulevel) {
+		this.ulevel = ulevel;
+	}
 
-    public Integer getUlevel() {
-        return ulevel;
-    }
+	public Date getRegtime() {
+		return regtime;
+	}
 
-    public void setUlevel(Integer ulevel) {
-        this.ulevel = ulevel;
-    }
+	public void setRegtime(Date regtime) {
+		this.regtime = regtime;
+	}
 
-    public Date getRegtime() {
-        return regtime;
-    }
+	public String getSignature() {
+		return signature;
+	}
 
-    public void setRegtime(Date regtime) {
-        this.regtime = regtime;
-    }
+	public void setSignature(String signature) {
+		this.signature = signature == null ? null : signature.trim();
+	}
 
-    public String getSignature() {
-        return signature;
-    }
+	public String getUrich() {
+		return urich;
+	}
 
-    public void setSignature(String signature) {
-        this.signature = signature == null ? null : signature.trim();
-    }
+	public void setUrich(String urich) {
+		this.urich = urich == null ? null : urich.trim();
+	}
 
-    public String getUrich() {
-        return urich;
-    }
+	public String getUhead() {
+		return uhead;
+	}
 
-    public void setUrich(String urich) {
-        this.urich = urich == null ? null : urich.trim();
-    }
+	public void setUhead(String uhead) {
+		this.uhead = uhead == null ? null : uhead.trim();
+	}
 
-    public String getUhead() {
-        return uhead;
-    }
+	public String getUviplevel() {
+		return uviplevel;
+	}
 
-    public void setUhead(String uhead) {
-        this.uhead = uhead == null ? null : uhead.trim();
-    }
+	public void setUviplevel(String uviplevel) {
+		this.uviplevel = uviplevel == null ? null : uviplevel.trim();
+	}
 
-    public String getUviplevel() {
-        return uviplevel;
-    }
+	public String getCertificainfo() {
+		return certificainfo;
+	}
 
-    public void setUviplevel(String uviplevel) {
-        this.uviplevel = uviplevel == null ? null : uviplevel.trim();
-    }
-
-    public String getUsex() {
-        return usex;
-    }
-
-    public void setUsex(String usex) {
-        this.usex = usex == null ? null : usex.trim();
-    }
-
-    public String getCertificainfo() {
-        return certificainfo;
-    }
-
-    public void setCertificainfo(String certificainfo) {
-        this.certificainfo = certificainfo == null ? null : certificainfo.trim();
-    }
+	public void setCertificainfo(String certificainfo) {
+		this.certificainfo = certificainfo == null ? null : certificainfo.trim();
+	}
 }

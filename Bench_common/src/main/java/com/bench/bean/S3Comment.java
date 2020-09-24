@@ -1,7 +1,14 @@
 package com.bench.bean;
 
-public class S3Comment {
-    private Integer id;
+import java.util.Date;
+
+public class S3Comment implements java.io.Serializable{
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private Integer id;
 
     private String conent;
 
@@ -10,6 +17,8 @@ public class S3Comment {
     private Integer aid;
 
     private String isadoption;
+
+    private Date regtime;
 
     public Integer getId() {
         return id;
@@ -49,5 +58,13 @@ public class S3Comment {
 
     public void setIsadoption(String isadoption) {
         this.isadoption = isadoption == null ? null : isadoption.trim();
+    }
+
+    public Date getRegtime() {
+        return regtime;
+    }
+
+    public void setRegtime(Date regtime) {
+        this.regtime = regtime;
     }
 }

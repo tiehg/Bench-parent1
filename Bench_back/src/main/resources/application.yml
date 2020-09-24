@@ -1,0 +1,33 @@
+server:
+  port:  8006
+  
+spring:
+  application:
+    name:  bback
+    
+  datasource:
+    url:  jdbc:mysql://127.0.0.1/s3-bench?useUnicode=true&characterEncoding=UTF-8
+    username:  root
+    password:  a
+    driver-class-name:  com.mysql.jdbc.Driver
+
+logging:
+  level:
+    com:
+      bench:
+        Bench: debug
+         # dao: debug
+         # web: warn
+
+
+
+
+  
+    
+
+
+
+    
+    
+
+

@@ -1,6 +1,5 @@
 package com.bench.bean;
 
-
 public class S3Favorites implements java.io.Serializable{
     /**
 	 * 

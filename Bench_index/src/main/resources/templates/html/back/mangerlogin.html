@@ -1,43 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="www.thymeleaf.com">
 <head>
     <meta charset="UTF-8">
-    <title>管理员登录</title>
+    <title>Bench社区管理员</title>
     <link rel="stylesheet" href="../../css/index.css">
     <script src="../../js/index.js"></script>
+    <script src="../../html/0101util/vue.min.js"></script>
+    <script src="../../html/0101util/axios.min.js"></script>
 </head>
+<style>
+#error{
+   color: #ff0000;
+}
+</style>
+
 <body>
 
 <div class="loginmain">
     <div class="login-title">
-        <span>管理员登录</span>
+        <span>Bench社区管理员登录</span>
     </div>
 
-    <div class="login-con">
+    <div class="login-con" id="app">
+        <form method="post" action="/mlogin" enctype="multipart/form-data">
         <div class="login-user">
+        <span id="error" style="font-size: 1.2em" th:each="e:${errors}" th:if="${e.field=='maccount'}" th:text="${e.defaultMessage}"></span>
             <div class="icon">
                 <img src="../../image/backimage/user_icon_copy.png" alt="">
             </div>
-            <input type="text" name="usernem" placeholder="用户名" autocomplete="off" value="">
+            <input type="text" name="maccount"  th:value="${muser}!=null?${muser.maccount}:''" placeholder="管理员账户" autocomplete="off" value="">
         </div>
+        <span id="error" style="font-size: 1.2em" th:each="e:${errors}" th:if="${e.field=='pwd'}" th:text="${e.defaultMessage}"></span>
         <div class="login-pwd">
             <div class="icon">
                 <img src="../../image/backimage/lock_icon_copy.png" alt="">
             </div>
-            <input type="password" name="pwd" placeholder="密码" autocomplete="off" value="">
-        </div>
-        <div class="login-yan">
-            <div class="icon">
-                <img src="../../image/backimage/key.png" alt="">
-            </div>
-            <input type="text" name="pwd" placeholder="验证码" autocomplete="off" value="">
+            <input type="password" name="pwd"  th:value="${muser}!=null?${muser.pwd}:''" placeholder="密码" autocomplete="off" value="">
         </div>
         <div class="login-btn">
-            <input type="button" value="登录">
+            <button type="submit">登录</button>
+           <!-- <input type="button" value="登录" @click="login" >-->
         </div>
+        </form>
     </div>
-
 </div>
-
+<script type="application/javascript">
+   /* var vue=new Vue({
+    el:"#app",
+    data:{
+        maccount:"",
+        pwd:""
+    },
+    methods:{
+        login(){
+            alert("点击到啦！");
+            axios.post({
+                url:"mlogin",
+                params:{
+                     maccount:this.maccount,
+                     pwd:this.pwd
+                }
+            }).then(res=>{
+                if(res.data.code=="1"){
+                    alert(res.data.msg);
+                 }
+            });
+            }
+        }
+    });*/
+</script>
 </body>
 </html>

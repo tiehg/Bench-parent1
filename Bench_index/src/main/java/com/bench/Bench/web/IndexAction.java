@@ -10,6 +10,8 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 
+import com.bench.Bench.remote.IMuserAction;
+import com.bench.bean.S3Muser;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -37,6 +39,8 @@ public class IndexAction {
 	private RedisTemplate<String, String> redis;
 	@Resource
 	private IUserAction iua;
+	@Resource
+	private IMuserAction ima;
 
 	@RequestMapping("/")
 	public String index(Model m) {
@@ -96,7 +100,22 @@ public class IndexAction {
 			return "html/user/login";
 		}
 	}
-
+	//管理员登录，暂无跳转页面，所以先跳至自己
+	@PostMapping("mlogin")
+	public  String mlogin(@Valid S3Muser muser, Errors errors, Model m){
+		if (errors.hasFieldErrors("maccount") || errors.hasFieldErrors("pwd")) {
+			errors.rejectValue("maccount", "maccountError", "账号或密码错误");
+		}
+		Result res = ima.mlogin(muser);
+		if (res.getCode() == 1) {
+			m.addAttribute("loginUser", res.getData());
+			return "html/back/success";
+		} else {
+			m.addAttribute("muser", muser);
+			m.addAttribute("errors", errors.getFieldErrors());
+			return "html/back/mangerlogin";
+		}
+	}
 	@PostMapping("register")
 	public String reg(@Valid S3User user, Errors errors, Model m) {
 
@@ -104,11 +123,11 @@ public class IndexAction {
 			errors.rejectValue("repwd", "repwdError", "两次密码不一致");
 		}
 		String scode = redis.opsForValue().get("bvcode");
-		if (user.getVercode().isEmpty() == false) {
+		/*if (user.getVercode().isEmpty() == false) {
 			if (user.getVercode().equals(scode) == false) {
 				errors.rejectValue("vercode", "vcodeError", "验证码不正确");
 			}
-		}
+		}*/
 		if (errors.hasErrors()) {
 			m.addAttribute("user", user);
 			m.addAttribute("errors", errors.getFieldErrors());

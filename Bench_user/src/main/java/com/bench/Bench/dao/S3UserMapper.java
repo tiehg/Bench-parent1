@@ -30,7 +30,6 @@ public interface S3UserMapper {
     int updateByPrimaryKeySelective(S3User record);
 
     int updateByPrimaryKey(S3User record);
-
     
     @Update("update s3_user set email=#{email},account=#{account}"
     		+ ",address=#{address},signature=#{signature} where id=#{id}")
@@ -43,6 +42,6 @@ public interface S3UserMapper {
     int updateimg(S3User user);
     @Insert("insert into s3_user values(null,#{account},"
     		+ "#{email},#{address},#{pwd},#{phone},0,now(),"
-    		+ "#{signature},0,#{uhead},#{uviplevel},#{usex},#{certificainfo})")
+    		+ "#{signature},0,#{uhead},#{uviplevel},#{certificainfo})")
     int insertuser(S3User user);
 }

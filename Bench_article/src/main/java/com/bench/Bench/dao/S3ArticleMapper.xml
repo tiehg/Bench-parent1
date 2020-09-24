@@ -6,7 +6,7 @@
     <result column="categoryid" jdbcType="INTEGER" property="categoryid" />
     <result column="uid" jdbcType="INTEGER" property="uid" />
     <result column="atitle" jdbcType="VARCHAR" property="atitle" />
-    <result column="aconent" jdbcType="VARCHAR" property="aconent" />
+    <result column="acontent" jdbcType="VARCHAR" property="acontent" />
     <result column="sendtime" jdbcType="TIMESTAMP" property="sendtime" />
     <result column="isproblem" jdbcType="INTEGER" property="isproblem" />
     <result column="money" jdbcType="VARCHAR" property="money" />
@@ -73,7 +73,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    aid, categoryid, uid, atitle, aconent, sendtime, isproblem, money, boutique, top, 
+    aid, categoryid, uid, atitle, acontent, sendtime, isproblem, money, boutique, top, 
     solve
   </sql>
   <select id="selectByExample" parameterType="com.bench.bean.S3ArticleExample" resultMap="BaseResultMap">
@@ -108,11 +108,11 @@
   </delete>
   <insert id="insert" parameterType="com.bench.bean.S3Article">
     insert into s3_article (aid, categoryid, uid, 
-      atitle, aconent, sendtime, 
+      atitle, acontent, sendtime, 
       isproblem, money, boutique, 
       top, solve)
     values (#{aid,jdbcType=INTEGER}, #{categoryid,jdbcType=INTEGER}, #{uid,jdbcType=INTEGER}, 
-      #{atitle,jdbcType=VARCHAR}, #{aconent,jdbcType=VARCHAR}, #{sendtime,jdbcType=TIMESTAMP}, 
+      #{atitle,jdbcType=VARCHAR}, #{acontent,jdbcType=VARCHAR}, #{sendtime,jdbcType=TIMESTAMP}, 
       #{isproblem,jdbcType=INTEGER}, #{money,jdbcType=VARCHAR}, #{boutique,jdbcType=INTEGER}, 
       #{top,jdbcType=INTEGER}, #{solve,jdbcType=INTEGER})
   </insert>
@@ -131,8 +131,8 @@
       <if test="atitle != null">
         atitle,
       </if>
-      <if test="aconent != null">
-        aconent,
+      <if test="acontent != null">
+        acontent,
       </if>
       <if test="sendtime != null">
         sendtime,
@@ -166,8 +166,8 @@
       <if test="atitle != null">
         #{atitle,jdbcType=VARCHAR},
       </if>
-      <if test="aconent != null">
-        #{aconent,jdbcType=VARCHAR},
+      <if test="acontent != null">
+        #{acontent,jdbcType=VARCHAR},
       </if>
       <if test="sendtime != null">
         #{sendtime,jdbcType=TIMESTAMP},
@@ -210,8 +210,8 @@
       <if test="record.atitle != null">
         atitle = #{record.atitle,jdbcType=VARCHAR},
       </if>
-      <if test="record.aconent != null">
-        aconent = #{record.aconent,jdbcType=VARCHAR},
+      <if test="record.acontent != null">
+        acontent = #{record.acontent,jdbcType=VARCHAR},
       </if>
       <if test="record.sendtime != null">
         sendtime = #{record.sendtime,jdbcType=TIMESTAMP},
@@ -242,7 +242,7 @@
       categoryid = #{record.categoryid,jdbcType=INTEGER},
       uid = #{record.uid,jdbcType=INTEGER},
       atitle = #{record.atitle,jdbcType=VARCHAR},
-      aconent = #{record.aconent,jdbcType=VARCHAR},
+      acontent = #{record.acontent,jdbcType=VARCHAR},
       sendtime = #{record.sendtime,jdbcType=TIMESTAMP},
       isproblem = #{record.isproblem,jdbcType=INTEGER},
       money = #{record.money,jdbcType=VARCHAR},
@@ -265,8 +265,8 @@
       <if test="atitle != null">
         atitle = #{atitle,jdbcType=VARCHAR},
       </if>
-      <if test="aconent != null">
-        aconent = #{aconent,jdbcType=VARCHAR},
+      <if test="acontent != null">
+        acontent = #{acontent,jdbcType=VARCHAR},
       </if>
       <if test="sendtime != null">
         sendtime = #{sendtime,jdbcType=TIMESTAMP},
@@ -294,7 +294,7 @@
     set categoryid = #{categoryid,jdbcType=INTEGER},
       uid = #{uid,jdbcType=INTEGER},
       atitle = #{atitle,jdbcType=VARCHAR},
-      aconent = #{aconent,jdbcType=VARCHAR},
+      acontent = #{acontent,jdbcType=VARCHAR},
       sendtime = #{sendtime,jdbcType=TIMESTAMP},
       isproblem = #{isproblem,jdbcType=INTEGER},
       money = #{money,jdbcType=VARCHAR},

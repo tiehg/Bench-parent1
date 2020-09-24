@@ -14,7 +14,6 @@
     <result column="urich" jdbcType="VARCHAR" property="urich" />
     <result column="uhead" jdbcType="VARCHAR" property="uhead" />
     <result column="uviplevel" jdbcType="VARCHAR" property="uviplevel" />
-    <result column="usex" jdbcType="VARCHAR" property="usex" />
     <result column="certificaInfo" jdbcType="VARCHAR" property="certificainfo" />
   </resultMap>
   <sql id="Example_Where_Clause">
@@ -77,7 +76,7 @@
   </sql>
   <sql id="Base_Column_List">
     id, account, email, address, pwd, phone, ulevel, regtime, signature, urich, uhead, 
-    uviplevel, usex, certificaInfo
+    uviplevel, certificaInfo
   </sql>
   <select id="selectByExample" parameterType="com.bench.bean.S3UserExample" resultMap="BaseResultMap">
     select
@@ -116,13 +115,13 @@
     insert into s3_user (account, email, address, 
       pwd, phone, ulevel, 
       regtime, signature, urich, 
-      uhead, uviplevel, usex, 
-      certificaInfo)
+      uhead, uviplevel, certificaInfo
+      )
     values (#{account,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR}, 
       #{pwd,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR}, #{ulevel,jdbcType=INTEGER}, 
       #{regtime,jdbcType=TIMESTAMP}, #{signature,jdbcType=VARCHAR}, #{urich,jdbcType=VARCHAR}, 
-      #{uhead,jdbcType=VARCHAR}, #{uviplevel,jdbcType=VARCHAR}, #{usex,jdbcType=VARCHAR}, 
-      #{certificainfo,jdbcType=VARCHAR})
+      #{uhead,jdbcType=VARCHAR}, #{uviplevel,jdbcType=VARCHAR}, #{certificainfo,jdbcType=VARCHAR}
+      )
   </insert>
   <insert id="insertSelective" parameterType="com.bench.bean.S3User">
     <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
@@ -163,9 +162,6 @@
       <if test="uviplevel != null">
         uviplevel,
       </if>
-      <if test="usex != null">
-        usex,
-      </if>
       <if test="certificainfo != null">
         certificaInfo,
       </if>
@@ -203,9 +199,6 @@
       </if>
       <if test="uviplevel != null">
         #{uviplevel,jdbcType=VARCHAR},
-      </if>
-      <if test="usex != null">
-        #{usex,jdbcType=VARCHAR},
       </if>
       <if test="certificainfo != null">
         #{certificainfo,jdbcType=VARCHAR},
@@ -257,9 +250,6 @@
       <if test="record.uviplevel != null">
         uviplevel = #{record.uviplevel,jdbcType=VARCHAR},
       </if>
-      <if test="record.usex != null">
-        usex = #{record.usex,jdbcType=VARCHAR},
-      </if>
       <if test="record.certificainfo != null">
         certificaInfo = #{record.certificainfo,jdbcType=VARCHAR},
       </if>
@@ -282,7 +272,6 @@
       urich = #{record.urich,jdbcType=VARCHAR},
       uhead = #{record.uhead,jdbcType=VARCHAR},
       uviplevel = #{record.uviplevel,jdbcType=VARCHAR},
-      usex = #{record.usex,jdbcType=VARCHAR},
       certificaInfo = #{record.certificainfo,jdbcType=VARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
@@ -324,9 +313,6 @@
       <if test="uviplevel != null">
         uviplevel = #{uviplevel,jdbcType=VARCHAR},
       </if>
-      <if test="usex != null">
-        usex = #{usex,jdbcType=VARCHAR},
-      </if>
       <if test="certificainfo != null">
         certificaInfo = #{certificainfo,jdbcType=VARCHAR},
       </if>
@@ -346,7 +332,6 @@
       urich = #{urich,jdbcType=VARCHAR},
       uhead = #{uhead,jdbcType=VARCHAR},
       uviplevel = #{uviplevel,jdbcType=VARCHAR},
-      usex = #{usex,jdbcType=VARCHAR},
       certificaInfo = #{certificainfo,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>

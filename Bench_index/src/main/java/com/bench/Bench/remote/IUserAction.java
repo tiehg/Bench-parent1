@@ -1,5 +1,6 @@
 package com.bench.Bench.remote;
 
+import com.bench.bean.S3Muser;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -19,7 +20,7 @@ public interface IUserAction {
 	
 	@PostMapping("user/logined")
 	Result logined(@RequestBody S3User user);
-	
+
 	@PostMapping("user/getinfo")
 	Result getinfo(@RequestBody String account);
 	

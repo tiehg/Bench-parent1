@@ -32,3 +32,10 @@ mail:
    fromMail: 
       addr:  1529072552@qq.com
   
+logging:
+   level:
+      com:
+         bench:
+            Bench: debug
+              # dao: debug
+            # web: warn

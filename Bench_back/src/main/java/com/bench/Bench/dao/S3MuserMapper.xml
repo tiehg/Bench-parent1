@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.bench.Bench.dao.S3CommentMapper">
-  <resultMap id="BaseResultMap" type="com.bench.bean.S3Comment">
+<mapper namespace="com.bench.Bench.dao.S3MuserMapper">
+  <resultMap id="BaseResultMap" type="com.bench.bean.S3Muser">
     <id column="id" jdbcType="INTEGER" property="id" />
-    <result column="conent" jdbcType="VARCHAR" property="conent" />
-    <result column="uid" jdbcType="INTEGER" property="uid" />
-    <result column="aid" jdbcType="INTEGER" property="aid" />
-    <result column="isadoption" jdbcType="CHAR" property="isadoption" />
+    <result column="maccount" jdbcType="VARCHAR" property="maccount" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="pwd" jdbcType="VARCHAR" property="pwd" />
+    <result column="notes" jdbcType="VARCHAR" property="notes" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
     <result column="regtime" jdbcType="TIMESTAMP" property="regtime" />
   </resultMap>
   <sql id="Example_Where_Clause">
@@ -68,15 +70,15 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    id, conent, uid, aid, isadoption, regtime
+    id, maccount, name, pwd, notes, phone, email, regtime
   </sql>
-  <select id="selectByExample" parameterType="com.bench.bean.S3CommentExample" resultMap="BaseResultMap">
+  <select id="selectByExample" parameterType="com.bench.bean.S3MuserExample" resultMap="BaseResultMap">
     select
     <if test="distinct">
       distinct
     </if>
     <include refid="Base_Column_List" />
-    from s3-comment
+    from s3-muser
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
@@ -87,91 +89,111 @@
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select 
     <include refid="Base_Column_List" />
-    from s3-comment
+    from s3-muser
     where id = #{id,jdbcType=INTEGER}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
-    delete from s3-comment
+    delete from s3-muser
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <delete id="deleteByExample" parameterType="com.bench.bean.S3CommentExample">
-    delete from s3-comment
+  <delete id="deleteByExample" parameterType="com.bench.bean.S3MuserExample">
+    delete from s3-muser
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.bench.bean.S3Comment">
+  <insert id="insert" parameterType="com.bench.bean.S3Muser">
     <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
       SELECT LAST_INSERT_ID()
     </selectKey>
-    insert into s3-comment (conent, uid, aid, 
-      isadoption, regtime)
-    values (#{conent,jdbcType=VARCHAR}, #{uid,jdbcType=INTEGER}, #{aid,jdbcType=INTEGER}, 
-      #{isadoption,jdbcType=CHAR}, #{regtime,jdbcType=TIMESTAMP})
+    insert into s3-muser (maccount, name, pwd, 
+      notes, phone, email, 
+      regtime)
+    values (#{maccount,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, #{pwd,jdbcType=VARCHAR}, 
+      #{notes,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, 
+      #{regtime,jdbcType=TIMESTAMP})
   </insert>
-  <insert id="insertSelective" parameterType="com.bench.bean.S3Comment">
+  <insert id="insertSelective" parameterType="com.bench.bean.S3Muser">
     <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
       SELECT LAST_INSERT_ID()
     </selectKey>
-    insert into s3-comment
+    insert into s3-muser
     <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="conent != null">
-        conent,
+      <if test="maccount != null">
+        maccount,
       </if>
-      <if test="uid != null">
-        uid,
+      <if test="name != null">
+        name,
       </if>
-      <if test="aid != null">
-        aid,
+      <if test="pwd != null">
+        pwd,
       </if>
-      <if test="isadoption != null">
-        isadoption,
+      <if test="notes != null">
+        notes,
+      </if>
+      <if test="phone != null">
+        phone,
+      </if>
+      <if test="email != null">
+        email,
       </if>
       <if test="regtime != null">
         regtime,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="conent != null">
-        #{conent,jdbcType=VARCHAR},
+      <if test="maccount != null">
+        #{maccount,jdbcType=VARCHAR},
       </if>
-      <if test="uid != null">
-        #{uid,jdbcType=INTEGER},
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
       </if>
-      <if test="aid != null">
-        #{aid,jdbcType=INTEGER},
+      <if test="pwd != null">
+        #{pwd,jdbcType=VARCHAR},
       </if>
-      <if test="isadoption != null">
-        #{isadoption,jdbcType=CHAR},
+      <if test="notes != null">
+        #{notes,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null">
+        #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null">
+        #{email,jdbcType=VARCHAR},
       </if>
       <if test="regtime != null">
         #{regtime,jdbcType=TIMESTAMP},
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.bench.bean.S3CommentExample" resultType="java.lang.Long">
-    select count(*) from s3-comment
+  <select id="countByExample" parameterType="com.bench.bean.S3MuserExample" resultType="java.lang.Long">
+    select count(*) from s3-muser
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>
   </select>
   <update id="updateByExampleSelective" parameterType="map">
-    update s3-comment
+    update s3-muser
     <set>
       <if test="record.id != null">
         id = #{record.id,jdbcType=INTEGER},
       </if>
-      <if test="record.conent != null">
-        conent = #{record.conent,jdbcType=VARCHAR},
+      <if test="record.maccount != null">
+        maccount = #{record.maccount,jdbcType=VARCHAR},
       </if>
-      <if test="record.uid != null">
-        uid = #{record.uid,jdbcType=INTEGER},
+      <if test="record.name != null">
+        name = #{record.name,jdbcType=VARCHAR},
       </if>
-      <if test="record.aid != null">
-        aid = #{record.aid,jdbcType=INTEGER},
+      <if test="record.pwd != null">
+        pwd = #{record.pwd,jdbcType=VARCHAR},
       </if>
-      <if test="record.isadoption != null">
-        isadoption = #{record.isadoption,jdbcType=CHAR},
+      <if test="record.notes != null">
+        notes = #{record.notes,jdbcType=VARCHAR},
+      </if>
+      <if test="record.phone != null">
+        phone = #{record.phone,jdbcType=VARCHAR},
+      </if>
+      <if test="record.email != null">
+        email = #{record.email,jdbcType=VARCHAR},
       </if>
       <if test="record.regtime != null">
         regtime = #{record.regtime,jdbcType=TIMESTAMP},
@@ -182,31 +204,39 @@
     </if>
   </update>
   <update id="updateByExample" parameterType="map">
-    update s3-comment
+    update s3-muser
     set id = #{record.id,jdbcType=INTEGER},
-      conent = #{record.conent,jdbcType=VARCHAR},
-      uid = #{record.uid,jdbcType=INTEGER},
-      aid = #{record.aid,jdbcType=INTEGER},
-      isadoption = #{record.isadoption,jdbcType=CHAR},
+      maccount = #{record.maccount,jdbcType=VARCHAR},
+      name = #{record.name,jdbcType=VARCHAR},
+      pwd = #{record.pwd,jdbcType=VARCHAR},
+      notes = #{record.notes,jdbcType=VARCHAR},
+      phone = #{record.phone,jdbcType=VARCHAR},
+      email = #{record.email,jdbcType=VARCHAR},
       regtime = #{record.regtime,jdbcType=TIMESTAMP}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.bench.bean.S3Comment">
-    update s3-comment
+  <update id="updateByPrimaryKeySelective" parameterType="com.bench.bean.S3Muser">
+    update s3-muser
     <set>
-      <if test="conent != null">
-        conent = #{conent,jdbcType=VARCHAR},
+      <if test="maccount != null">
+        maccount = #{maccount,jdbcType=VARCHAR},
       </if>
-      <if test="uid != null">
-        uid = #{uid,jdbcType=INTEGER},
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
       </if>
-      <if test="aid != null">
-        aid = #{aid,jdbcType=INTEGER},
+      <if test="pwd != null">
+        pwd = #{pwd,jdbcType=VARCHAR},
       </if>
-      <if test="isadoption != null">
-        isadoption = #{isadoption,jdbcType=CHAR},
+      <if test="notes != null">
+        notes = #{notes,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null">
+        phone = #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null">
+        email = #{email,jdbcType=VARCHAR},
       </if>
       <if test="regtime != null">
         regtime = #{regtime,jdbcType=TIMESTAMP},
@@ -214,12 +244,14 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.bench.bean.S3Comment">
-    update s3-comment
-    set conent = #{conent,jdbcType=VARCHAR},
-      uid = #{uid,jdbcType=INTEGER},
-      aid = #{aid,jdbcType=INTEGER},
-      isadoption = #{isadoption,jdbcType=CHAR},
+  <update id="updateByPrimaryKey" parameterType="com.bench.bean.S3Muser">
+    update s3-muser
+    set maccount = #{maccount,jdbcType=VARCHAR},
+      name = #{name,jdbcType=VARCHAR},
+      pwd = #{pwd,jdbcType=VARCHAR},
+      notes = #{notes,jdbcType=VARCHAR},
+      phone = #{phone,jdbcType=VARCHAR},
+      email = #{email,jdbcType=VARCHAR},
       regtime = #{regtime,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=INTEGER}
   </update>

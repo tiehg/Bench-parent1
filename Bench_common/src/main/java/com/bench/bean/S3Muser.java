@@ -1,5 +1,7 @@
 package com.bench.bean;
 
+import java.util.Date;
+
 public class S3Muser implements java.io.Serializable{
     /**
 	 * 
@@ -15,6 +17,12 @@ public class S3Muser implements java.io.Serializable{
     private String pwd;
 
     private String notes;
+
+    private String phone;
+
+    private String email;
+
+    private Date regtime;
 
     public Integer getId() {
         return id;
@@ -54,5 +62,29 @@ public class S3Muser implements java.io.Serializable{
 
     public void setNotes(String notes) {
         this.notes = notes == null ? null : notes.trim();
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone == null ? null : phone.trim();
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email == null ? null : email.trim();
+    }
+
+    public Date getRegtime() {
+        return regtime;
+    }
+
+    public void setRegtime(Date regtime) {
+        this.regtime = regtime;
     }
 }

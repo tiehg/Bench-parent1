@@ -2,8 +2,13 @@ package com.bench.bean;
 
 import java.util.Date;
 
-public class S3Article {
-    private Integer aid;
+public class S3Article implements java.io.Serializable{
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private Integer aid;
 
     private Integer categoryid;
 

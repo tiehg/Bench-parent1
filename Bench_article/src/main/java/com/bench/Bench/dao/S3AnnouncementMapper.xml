@@ -5,6 +5,7 @@
     <id column="id" jdbcType="INTEGER" property="id" />
     <result column="conent" jdbcType="VARCHAR" property="conent" />
     <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="days" jdbcType="VARCHAR" property="days" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -65,7 +66,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    id, conent, time
+    id, conent, time, days
   </sql>
   <select id="selectByExample" parameterType="com.bench.bean.S3AnnouncementExample" resultMap="BaseResultMap">
     select
@@ -101,8 +102,10 @@
     <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
       SELECT LAST_INSERT_ID()
     </selectKey>
-    insert into s3-announcement (conent, time)
-    values (#{conent,jdbcType=VARCHAR}, #{time,jdbcType=TIMESTAMP})
+    insert into s3-announcement (conent, time, days
+      )
+    values (#{conent,jdbcType=VARCHAR}, #{time,jdbcType=TIMESTAMP}, #{days,jdbcType=VARCHAR}
+      )
   </insert>
   <insert id="insertSelective" parameterType="com.bench.bean.S3Announcement">
     <selectKey keyProperty="id" order="AFTER" resultType="java.lang.Integer">
@@ -116,6 +119,9 @@
       <if test="time != null">
         time,
       </if>
+      <if test="days != null">
+        days,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
       <if test="conent != null">
@@ -123,6 +129,9 @@
       </if>
       <if test="time != null">
         #{time,jdbcType=TIMESTAMP},
+      </if>
+      <if test="days != null">
+        #{days,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -144,6 +153,9 @@
       <if test="record.time != null">
         time = #{record.time,jdbcType=TIMESTAMP},
       </if>
+      <if test="record.days != null">
+        days = #{record.days,jdbcType=VARCHAR},
+      </if>
     </set>
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
@@ -153,7 +165,8 @@
     update s3-announcement
     set id = #{record.id,jdbcType=INTEGER},
       conent = #{record.conent,jdbcType=VARCHAR},
-      time = #{record.time,jdbcType=TIMESTAMP}
+      time = #{record.time,jdbcType=TIMESTAMP},
+      days = #{record.days,jdbcType=VARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -167,13 +180,17 @@
       <if test="time != null">
         time = #{time,jdbcType=TIMESTAMP},
       </if>
+      <if test="days != null">
+        days = #{days,jdbcType=VARCHAR},
+      </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.bench.bean.S3Announcement">
     update s3-announcement
     set conent = #{conent,jdbcType=VARCHAR},
-      time = #{time,jdbcType=TIMESTAMP}
+      time = #{time,jdbcType=TIMESTAMP},
+      days = #{days,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
 </mapper>
