@@ -1,16 +1,11 @@
 package com.bench.Bench.web;
 
-import java.net.HttpCookie;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import javax.annotation.Resource;
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 
-import com.bench.Bench.remote.IMuserAction;
 import com.bench.bean.S3Muser;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
@@ -23,7 +18,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 
-import com.aliyuncs.http.HttpRequest;
 import com.bench.Bench.remote.IUserAction;
 import com.bench.Bench.util.SendMail;
 import com.bench.bean.Result;
@@ -39,8 +33,6 @@ public class IndexAction {
 	private RedisTemplate<String, String> redis;
 	@Resource
 	private IUserAction iua;
-	@Resource
-	private IMuserAction ima;
 
 	@RequestMapping("/")
 	public String index(Model m) {
@@ -101,7 +93,7 @@ public class IndexAction {
 		}
 	}
 	//管理员登录，暂无跳转页面，所以先跳至自己
-	@PostMapping("mlogin")
+	/*@PostMapping("mlogin")
 	public  String mlogin(@Valid S3Muser muser, Errors errors, Model m){
 		if (errors.hasFieldErrors("maccount") || errors.hasFieldErrors("pwd")) {
 			errors.rejectValue("maccount", "maccountError", "账号或密码错误");
@@ -115,7 +107,7 @@ public class IndexAction {
 			m.addAttribute("errors", errors.getFieldErrors());
 			return "html/back/mangerlogin";
 		}
-	}
+	}*/
 	@PostMapping("register")
 	public String reg(@Valid S3User user, Errors errors, Model m) {
 

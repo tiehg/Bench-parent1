@@ -23,7 +23,8 @@
 
     <div class="login-con" id="app">
         <form method="post" action="/mlogin" enctype="multipart/form-data">
-        <div class="login-user">
+
+            <div class="login-user">
         <span id="error" style="font-size: 1.2em" th:each="e:${errors}" th:if="${e.field=='maccount'}" th:text="${e.defaultMessage}"></span>
             <div class="icon">
                 <img src="../../image/backimage/user_icon_copy.png" alt="">
@@ -31,12 +32,14 @@
             <input type="text" name="maccount"  th:value="${muser}!=null?${muser.maccount}:''" placeholder="管理员账户" autocomplete="off" value="">
         </div>
         <span id="error" style="font-size: 1.2em" th:each="e:${errors}" th:if="${e.field=='pwd'}" th:text="${e.defaultMessage}"></span>
+
         <div class="login-pwd">
             <div class="icon">
                 <img src="../../image/backimage/lock_icon_copy.png" alt="">
             </div>
             <input type="password" name="pwd"  th:value="${muser}!=null?${muser.pwd}:''" placeholder="密码" autocomplete="off" value="">
         </div>
+
         <div class="login-btn">
             <button type="submit">登录</button>
            <!-- <input type="button" value="登录" @click="login" >-->
