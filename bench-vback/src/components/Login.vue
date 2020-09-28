@@ -1,3 +1,4 @@
+<!--Benchs社区管理员登录页面，已基本完善，待以后全部完善。如有遗漏，及时补充-->
 <template>
   <body id="poster">
     <el-form class="login-container" label-position="left"
@@ -6,7 +7,7 @@
       <div class="login-con">
        <!--管理员账号 -->
         <div class="login-user">
-          <div class="icon1"><img src="../assets/user_icon_copy.png" alt=""></div>
+          <div class="icon1"><img src="src/assets/user_icon_copy.png" alt=""></div>
           <el-form-item  prop="maccount" >
             <el-input type="text" v-model="muser.maccount" autocomplete="off" placeholder="管理员账户"
                       style="margin-left: -95px"></el-input>
@@ -14,7 +15,7 @@
         </div>
       <!--密码-->
         <div class="login-pwd">
-          <div class="icon2"><img src="../assets/lock_icon_copy.png" alt=""></div>
+          <div class="icon2"><img src="src/assets/lock_icon_copy.png" alt=""></div>
           <el-form-item  prop="pass">
             <el-input type="password" v-model="muser.pass" autocomplete="off" placeholder="密码"
                       style="margin-left:-95px;margin-top: 30px"></el-input>
@@ -22,7 +23,7 @@
         </div>
       <!--管理员登录验证是否本人登录=》通过手机号发送短信-->
         <div class="login-yan">
-          <div class="icon3"><img src="../assets/key.png" alt=""></div>
+          <div class="icon3"><img src="src/assets/key.png" alt=""></div>
           <el-form-item  prop="vcode">
             <el-input type="text" v-model="muser.vcode" autocomplete="off" placeholder="验证码"
                       style="margin-left:-95px;margin-top: 30px"></el-input>
@@ -46,6 +47,7 @@
 export default {
   name: "Login",
   data(){
+    /*账号输入检测*/
     var checkMaccount = (rule, value, callback) => {
       if (!value) {
         return callback(new Error('账户不能为空'));
@@ -56,6 +58,7 @@ export default {
           callback();
         }
     };
+    /*密码输入检测*/
     var validatePass = (rule, value, callback) => {
       if (value === '') {
         callback(new Error('请输入密码'));
@@ -66,6 +69,7 @@ export default {
         callback();
       }
     };
+    /*验证码检测*/
     var validatevcode = (rule, value, callback) => {
       if (value === '') {
         callback(new Error('请输入验证码'));
@@ -95,6 +99,7 @@ export default {
     }
   },
   methods:{
+    /*登录*/
     login(){
       var _this=this
       console.log(this.$store.state)
