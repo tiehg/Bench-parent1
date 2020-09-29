@@ -6,11 +6,11 @@
     <!--头部-->
     <el-col :span="24" class="top-content" >
       <!--头部logo区域-->
-      <div class="top-icon" style="border: #303133 1px solid;width: 230px;height: 60px;float: left">
+      <div class="top-icon" style="width: 200px;height: 60px;float: left">
         <div class="top-logoicon" style="float: left">
           <a href="/"><img src="../../assets/bench.png" style="padding-left:8px;width: 50px"></a>
         </div>
-        <div class="top-logotitle" style="float: left;margin-top: 15px;font-size: 24px">
+        <div class="top-logotitle" style="float: left;margin-top: 15px;font-size: 20px">
           <a href="/" style="color: #000000;">Bench社区管理</a>
         </div>
       </div>
@@ -180,6 +180,9 @@ export default {
 </script>
 
 <style  scoped>
+*{
+  background-color: #c0caea
+}
 a{
   text-decoration: none;
 }

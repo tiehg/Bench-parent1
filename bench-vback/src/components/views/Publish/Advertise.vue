@@ -1,11 +1,11 @@
-<!--修改管理员账户密码-->
+<!--发表广告-->
 <template>
-  <div>修改密码</div>
+<div>广告页面</div>
 </template>
 
 <script>
 export default {
-  name: "changepwd"
+  name: "Advertise"
 }
 </script>
 

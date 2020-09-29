@@ -17,7 +17,9 @@ import UserManage from "../components/views/user/UserManage";//用户管理
 import CertificationAudit from "../components/views/user/CertificationAudit";//认证审核
 import profile from "../components/views/user/profile";//管理员个人信息
 import changepwd from "../components/views/user/changepwd";//修改管理员密码
-import Announcement from "../components/views/Announcement";//发表公告
+import Publish from "../components/views/Publish/Publish";//发表
+import Announcement from "../components/views/Publish/Announcement";//发表公告
+import Advertise from "../components/views/Publish/Advertise";//发表广告
 
 Vue.use(Router)
 
@@ -41,7 +43,7 @@ export default new Router({
       //暂不需要访问Home页面,重定向index页面
       redirect:'/index',
       children: [
-        /*默认的展示主页*/
+        /*展示主页*/
         {
           path: '/index',
           name: '首页',
@@ -98,16 +100,19 @@ export default new Router({
         },
         /*发表公告*/
         {
-          path: '/announ',
+          path: '/publish',
           name:'公告',
           components: {
-            default:Announcement,
+            default:Publish,
             top:TopNavMenu,
             left:LeftNavMenu,
           },
           iconCls:'el-icon-edit',
-          leaf:true,
           menuShow:true,
+          children:[
+            {path:'/announ/Advertise',component:Advertise,name:'推送广告',menuShow:true},
+            {path:'/announ/Announcement',component:Announcement,name:'发表公告',menuShow:true}
+          ]
         },
         /*管理员个人中心*/
         {
@@ -125,7 +130,7 @@ export default new Router({
         /*管理员密码修改*/
         {
           path: '/user/chagepwd',
-          name:'管理员个人中心',
+          name:'管理员密码修改',
           components: {
             default:changepwd,
             top:TopNavMenu,

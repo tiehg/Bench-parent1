@@ -1,11 +1,11 @@
-<!--修改管理员账户密码-->
+<!--发表-->
 <template>
-  <div>修改密码</div>
+<router-view></router-view>
 </template>
 
 <script>
 export default {
-  name: "changepwd"
+  name: "Publish"
 }
 </script>
 

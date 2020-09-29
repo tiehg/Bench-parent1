@@ -1,33 +1,46 @@
 <template>
-  <!--左侧导航-->
-  <aside :class="{showSidebar:!collapsed}">
-    <!--展开折叠开关-->
-    <div class="menu-toggle" @click.prevent="collapse">
-      <i class="el-icon-s-fold" v-show="!collapsed" title="收起"></i>
-      <i class="el-icon-s-unfold" v-show="collapsed" title="展开"></i>
-    </div>
-    <!--导航菜单-->
-    <el-menu :default-active="$route.path" router :collapse="collapsed" ref="leftNavigation">
-      <template v-for="(issue,index) in $router.options.routes">
-        <!-- 注意：这里就是leftNavState状态作用之处，当该值与router的根路由的name相等时加载相应菜单组 -->
-        <template v-if="issue.name === $store.state.leftNavState">
-          <template v-for="(item,index) in issue.children">
-            <el-submenu v-if="!item.leaf" :index="index+''" v-show="item.menuShow">
-              <template slot="title"><i :class="item.iconCls"></i><span slot="title">{{item.name}}</span></template>
-              <el-menu-item v-for="term in item.children" :key="term.path" :index="term.path" v-if="term.menuShow"
-                            :class="$route.path==term.path?'is-active':''">
-                <i :class="term.iconCls"></i><span slot="title">{{term.name}}</span>
+  <el-aside :width="iscollapsed?'64px':'200px'">
+    <!--左侧导航-->
+    <aside :class="{showSidebar:!iscollapsed}"
+           style="margin-left: -8px;margin-top: -1px;">
+      <!--展开折叠开关-->
+      <div class="menu-toggle" @click.prevent="iscollapse" >
+        <i class="el-icon-s-fold" v-show="!iscollapsed" title="收起"></i>
+        <i class="el-icon-s-unfold" v-show="iscollapsed" title="展开"></i>
+      </div>
+      <!--导航菜单--><!--unique-opened 只能开启一个二级菜单-->
+      <el-menu  :default-active="$route.path"
+                router
+                :collapse="iscollapsed"
+                ref="leftNavigation" >
+        <template v-for="(issue,index) in $router.options.routes">
+          <!-- 注意：这里就是leftNavState状态作用之处，当该值与router的根路由的name相等时加载相应菜单组 -->
+          <template v-if="issue.name === $store.state.leftNavState">
+            <template v-for="(item,index) in issue.children">
+              <el-submenu v-if="!item.leaf" :index="index+''" v-show="item.menuShow">
+
+                <template slot="title">
+                  <i :class="item.iconCls"></i><span slot="title" style="color: white">{{item.name}}</span>
+                </template>
+
+                <el-menu-item v-for="term in item.children" :key="term.path" :index="term.path" v-if="term.menuShow"
+                              :class="$route.path==term.path?'is-active':''" style="background: #2c3e50;color: white">
+                  <i :class="term.iconCls"></i><span slot="title" >{{term.name}}</span>
+                </el-menu-item>
+
+              </el-submenu>
+
+              <el-menu-item v-else-if="item.leaf" :index="item.path"
+                            :class="$route.path==item.path?'is-active':''" v-show="item.menuShow">
+                <i :class="item.iconCls"></i><span slot="title" style="color: white">{{item.name}}</span>
               </el-menu-item>
-            </el-submenu>
-            <el-menu-item v-else-if="item.leaf" :index="item.path"
-                          :class="$route.path==item.path?'is-active':''" v-show="item.menuShow">
-              <i :class="item.iconCls"></i><span slot="title">{{item.name}}</span>
-            </el-menu-item>
+
+            </template>
           </template>
         </template>
-      </template>
-    </el-menu>
-  </aside>
+      </el-menu>
+    </aside>
+  </el-aside>
 </template>
 
 <script>
@@ -36,14 +49,14 @@ export default {
   data () {
     return {
       loading: false,
-      collapsed: this.$store.state.collapsed,
+      iscollapsed: this.$store.state.iscollapsed,
     }
   },
   methods: {
     //折叠导航栏
-    collapse: function () {
-      this.collapsed = !this.collapsed;
-      this.$store.state.collapsed = this.collapsed;
+    iscollapse: function () {
+      this.iscollapsed = !this.iscollapsed;
+      this.$store.state.iscollapsed = this.iscollapsed;
     },
     // 左侧导航栏根据当前路径默认打开子菜单（如果当前是二级菜单，则父级子菜单默认打开）
     defaultLeftNavOpened () {
@@ -89,5 +102,7 @@ export default {
 </script>
 
 <style scoped>
-
+*{
+  background-color: #c0caea
+}
 </style>

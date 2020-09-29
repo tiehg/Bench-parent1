@@ -5,14 +5,12 @@
       <el-header>
         <router-view name="top"></router-view>
       </el-header>
-      <el-container>
+      <el-container style="margin-left: -7px; margin-top: -2px;">
         <!--左侧导航区-->
-        <el-aside width="200px">
           <router-view name="left"></router-view>
-        </el-aside>
         <!--右侧内容区-->
         <el-main>Main
-          <router-view></router-view>
+          <router-view/>
         </el-main>
 
       </el-container>
