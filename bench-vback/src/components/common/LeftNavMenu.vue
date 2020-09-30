@@ -9,7 +9,7 @@
         <i class="el-icon-s-unfold" v-show="iscollapsed" title="展开"></i>
       </div>
       <!--导航菜单--><!--unique-opened 只能开启一个二级菜单-->
-      <el-menu  :default-active="$route.path"
+      <el-menu  :default-active="defaultUrl"
                 router
                 :collapse="iscollapsed"
                 ref="leftNavigation" >
@@ -50,6 +50,7 @@ export default {
     return {
       loading: false,
       iscollapsed: this.$store.state.iscollapsed,
+      defaultUrl:'/index',
     }
   },
   methods: {
@@ -88,11 +89,16 @@ export default {
         this.$refs['leftNavigation'].open(subMenuIndex); // 打开子菜单
       }
     },
+    //获取当前路径
+    getPath(){
+      this.defaultUrl = this.$route.path;
+    }
   },
   watch: {
-    '$route': function(to, from){ // 路由改变时执行
+    '$route': 'getPath'
+      /*function(to, from){ // 路由改变时执行
       //console.info("to.path:" + to.path);
-    }
+    }*/
   },
   mounted() {
     this.defaultLeftNavOpened();
