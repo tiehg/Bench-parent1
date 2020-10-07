@@ -1,19 +1,37 @@
 package com.bench.bean;
 
 import java.util.Date;
+import java.util.List;
 
+import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.apache.ibatis.annotations.Many;
+import org.apache.ibatis.annotations.One;
 import org.hibernate.validator.constraints.Length;
 
+@Entity
+@Table(name = "s3_user")
+@JsonIgnoreProperties({"handler","hibernateLazyInitializer"})
 public class S3User implements java.io.Serializable {
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 1L;
 
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id")
 	private Integer id;
+
+	/*@JsonIgnoreProperties(value = "S3User")//避免递归死循环
+	@OneToMany(cascade = CascadeType.ALL,fetch = FetchType.LAZY)*/
+	@Transient
+	private List<S3Article> s3Article;
+	//One To Many' attribute type should be a container
+
 	@NotEmpty(message = "用户名不能为空")
 	@Length(min = 2, message = "用户名最少为2个字符")
 	private String account;
@@ -42,11 +60,17 @@ public class S3User implements java.io.Serializable {
 	private String uviplevel;
 
 	private String certificainfo;
-	
+	@Transient
 	@NotEmpty
 	private String repwd;
-	
-	
+
+	public List<S3Article> getS3Article() {
+		return s3Article;
+	}
+
+	public void setS3Article(List<S3Article> s3Article) {
+		this.s3Article = s3Article;
+	}
 
 	public String getRepwd() {
 		return repwd;

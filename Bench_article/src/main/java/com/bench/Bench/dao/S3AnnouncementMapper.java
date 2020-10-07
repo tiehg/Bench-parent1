@@ -1,7 +1,5 @@
 package com.bench.Bench.dao;
 
-import com.bench.bean.S3Announcement;
-import com.bench.bean.S3AnnouncementExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

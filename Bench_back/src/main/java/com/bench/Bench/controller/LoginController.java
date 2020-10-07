@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.util.HtmlUtils;
 
 import javax.servlet.http.HttpSession;
-import java.util.List;
 
 @Controller
 public class LoginController {
@@ -21,7 +20,7 @@ public class LoginController {
     MuserService muserService;
 
     @CrossOrigin
-    @PostMapping("/api/login")
+    @PostMapping("api/login")
     @ResponseBody
     public Result mlogin(@RequestBody S3Muser s3Muser, HttpSession session){
         String maccount=s3Muser.getMaccount();

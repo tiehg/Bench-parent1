@@ -1,7 +1,5 @@
 package com.bench.Bench.dao;
 
-import com.bench.bean.S3Comment;
-import com.bench.bean.S3CommentExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

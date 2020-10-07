@@ -9,7 +9,7 @@
         <!--左侧导航区-->
           <router-view name="left"></router-view>
         <!--右侧内容区-->
-        <el-main>Main
+        <el-main class="commain" style="width: 100%">
           <router-view/>
         </el-main>
 
@@ -28,5 +28,11 @@ export default {
 </script>
 
 <style scoped>
-
+/*.commain{
+  background: url("../assets/mbackg.jpg") no-repeat center;
+  background-size:80% 100%;
+  position: fixed;
+  margin-top: -8px;
+  margin-left: -8px;
+}*/
 </style>

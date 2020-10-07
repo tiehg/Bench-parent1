@@ -1,0 +1,1245 @@
+2020-10-05 15:04:45.366 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 15:09:45.368 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 15:11:03.485 INFO  log4jdbc.log4j2 Line:365 - 61. Connection closed. {executed in 0ms} 
+2020-10-05 15:11:03.485 INFO  log4jdbc.log4j2 Line:197 - 61. Connection.close() returned 
+2020-10-05 15:11:03.487 INFO  log4jdbc.log4j2 Line:365 - 71. Connection opened. {executed in 2ms} 
+2020-10-05 15:11:03.487 INFO  log4jdbc.log4j2 Line:197 - 71. Connection.new Connection returned 
+2020-10-05 15:11:03.489 INFO  log4jdbc.log4j2 Line:197 - 71. Connection.isReadOnly() returned false
+2020-10-05 15:11:03.489 INFO  log4jdbc.log4j2 Line:197 - 71. Connection.getAutoCommit() returned true
+2020-10-05 15:11:24.382 INFO  log4jdbc.log4j2 Line:365 - 64. Connection closed. {executed in 0ms} 
+2020-10-05 15:11:24.382 INFO  log4jdbc.log4j2 Line:197 - 64. Connection.close() returned 
+2020-10-05 15:11:24.384 INFO  log4jdbc.log4j2 Line:365 - 72. Connection opened. {executed in 2ms} 
+2020-10-05 15:11:24.384 INFO  log4jdbc.log4j2 Line:197 - 72. Connection.new Connection returned 
+2020-10-05 15:11:24.385 INFO  log4jdbc.log4j2 Line:197 - 72. Connection.isReadOnly() returned false
+2020-10-05 15:11:24.385 INFO  log4jdbc.log4j2 Line:197 - 72. Connection.getAutoCommit() returned true
+2020-10-05 15:11:37.526 INFO  log4jdbc.log4j2 Line:365 - 62. Connection closed. {executed in 1ms} 
+2020-10-05 15:11:37.526 INFO  log4jdbc.log4j2 Line:197 - 62. Connection.close() returned 
+2020-10-05 15:11:37.528 INFO  log4jdbc.log4j2 Line:365 - 73. Connection opened. {executed in 3ms} 
+2020-10-05 15:11:37.528 INFO  log4jdbc.log4j2 Line:197 - 73. Connection.new Connection returned 
+2020-10-05 15:11:37.528 INFO  log4jdbc.log4j2 Line:197 - 73. Connection.isReadOnly() returned false
+2020-10-05 15:11:37.528 INFO  log4jdbc.log4j2 Line:197 - 73. Connection.getAutoCommit() returned true
+2020-10-05 15:11:40.322 INFO  log4jdbc.log4j2 Line:365 - 67. Connection closed. {executed in 0ms} 
+2020-10-05 15:11:40.322 INFO  log4jdbc.log4j2 Line:197 - 67. Connection.close() returned 
+2020-10-05 15:11:40.325 INFO  log4jdbc.log4j2 Line:365 - 74. Connection opened. {executed in 3ms} 
+2020-10-05 15:11:40.325 INFO  log4jdbc.log4j2 Line:197 - 74. Connection.new Connection returned 
+2020-10-05 15:11:40.325 INFO  log4jdbc.log4j2 Line:197 - 74. Connection.isReadOnly() returned false
+2020-10-05 15:11:40.325 INFO  log4jdbc.log4j2 Line:197 - 74. Connection.getAutoCommit() returned true
+2020-10-05 15:11:43.063 INFO  log4jdbc.log4j2 Line:365 - 63. Connection closed. {executed in 0ms} 
+2020-10-05 15:11:43.064 INFO  log4jdbc.log4j2 Line:197 - 63. Connection.close() returned 
+2020-10-05 15:11:43.065 INFO  log4jdbc.log4j2 Line:365 - 75. Connection opened. {executed in 2ms} 
+2020-10-05 15:11:43.066 INFO  log4jdbc.log4j2 Line:197 - 75. Connection.new Connection returned 
+2020-10-05 15:11:43.066 INFO  log4jdbc.log4j2 Line:197 - 75. Connection.isReadOnly() returned false
+2020-10-05 15:11:43.066 INFO  log4jdbc.log4j2 Line:197 - 75. Connection.getAutoCommit() returned true
+2020-10-05 15:11:43.289 INFO  log4jdbc.log4j2 Line:365 - 65. Connection closed. {executed in 0ms} 
+2020-10-05 15:11:43.289 INFO  log4jdbc.log4j2 Line:197 - 65. Connection.close() returned 
+2020-10-05 15:11:43.291 INFO  log4jdbc.log4j2 Line:365 - 76. Connection opened. {executed in 2ms} 
+2020-10-05 15:11:43.291 INFO  log4jdbc.log4j2 Line:197 - 76. Connection.new Connection returned 
+2020-10-05 15:11:43.291 INFO  log4jdbc.log4j2 Line:197 - 76. Connection.isReadOnly() returned false
+2020-10-05 15:11:43.291 INFO  log4jdbc.log4j2 Line:197 - 76. Connection.getAutoCommit() returned true
+2020-10-05 15:11:51.837 INFO  log4jdbc.log4j2 Line:365 - 66. Connection closed. {executed in 0ms} 
+2020-10-05 15:11:51.837 INFO  log4jdbc.log4j2 Line:197 - 66. Connection.close() returned 
+2020-10-05 15:11:51.839 INFO  log4jdbc.log4j2 Line:365 - 77. Connection opened. {executed in 2ms} 
+2020-10-05 15:11:51.839 INFO  log4jdbc.log4j2 Line:197 - 77. Connection.new Connection returned 
+2020-10-05 15:11:51.839 INFO  log4jdbc.log4j2 Line:197 - 77. Connection.isReadOnly() returned false
+2020-10-05 15:11:51.839 INFO  log4jdbc.log4j2 Line:197 - 77. Connection.getAutoCommit() returned true
+2020-10-05 15:12:21.928 INFO  log4jdbc.log4j2 Line:365 - 68. Connection closed. {executed in 0ms} 
+2020-10-05 15:12:21.929 INFO  log4jdbc.log4j2 Line:197 - 68. Connection.close() returned 
+2020-10-05 15:12:21.930 INFO  log4jdbc.log4j2 Line:365 - 78. Connection opened. {executed in 2ms} 
+2020-10-05 15:12:21.931 INFO  log4jdbc.log4j2 Line:197 - 78. Connection.new Connection returned 
+2020-10-05 15:12:21.931 INFO  log4jdbc.log4j2 Line:197 - 78. Connection.isReadOnly() returned false
+2020-10-05 15:12:21.931 INFO  log4jdbc.log4j2 Line:197 - 78. Connection.getAutoCommit() returned true
+2020-10-05 15:12:33.624 INFO  log4jdbc.log4j2 Line:365 - 69. Connection closed. {executed in 0ms} 
+2020-10-05 15:12:33.625 INFO  log4jdbc.log4j2 Line:197 - 69. Connection.close() returned 
+2020-10-05 15:12:33.627 INFO  log4jdbc.log4j2 Line:365 - 79. Connection opened. {executed in 3ms} 
+2020-10-05 15:12:33.627 INFO  log4jdbc.log4j2 Line:197 - 79. Connection.new Connection returned 
+2020-10-05 15:12:33.627 INFO  log4jdbc.log4j2 Line:197 - 79. Connection.isReadOnly() returned false
+2020-10-05 15:12:33.627 INFO  log4jdbc.log4j2 Line:197 - 79. Connection.getAutoCommit() returned true
+2020-10-05 15:13:01.117 INFO  log4jdbc.log4j2 Line:365 - 70. Connection closed. {executed in 0ms} 
+2020-10-05 15:13:01.118 INFO  log4jdbc.log4j2 Line:197 - 70. Connection.close() returned 
+2020-10-05 15:13:01.119 INFO  log4jdbc.log4j2 Line:365 - 80. Connection opened. {executed in 2ms} 
+2020-10-05 15:13:01.120 INFO  log4jdbc.log4j2 Line:197 - 80. Connection.new Connection returned 
+2020-10-05 15:13:01.120 INFO  log4jdbc.log4j2 Line:197 - 80. Connection.isReadOnly() returned false
+2020-10-05 15:13:01.120 INFO  log4jdbc.log4j2 Line:197 - 80. Connection.getAutoCommit() returned true
+2020-10-05 15:14:45.370 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 15:19:45.371 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 15:24:45.373 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 15:29:45.374 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 15:34:45.376 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 15:39:45.377 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 15:40:19.573 INFO  log4jdbc.log4j2 Line:365 - 71. Connection closed. {executed in 0ms} 
+2020-10-05 15:40:19.573 INFO  log4jdbc.log4j2 Line:197 - 71. Connection.close() returned 
+2020-10-05 15:40:19.576 INFO  log4jdbc.log4j2 Line:365 - 81. Connection opened. {executed in 3ms} 
+2020-10-05 15:40:19.576 INFO  log4jdbc.log4j2 Line:197 - 81. Connection.new Connection returned 
+2020-10-05 15:40:19.576 INFO  log4jdbc.log4j2 Line:197 - 81. Connection.isReadOnly() returned false
+2020-10-05 15:40:19.576 INFO  log4jdbc.log4j2 Line:197 - 81. Connection.getAutoCommit() returned true
+2020-10-05 15:40:53.428 INFO  log4jdbc.log4j2 Line:365 - 73. Connection closed. {executed in 0ms} 
+2020-10-05 15:40:53.429 INFO  log4jdbc.log4j2 Line:197 - 73. Connection.close() returned 
+2020-10-05 15:40:53.430 INFO  log4jdbc.log4j2 Line:365 - 82. Connection opened. {executed in 2ms} 
+2020-10-05 15:40:53.430 INFO  log4jdbc.log4j2 Line:197 - 82. Connection.new Connection returned 
+2020-10-05 15:40:53.431 INFO  log4jdbc.log4j2 Line:197 - 82. Connection.isReadOnly() returned false
+2020-10-05 15:40:53.431 INFO  log4jdbc.log4j2 Line:197 - 82. Connection.getAutoCommit() returned true
+2020-10-05 15:40:56.954 INFO  log4jdbc.log4j2 Line:365 - 74. Connection closed. {executed in 1ms} 
+2020-10-05 15:40:56.954 INFO  log4jdbc.log4j2 Line:197 - 74. Connection.close() returned 
+2020-10-05 15:40:56.956 INFO  log4jdbc.log4j2 Line:365 - 83. Connection opened. {executed in 3ms} 
+2020-10-05 15:40:56.956 INFO  log4jdbc.log4j2 Line:197 - 83. Connection.new Connection returned 
+2020-10-05 15:40:56.956 INFO  log4jdbc.log4j2 Line:197 - 83. Connection.isReadOnly() returned false
+2020-10-05 15:40:56.956 INFO  log4jdbc.log4j2 Line:197 - 83. Connection.getAutoCommit() returned true
+2020-10-05 15:41:07.452 INFO  log4jdbc.log4j2 Line:365 - 72. Connection closed. {executed in 0ms} 
+2020-10-05 15:41:07.452 INFO  log4jdbc.log4j2 Line:197 - 72. Connection.close() returned 
+2020-10-05 15:41:07.454 INFO  log4jdbc.log4j2 Line:365 - 84. Connection opened. {executed in 2ms} 
+2020-10-05 15:41:07.454 INFO  log4jdbc.log4j2 Line:197 - 84. Connection.new Connection returned 
+2020-10-05 15:41:07.454 INFO  log4jdbc.log4j2 Line:197 - 84. Connection.isReadOnly() returned false
+2020-10-05 15:41:07.455 INFO  log4jdbc.log4j2 Line:197 - 84. Connection.getAutoCommit() returned true
+2020-10-05 15:41:30.541 INFO  log4jdbc.log4j2 Line:365 - 77. Connection closed. {executed in 0ms} 
+2020-10-05 15:41:30.541 INFO  log4jdbc.log4j2 Line:197 - 77. Connection.close() returned 
+2020-10-05 15:41:30.543 INFO  log4jdbc.log4j2 Line:365 - 85. Connection opened. {executed in 2ms} 
+2020-10-05 15:41:30.543 INFO  log4jdbc.log4j2 Line:197 - 85. Connection.new Connection returned 
+2020-10-05 15:41:30.543 INFO  log4jdbc.log4j2 Line:197 - 85. Connection.isReadOnly() returned false
+2020-10-05 15:41:30.543 INFO  log4jdbc.log4j2 Line:197 - 85. Connection.getAutoCommit() returned true
+2020-10-05 15:41:30.858 INFO  log4jdbc.log4j2 Line:365 - 75. Connection closed. {executed in 1ms} 
+2020-10-05 15:41:30.858 INFO  log4jdbc.log4j2 Line:197 - 75. Connection.close() returned 
+2020-10-05 15:41:30.860 INFO  log4jdbc.log4j2 Line:365 - 86. Connection opened. {executed in 3ms} 
+2020-10-05 15:41:30.860 INFO  log4jdbc.log4j2 Line:197 - 86. Connection.new Connection returned 
+2020-10-05 15:41:30.860 INFO  log4jdbc.log4j2 Line:197 - 86. Connection.isReadOnly() returned false
+2020-10-05 15:41:30.860 INFO  log4jdbc.log4j2 Line:197 - 86. Connection.getAutoCommit() returned true
+2020-10-05 15:41:36.712 INFO  log4jdbc.log4j2 Line:365 - 76. Connection closed. {executed in 0ms} 
+2020-10-05 15:41:36.712 INFO  log4jdbc.log4j2 Line:197 - 76. Connection.close() returned 
+2020-10-05 15:41:36.714 INFO  log4jdbc.log4j2 Line:365 - 87. Connection opened. {executed in 2ms} 
+2020-10-05 15:41:36.714 INFO  log4jdbc.log4j2 Line:197 - 87. Connection.new Connection returned 
+2020-10-05 15:41:36.714 INFO  log4jdbc.log4j2 Line:197 - 87. Connection.isReadOnly() returned false
+2020-10-05 15:41:36.715 INFO  log4jdbc.log4j2 Line:197 - 87. Connection.getAutoCommit() returned true
+2020-10-05 15:42:11.945 INFO  log4jdbc.log4j2 Line:365 - 79. Connection closed. {executed in 1ms} 
+2020-10-05 15:42:11.945 INFO  log4jdbc.log4j2 Line:197 - 79. Connection.close() returned 
+2020-10-05 15:42:11.947 INFO  log4jdbc.log4j2 Line:365 - 88. Connection opened. {executed in 3ms} 
+2020-10-05 15:42:11.947 INFO  log4jdbc.log4j2 Line:197 - 88. Connection.new Connection returned 
+2020-10-05 15:42:11.947 INFO  log4jdbc.log4j2 Line:197 - 88. Connection.isReadOnly() returned false
+2020-10-05 15:42:11.947 INFO  log4jdbc.log4j2 Line:197 - 88. Connection.getAutoCommit() returned true
+2020-10-05 15:42:16.972 INFO  log4jdbc.log4j2 Line:365 - 78. Connection closed. {executed in 0ms} 
+2020-10-05 15:42:16.972 INFO  log4jdbc.log4j2 Line:197 - 78. Connection.close() returned 
+2020-10-05 15:42:16.974 INFO  log4jdbc.log4j2 Line:365 - 89. Connection opened. {executed in 2ms} 
+2020-10-05 15:42:16.975 INFO  log4jdbc.log4j2 Line:197 - 89. Connection.new Connection returned 
+2020-10-05 15:42:16.975 INFO  log4jdbc.log4j2 Line:197 - 89. Connection.isReadOnly() returned false
+2020-10-05 15:42:16.975 INFO  log4jdbc.log4j2 Line:197 - 89. Connection.getAutoCommit() returned true
+2020-10-05 15:42:20.469 INFO  log4jdbc.log4j2 Line:365 - 80. Connection closed. {executed in 1ms} 
+2020-10-05 15:42:20.469 INFO  log4jdbc.log4j2 Line:197 - 80. Connection.close() returned 
+2020-10-05 15:42:20.477 INFO  log4jdbc.log4j2 Line:365 - 90. Connection opened. {executed in 9ms} 
+2020-10-05 15:42:20.478 INFO  log4jdbc.log4j2 Line:197 - 90. Connection.new Connection returned 
+2020-10-05 15:42:20.478 INFO  log4jdbc.log4j2 Line:197 - 90. Connection.isReadOnly() returned false
+2020-10-05 15:42:20.478 INFO  log4jdbc.log4j2 Line:197 - 90. Connection.getAutoCommit() returned true
+2020-10-05 15:44:45.378 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 15:49:45.379 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 15:54:45.380 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 15:59:45.382 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 16:04:45.384 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 16:09:45.386 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 16:09:47.942 INFO  log4jdbc.log4j2 Line:365 - 81. Connection closed. {executed in 0ms} 
+2020-10-05 16:09:47.942 INFO  log4jdbc.log4j2 Line:197 - 81. Connection.close() returned 
+2020-10-05 16:09:47.946 INFO  log4jdbc.log4j2 Line:365 - 91. Connection opened. {executed in 5ms} 
+2020-10-05 16:09:47.946 INFO  log4jdbc.log4j2 Line:197 - 91. Connection.new Connection returned 
+2020-10-05 16:09:47.947 INFO  log4jdbc.log4j2 Line:197 - 91. Connection.isReadOnly() returned false
+2020-10-05 16:09:47.947 INFO  log4jdbc.log4j2 Line:197 - 91. Connection.getAutoCommit() returned true
+2020-10-05 16:10:13.805 INFO  log4jdbc.log4j2 Line:365 - 82. Connection closed. {executed in 1ms} 
+2020-10-05 16:10:13.805 INFO  log4jdbc.log4j2 Line:197 - 82. Connection.close() returned 
+2020-10-05 16:10:13.808 INFO  log4jdbc.log4j2 Line:365 - 92. Connection opened. {executed in 4ms} 
+2020-10-05 16:10:13.808 INFO  log4jdbc.log4j2 Line:197 - 92. Connection.new Connection returned 
+2020-10-05 16:10:13.808 INFO  log4jdbc.log4j2 Line:197 - 92. Connection.isReadOnly() returned false
+2020-10-05 16:10:13.808 INFO  log4jdbc.log4j2 Line:197 - 92. Connection.getAutoCommit() returned true
+2020-10-05 16:10:37.215 INFO  log4jdbc.log4j2 Line:365 - 83. Connection closed. {executed in 0ms} 
+2020-10-05 16:10:37.215 INFO  log4jdbc.log4j2 Line:197 - 83. Connection.close() returned 
+2020-10-05 16:10:37.217 INFO  log4jdbc.log4j2 Line:365 - 93. Connection opened. {executed in 2ms} 
+2020-10-05 16:10:37.217 INFO  log4jdbc.log4j2 Line:197 - 93. Connection.new Connection returned 
+2020-10-05 16:10:37.218 INFO  log4jdbc.log4j2 Line:197 - 93. Connection.isReadOnly() returned false
+2020-10-05 16:10:37.218 INFO  log4jdbc.log4j2 Line:197 - 93. Connection.getAutoCommit() returned true
+2020-10-05 16:10:40.569 INFO  log4jdbc.log4j2 Line:365 - 84. Connection closed. {executed in 0ms} 
+2020-10-05 16:10:40.569 INFO  log4jdbc.log4j2 Line:197 - 84. Connection.close() returned 
+2020-10-05 16:10:40.571 INFO  log4jdbc.log4j2 Line:365 - 94. Connection opened. {executed in 2ms} 
+2020-10-05 16:10:40.571 INFO  log4jdbc.log4j2 Line:197 - 94. Connection.new Connection returned 
+2020-10-05 16:10:40.571 INFO  log4jdbc.log4j2 Line:197 - 94. Connection.isReadOnly() returned false
+2020-10-05 16:10:40.572 INFO  log4jdbc.log4j2 Line:197 - 94. Connection.getAutoCommit() returned true
+2020-10-05 16:11:02.447 INFO  log4jdbc.log4j2 Line:365 - 86. Connection closed. {executed in 0ms} 
+2020-10-05 16:11:02.448 INFO  log4jdbc.log4j2 Line:197 - 86. Connection.close() returned 
+2020-10-05 16:11:02.451 INFO  log4jdbc.log4j2 Line:365 - 95. Connection opened. {executed in 4ms} 
+2020-10-05 16:11:02.452 INFO  log4jdbc.log4j2 Line:197 - 95. Connection.new Connection returned 
+2020-10-05 16:11:02.452 INFO  log4jdbc.log4j2 Line:197 - 95. Connection.isReadOnly() returned false
+2020-10-05 16:11:02.452 INFO  log4jdbc.log4j2 Line:197 - 95. Connection.getAutoCommit() returned true
+2020-10-05 16:11:22.227 INFO  log4jdbc.log4j2 Line:365 - 87. Connection closed. {executed in 1ms} 
+2020-10-05 16:11:22.227 INFO  log4jdbc.log4j2 Line:197 - 87. Connection.close() returned 
+2020-10-05 16:11:22.230 INFO  log4jdbc.log4j2 Line:365 - 96. Connection opened. {executed in 4ms} 
+2020-10-05 16:11:22.230 INFO  log4jdbc.log4j2 Line:197 - 96. Connection.new Connection returned 
+2020-10-05 16:11:22.230 INFO  log4jdbc.log4j2 Line:197 - 96. Connection.isReadOnly() returned false
+2020-10-05 16:11:22.230 INFO  log4jdbc.log4j2 Line:197 - 96. Connection.getAutoCommit() returned true
+2020-10-05 16:11:23.291 INFO  log4jdbc.log4j2 Line:365 - 85. Connection closed. {executed in 0ms} 
+2020-10-05 16:11:23.291 INFO  log4jdbc.log4j2 Line:197 - 85. Connection.close() returned 
+2020-10-05 16:11:23.296 INFO  log4jdbc.log4j2 Line:365 - 97. Connection opened. {executed in 5ms} 
+2020-10-05 16:11:23.296 INFO  log4jdbc.log4j2 Line:197 - 97. Connection.new Connection returned 
+2020-10-05 16:11:23.296 INFO  log4jdbc.log4j2 Line:197 - 97. Connection.isReadOnly() returned false
+2020-10-05 16:11:23.296 INFO  log4jdbc.log4j2 Line:197 - 97. Connection.getAutoCommit() returned true
+2020-10-05 16:11:40.676 INFO  log4jdbc.log4j2 Line:365 - 89. Connection closed. {executed in 0ms} 
+2020-10-05 16:11:40.677 INFO  log4jdbc.log4j2 Line:197 - 89. Connection.close() returned 
+2020-10-05 16:11:40.679 INFO  log4jdbc.log4j2 Line:365 - 98. Connection opened. {executed in 3ms} 
+2020-10-05 16:11:40.679 INFO  log4jdbc.log4j2 Line:197 - 98. Connection.new Connection returned 
+2020-10-05 16:11:40.679 INFO  log4jdbc.log4j2 Line:197 - 98. Connection.isReadOnly() returned false
+2020-10-05 16:11:40.679 INFO  log4jdbc.log4j2 Line:197 - 98. Connection.getAutoCommit() returned true
+2020-10-05 16:11:53.764 INFO  log4jdbc.log4j2 Line:365 - 88. Connection closed. {executed in 1ms} 
+2020-10-05 16:11:53.765 INFO  log4jdbc.log4j2 Line:197 - 88. Connection.close() returned 
+2020-10-05 16:11:53.767 INFO  log4jdbc.log4j2 Line:365 - 99. Connection opened. {executed in 4ms} 
+2020-10-05 16:11:53.768 INFO  log4jdbc.log4j2 Line:197 - 99. Connection.new Connection returned 
+2020-10-05 16:11:53.768 INFO  log4jdbc.log4j2 Line:197 - 99. Connection.isReadOnly() returned false
+2020-10-05 16:11:53.768 INFO  log4jdbc.log4j2 Line:197 - 99. Connection.getAutoCommit() returned true
+2020-10-05 16:12:20.207 INFO  log4jdbc.log4j2 Line:365 - 90. Connection closed. {executed in 0ms} 
+2020-10-05 16:12:20.207 INFO  log4jdbc.log4j2 Line:197 - 90. Connection.close() returned 
+2020-10-05 16:12:20.209 INFO  log4jdbc.log4j2 Line:365 - 100. Connection opened. {executed in 3ms} 
+2020-10-05 16:12:20.210 INFO  log4jdbc.log4j2 Line:197 - 100. Connection.new Connection returned 
+2020-10-05 16:12:20.210 INFO  log4jdbc.log4j2 Line:197 - 100. Connection.isReadOnly() returned false
+2020-10-05 16:12:20.210 INFO  log4jdbc.log4j2 Line:197 - 100. Connection.getAutoCommit() returned true
+2020-10-05 16:14:45.387 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 16:19:45.389 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 16:24:45.391 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 16:29:45.392 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 16:34:45.394 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 16:39:13.793 INFO  log4jdbc.log4j2 Line:365 - 91. Connection closed. {executed in 0ms} 
+2020-10-05 16:39:13.793 INFO  log4jdbc.log4j2 Line:197 - 91. Connection.close() returned 
+2020-10-05 16:39:13.795 INFO  log4jdbc.log4j2 Line:365 - 101. Connection opened. {executed in 3ms} 
+2020-10-05 16:39:13.795 INFO  log4jdbc.log4j2 Line:197 - 101. Connection.new Connection returned 
+2020-10-05 16:39:13.796 INFO  log4jdbc.log4j2 Line:197 - 101. Connection.isReadOnly() returned false
+2020-10-05 16:39:13.796 INFO  log4jdbc.log4j2 Line:197 - 101. Connection.getAutoCommit() returned true
+2020-10-05 16:39:45.396 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 16:39:54.009 INFO  log4jdbc.log4j2 Line:365 - 92. Connection closed. {executed in 1ms} 
+2020-10-05 16:39:54.009 INFO  log4jdbc.log4j2 Line:197 - 92. Connection.close() returned 
+2020-10-05 16:39:54.011 INFO  log4jdbc.log4j2 Line:365 - 102. Connection opened. {executed in 3ms} 
+2020-10-05 16:39:54.012 INFO  log4jdbc.log4j2 Line:197 - 102. Connection.new Connection returned 
+2020-10-05 16:39:54.012 INFO  log4jdbc.log4j2 Line:197 - 102. Connection.isReadOnly() returned false
+2020-10-05 16:39:54.012 INFO  log4jdbc.log4j2 Line:197 - 102. Connection.getAutoCommit() returned true
+2020-10-05 16:39:56.399 INFO  log4jdbc.log4j2 Line:365 - 93. Connection closed. {executed in 1ms} 
+2020-10-05 16:39:56.399 INFO  log4jdbc.log4j2 Line:197 - 93. Connection.close() returned 
+2020-10-05 16:39:56.401 INFO  log4jdbc.log4j2 Line:365 - 103. Connection opened. {executed in 3ms} 
+2020-10-05 16:39:56.401 INFO  log4jdbc.log4j2 Line:197 - 103. Connection.new Connection returned 
+2020-10-05 16:39:56.401 INFO  log4jdbc.log4j2 Line:197 - 103. Connection.isReadOnly() returned false
+2020-10-05 16:39:56.401 INFO  log4jdbc.log4j2 Line:197 - 103. Connection.getAutoCommit() returned true
+2020-10-05 16:40:23.105 INFO  log4jdbc.log4j2 Line:365 - 95. Connection closed. {executed in 1ms} 
+2020-10-05 16:40:23.105 INFO  log4jdbc.log4j2 Line:197 - 95. Connection.close() returned 
+2020-10-05 16:40:23.107 INFO  log4jdbc.log4j2 Line:365 - 104. Connection opened. {executed in 3ms} 
+2020-10-05 16:40:23.108 INFO  log4jdbc.log4j2 Line:197 - 104. Connection.new Connection returned 
+2020-10-05 16:40:23.108 INFO  log4jdbc.log4j2 Line:197 - 104. Connection.isReadOnly() returned false
+2020-10-05 16:40:23.108 INFO  log4jdbc.log4j2 Line:197 - 104. Connection.getAutoCommit() returned true
+2020-10-05 16:40:37.339 INFO  log4jdbc.log4j2 Line:365 - 94. Connection closed. {executed in 1ms} 
+2020-10-05 16:40:37.339 INFO  log4jdbc.log4j2 Line:197 - 94. Connection.close() returned 
+2020-10-05 16:40:37.342 INFO  log4jdbc.log4j2 Line:365 - 105. Connection opened. {executed in 4ms} 
+2020-10-05 16:40:37.342 INFO  log4jdbc.log4j2 Line:197 - 105. Connection.new Connection returned 
+2020-10-05 16:40:37.342 INFO  log4jdbc.log4j2 Line:197 - 105. Connection.isReadOnly() returned false
+2020-10-05 16:40:37.342 INFO  log4jdbc.log4j2 Line:197 - 105. Connection.getAutoCommit() returned true
+2020-10-05 16:40:37.439 INFO  log4jdbc.log4j2 Line:365 - 96. Connection closed. {executed in 1ms} 
+2020-10-05 16:40:37.439 INFO  log4jdbc.log4j2 Line:197 - 96. Connection.close() returned 
+2020-10-05 16:40:37.444 INFO  log4jdbc.log4j2 Line:365 - 106. Connection opened. {executed in 6ms} 
+2020-10-05 16:40:37.445 INFO  log4jdbc.log4j2 Line:197 - 106. Connection.new Connection returned 
+2020-10-05 16:40:37.445 INFO  log4jdbc.log4j2 Line:197 - 106. Connection.isReadOnly() returned false
+2020-10-05 16:40:37.445 INFO  log4jdbc.log4j2 Line:197 - 106. Connection.getAutoCommit() returned true
+2020-10-05 16:41:08.318 INFO  log4jdbc.log4j2 Line:365 - 97. Connection closed. {executed in 1ms} 
+2020-10-05 16:41:08.318 INFO  log4jdbc.log4j2 Line:197 - 97. Connection.close() returned 
+2020-10-05 16:41:08.320 INFO  log4jdbc.log4j2 Line:365 - 107. Connection opened. {executed in 3ms} 
+2020-10-05 16:41:08.320 INFO  log4jdbc.log4j2 Line:197 - 107. Connection.new Connection returned 
+2020-10-05 16:41:08.320 INFO  log4jdbc.log4j2 Line:197 - 107. Connection.isReadOnly() returned false
+2020-10-05 16:41:08.320 INFO  log4jdbc.log4j2 Line:197 - 107. Connection.getAutoCommit() returned true
+2020-10-05 16:41:20.359 INFO  log4jdbc.log4j2 Line:365 - 98. Connection closed. {executed in 1ms} 
+2020-10-05 16:41:20.359 INFO  log4jdbc.log4j2 Line:197 - 98. Connection.close() returned 
+2020-10-05 16:41:20.362 INFO  log4jdbc.log4j2 Line:365 - 108. Connection opened. {executed in 4ms} 
+2020-10-05 16:41:20.362 INFO  log4jdbc.log4j2 Line:197 - 108. Connection.new Connection returned 
+2020-10-05 16:41:20.362 INFO  log4jdbc.log4j2 Line:197 - 108. Connection.isReadOnly() returned false
+2020-10-05 16:41:20.362 INFO  log4jdbc.log4j2 Line:197 - 108. Connection.getAutoCommit() returned true
+2020-10-05 16:41:39.976 INFO  log4jdbc.log4j2 Line:365 - 100. Connection closed. {executed in 0ms} 
+2020-10-05 16:41:39.976 INFO  log4jdbc.log4j2 Line:197 - 100. Connection.close() returned 
+2020-10-05 16:41:39.978 INFO  log4jdbc.log4j2 Line:365 - 109. Connection opened. {executed in 2ms} 
+2020-10-05 16:41:39.978 INFO  log4jdbc.log4j2 Line:197 - 109. Connection.new Connection returned 
+2020-10-05 16:41:39.978 INFO  log4jdbc.log4j2 Line:197 - 109. Connection.isReadOnly() returned false
+2020-10-05 16:41:39.979 INFO  log4jdbc.log4j2 Line:197 - 109. Connection.getAutoCommit() returned true
+2020-10-05 16:41:50.518 INFO  log4jdbc.log4j2 Line:365 - 99. Connection closed. {executed in 0ms} 
+2020-10-05 16:41:50.518 INFO  log4jdbc.log4j2 Line:197 - 99. Connection.close() returned 
+2020-10-05 16:41:50.522 INFO  log4jdbc.log4j2 Line:365 - 110. Connection opened. {executed in 4ms} 
+2020-10-05 16:41:50.522 INFO  log4jdbc.log4j2 Line:197 - 110. Connection.new Connection returned 
+2020-10-05 16:41:50.522 INFO  log4jdbc.log4j2 Line:197 - 110. Connection.isReadOnly() returned false
+2020-10-05 16:41:50.522 INFO  log4jdbc.log4j2 Line:197 - 110. Connection.getAutoCommit() returned true
+2020-10-05 16:44:45.397 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 16:49:45.398 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 16:54:45.400 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 16:59:45.401 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 17:04:45.403 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 17:09:03.228 INFO  log4jdbc.log4j2 Line:365 - 101. Connection closed. {executed in 0ms} 
+2020-10-05 17:09:03.228 INFO  log4jdbc.log4j2 Line:197 - 101. Connection.close() returned 
+2020-10-05 17:09:03.230 INFO  log4jdbc.log4j2 Line:365 - 111. Connection opened. {executed in 3ms} 
+2020-10-05 17:09:03.230 INFO  log4jdbc.log4j2 Line:197 - 111. Connection.new Connection returned 
+2020-10-05 17:09:03.230 INFO  log4jdbc.log4j2 Line:197 - 111. Connection.isReadOnly() returned false
+2020-10-05 17:09:03.230 INFO  log4jdbc.log4j2 Line:197 - 111. Connection.getAutoCommit() returned true
+2020-10-05 17:09:16.071 INFO  log4jdbc.log4j2 Line:365 - 103. Connection closed. {executed in 0ms} 
+2020-10-05 17:09:16.071 INFO  log4jdbc.log4j2 Line:197 - 103. Connection.close() returned 
+2020-10-05 17:09:16.073 INFO  log4jdbc.log4j2 Line:365 - 112. Connection opened. {executed in 2ms} 
+2020-10-05 17:09:16.073 INFO  log4jdbc.log4j2 Line:197 - 112. Connection.new Connection returned 
+2020-10-05 17:09:16.073 INFO  log4jdbc.log4j2 Line:197 - 112. Connection.isReadOnly() returned false
+2020-10-05 17:09:16.073 INFO  log4jdbc.log4j2 Line:197 - 112. Connection.getAutoCommit() returned true
+2020-10-05 17:09:45.404 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 17:09:52.210 INFO  log4jdbc.log4j2 Line:365 - 102. Connection closed. {executed in 0ms} 
+2020-10-05 17:09:52.210 INFO  log4jdbc.log4j2 Line:197 - 102. Connection.close() returned 
+2020-10-05 17:09:52.214 INFO  log4jdbc.log4j2 Line:365 - 113. Connection opened. {executed in 5ms} 
+2020-10-05 17:09:52.214 INFO  log4jdbc.log4j2 Line:197 - 113. Connection.new Connection returned 
+2020-10-05 17:09:52.214 INFO  log4jdbc.log4j2 Line:197 - 113. Connection.isReadOnly() returned false
+2020-10-05 17:09:52.214 INFO  log4jdbc.log4j2 Line:197 - 113. Connection.getAutoCommit() returned true
+2020-10-05 17:10:13.123 INFO  log4jdbc.log4j2 Line:365 - 106. Connection closed. {executed in 0ms} 
+2020-10-05 17:10:13.124 INFO  log4jdbc.log4j2 Line:197 - 106. Connection.close() returned 
+2020-10-05 17:10:13.126 INFO  log4jdbc.log4j2 Line:365 - 114. Connection opened. {executed in 3ms} 
+2020-10-05 17:10:13.126 INFO  log4jdbc.log4j2 Line:197 - 114. Connection.new Connection returned 
+2020-10-05 17:10:13.126 INFO  log4jdbc.log4j2 Line:197 - 114. Connection.isReadOnly() returned false
+2020-10-05 17:10:13.126 INFO  log4jdbc.log4j2 Line:197 - 114. Connection.getAutoCommit() returned true
+2020-10-05 17:10:20.526 INFO  log4jdbc.log4j2 Line:365 - 104. Connection closed. {executed in 0ms} 
+2020-10-05 17:10:20.527 INFO  log4jdbc.log4j2 Line:197 - 104. Connection.close() returned 
+2020-10-05 17:10:20.529 INFO  log4jdbc.log4j2 Line:365 - 115. Connection opened. {executed in 3ms} 
+2020-10-05 17:10:20.529 INFO  log4jdbc.log4j2 Line:197 - 115. Connection.new Connection returned 
+2020-10-05 17:10:20.529 INFO  log4jdbc.log4j2 Line:197 - 115. Connection.isReadOnly() returned false
+2020-10-05 17:10:20.529 INFO  log4jdbc.log4j2 Line:197 - 115. Connection.getAutoCommit() returned true
+2020-10-05 17:10:30.212 INFO  log4jdbc.log4j2 Line:365 - 105. Connection closed. {executed in 0ms} 
+2020-10-05 17:10:30.212 INFO  log4jdbc.log4j2 Line:197 - 105. Connection.close() returned 
+2020-10-05 17:10:30.214 INFO  log4jdbc.log4j2 Line:365 - 116. Connection opened. {executed in 2ms} 
+2020-10-05 17:10:30.214 INFO  log4jdbc.log4j2 Line:197 - 116. Connection.new Connection returned 
+2020-10-05 17:10:30.214 INFO  log4jdbc.log4j2 Line:197 - 116. Connection.isReadOnly() returned false
+2020-10-05 17:10:30.214 INFO  log4jdbc.log4j2 Line:197 - 116. Connection.getAutoCommit() returned true
+2020-10-05 17:10:33.851 INFO  log4jdbc.log4j2 Line:365 - 107. Connection closed. {executed in 0ms} 
+2020-10-05 17:10:33.851 INFO  log4jdbc.log4j2 Line:197 - 107. Connection.close() returned 
+2020-10-05 17:10:33.854 INFO  log4jdbc.log4j2 Line:365 - 117. Connection opened. {executed in 3ms} 
+2020-10-05 17:10:33.854 INFO  log4jdbc.log4j2 Line:197 - 117. Connection.new Connection returned 
+2020-10-05 17:10:33.854 INFO  log4jdbc.log4j2 Line:197 - 117. Connection.isReadOnly() returned false
+2020-10-05 17:10:33.854 INFO  log4jdbc.log4j2 Line:197 - 117. Connection.getAutoCommit() returned true
+2020-10-05 17:10:57.141 INFO  log4jdbc.log4j2 Line:365 - 109. Connection closed. {executed in 1ms} 
+2020-10-05 17:10:57.141 INFO  log4jdbc.log4j2 Line:197 - 109. Connection.close() returned 
+2020-10-05 17:10:57.143 INFO  log4jdbc.log4j2 Line:365 - 118. Connection opened. {executed in 3ms} 
+2020-10-05 17:10:57.144 INFO  log4jdbc.log4j2 Line:197 - 118. Connection.new Connection returned 
+2020-10-05 17:10:57.144 INFO  log4jdbc.log4j2 Line:197 - 118. Connection.isReadOnly() returned false
+2020-10-05 17:10:57.144 INFO  log4jdbc.log4j2 Line:197 - 118. Connection.getAutoCommit() returned true
+2020-10-05 17:11:18.013 INFO  log4jdbc.log4j2 Line:365 - 108. Connection closed. {executed in 0ms} 
+2020-10-05 17:11:18.013 INFO  log4jdbc.log4j2 Line:197 - 108. Connection.close() returned 
+2020-10-05 17:11:18.016 INFO  log4jdbc.log4j2 Line:365 - 119. Connection opened. {executed in 3ms} 
+2020-10-05 17:11:18.016 INFO  log4jdbc.log4j2 Line:197 - 119. Connection.new Connection returned 
+2020-10-05 17:11:18.016 INFO  log4jdbc.log4j2 Line:197 - 119. Connection.isReadOnly() returned false
+2020-10-05 17:11:18.016 INFO  log4jdbc.log4j2 Line:197 - 119. Connection.getAutoCommit() returned true
+2020-10-05 17:11:40.400 INFO  log4jdbc.log4j2 Line:365 - 110. Connection closed. {executed in 0ms} 
+2020-10-05 17:11:40.401 INFO  log4jdbc.log4j2 Line:197 - 110. Connection.close() returned 
+2020-10-05 17:11:40.403 INFO  log4jdbc.log4j2 Line:365 - 120. Connection opened. {executed in 3ms} 
+2020-10-05 17:11:40.403 INFO  log4jdbc.log4j2 Line:197 - 120. Connection.new Connection returned 
+2020-10-05 17:11:40.403 INFO  log4jdbc.log4j2 Line:197 - 120. Connection.isReadOnly() returned false
+2020-10-05 17:11:40.403 INFO  log4jdbc.log4j2 Line:197 - 120. Connection.getAutoCommit() returned true
+2020-10-05 22:13:22.053 INFO  org.hibernate.validator.internal.util.Version Line:21  - HV000001: Hibernate Validator 6.1.5.Final
+2020-10-05 22:13:22.188 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-05 22:13:25.502 INFO  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:249 - Fetching config from server at : http://localhost:8888
+2020-10-05 22:13:26.895 INFO  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:273 - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-10-05 22:13:26.925 INFO  com.bench.Bench.BenchBackApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-10-05 22:13:29.963 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-05 22:13:29.967 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-10-05 22:13:30.089 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.ArticleDao. If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository, org.springframework.data.elasticsearch.repository.ElasticsearchRepository.
+2020-10-05 22:13:30.099 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.MuserDao. If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository, org.springframework.data.elasticsearch.repository.ElasticsearchRepository.
+2020-10-05 22:13:30.102 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.UserDao. If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository, org.springframework.data.elasticsearch.repository.ElasticsearchRepository.
+2020-10-05 22:13:30.102 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 125ms. Found 0 Elasticsearch repository interfaces.
+2020-10-05 22:13:30.111 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-05 22:13:30.112 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-10-05 22:13:30.118 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.ArticleDao. If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository.
+2020-10-05 22:13:30.119 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.MuserDao. If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository.
+2020-10-05 22:13:30.119 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.UserDao. If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository.
+2020-10-05 22:13:30.120 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 6ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-10-05 22:13:30.134 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-05 22:13:30.135 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-05 22:13:30.308 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 105ms. Found 3 JPA repository interfaces.
+2020-10-05 22:13:30.366 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-05 22:13:30.368 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-05 22:13:30.403 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.ArticleDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-10-05 22:13:30.404 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.MuserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-10-05 22:13:30.404 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.UserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-10-05 22:13:30.405 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2020-10-05 22:13:31.230 INFO  org.springframework.cloud.context.scope.GenericScope Line:295 - BeanFactory id=7ce6a58b-5776-31bd-b015-6eeb52c33355
+2020-10-05 22:13:32.851 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8006 (http)
+2020-10-05 22:13:32.899 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8006"]
+2020-10-05 22:13:32.900 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-10-05 22:13:32.901 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-05 22:13:33.912 INFO  org.apache.jasper.servlet.TldScanner Line:173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-05 22:13:33.926 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-10-05 22:13:33.926 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:285 - Root WebApplicationContext: initialization completed in 6927 ms
+2020-10-05 22:13:34.132 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-05 22:13:34.162 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4e1804ed
+2020-10-05 22:13:35.673 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-05 22:13:35.732 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2020-10-05 22:13:36.056 INFO  log4jdbc.log4j2 Line:365 - 1. Connection opened. {executed in 278ms} 
+2020-10-05 22:13:36.059 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.new Connection returned 
+2020-10-05 22:13:36.059 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getNetworkTimeout() returned 0
+2020-10-05 22:13:36.060 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isReadOnly() returned false
+2020-10-05 22:13:36.061 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-10-05 22:13:36.062 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(1) returned true
+2020-10-05 22:13:36.065 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getTransactionIsolation() returned 4
+2020-10-05 22:13:36.068 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2020-10-05 22:13:36.077 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@2eecaaee
+2020-10-05 22:13:36.083 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 22:13:36.184 INFO  log4jdbc.log4j2 Line:365 - 2. Connection opened. {executed in 10ms} 
+2020-10-05 22:13:36.187 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.new Connection returned 
+2020-10-05 22:13:36.188 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.isReadOnly() returned false
+2020-10-05 22:13:36.188 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.getAutoCommit() returned true
+2020-10-05 22:13:36.197 INFO  log4jdbc.log4j2 Line:365 - 3. Connection opened. {executed in 8ms} 
+2020-10-05 22:13:36.197 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.new Connection returned 
+2020-10-05 22:13:36.197 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.isReadOnly() returned false
+2020-10-05 22:13:36.197 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.getAutoCommit() returned true
+2020-10-05 22:13:36.202 INFO  log4jdbc.log4j2 Line:365 - 4. Connection opened. {executed in 4ms} 
+2020-10-05 22:13:36.203 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.new Connection returned 
+2020-10-05 22:13:36.203 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.isReadOnly() returned false
+2020-10-05 22:13:36.203 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.getAutoCommit() returned true
+2020-10-05 22:13:36.215 INFO  log4jdbc.log4j2 Line:365 - 5. Connection opened. {executed in 11ms} 
+2020-10-05 22:13:36.215 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.new Connection returned 
+2020-10-05 22:13:36.216 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.isReadOnly() returned false
+2020-10-05 22:13:36.216 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.getAutoCommit() returned true
+2020-10-05 22:13:36.223 INFO  log4jdbc.log4j2 Line:365 - 6. Connection opened. {executed in 7ms} 
+2020-10-05 22:13:36.223 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.new Connection returned 
+2020-10-05 22:13:36.224 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.isReadOnly() returned false
+2020-10-05 22:13:36.224 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.getAutoCommit() returned true
+2020-10-05 22:13:36.233 INFO  log4jdbc.log4j2 Line:365 - 7. Connection opened. {executed in 9ms} 
+2020-10-05 22:13:36.233 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.new Connection returned 
+2020-10-05 22:13:36.233 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.isReadOnly() returned false
+2020-10-05 22:13:36.234 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.getAutoCommit() returned true
+2020-10-05 22:13:36.241 INFO  log4jdbc.log4j2 Line:365 - 8. Connection opened. {executed in 7ms} 
+2020-10-05 22:13:36.242 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.new Connection returned 
+2020-10-05 22:13:36.242 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.isReadOnly() returned false
+2020-10-05 22:13:36.242 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.getAutoCommit() returned true
+2020-10-05 22:13:36.249 INFO  log4jdbc.log4j2 Line:365 - 9. Connection opened. {executed in 6ms} 
+2020-10-05 22:13:36.249 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.new Connection returned 
+2020-10-05 22:13:36.249 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.isReadOnly() returned false
+2020-10-05 22:13:36.249 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.getAutoCommit() returned true
+2020-10-05 22:13:36.257 INFO  log4jdbc.log4j2 Line:365 - 10. Connection opened. {executed in 7ms} 
+2020-10-05 22:13:36.258 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.new Connection returned 
+2020-10-05 22:13:36.258 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.isReadOnly() returned false
+2020-10-05 22:13:36.258 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.getAutoCommit() returned true
+2020-10-05 22:13:36.576 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-05 22:13:36.682 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-05 22:13:36.800 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-05 22:13:37.487 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-05 22:13:37.900 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-10-05 22:13:37.901 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@2ca62b2d
+2020-10-05 22:13:37.920 INFO  org.hibernate.dialect.Dialect Line:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2020-10-05 22:13:37.968 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getCatalog() returned s3-bench
+2020-10-05 22:13:37.986 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getSchema() returned null
+2020-10-05 22:13:37.987 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getSchema() returned null
+2020-10-05 22:13:38.004 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@1e724d4a
+2020-10-05 22:13:38.006 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.createClob() returned com.mysql.jdbc.Clob@42f449d5
+2020-10-05 22:13:38.007 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 22:13:39.796 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-05 22:13:39.934 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-05 22:13:39.935 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-10-05 22:13:39.935 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@418fd0a2
+2020-10-05 22:13:39.936 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 22:13:45.513 INFO  org.springframework.data.elasticsearch.support.VersionInfo Line:59  - Version Spring Data Elasticsearch: 4.0.4.RELEASE
+2020-10-05 22:13:45.513 INFO  org.springframework.data.elasticsearch.support.VersionInfo Line:60  - Version Elasticsearch Client in build: 7.6.2
+2020-10-05 22:13:45.514 INFO  org.springframework.data.elasticsearch.support.VersionInfo Line:61  - Version Elasticsearch Client used: 7.6.2
+2020-10-05 22:13:47.440 INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:58  - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-10-05 22:13:47.559 INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory Line:72  - Setting initial instance status as: STARTING
+2020-10-05 22:13:47.592 INFO  com.netflix.discovery.DiscoveryClient Line:371 - Initializing Eureka in region us-east-1
+2020-10-05 22:13:47.646 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2020-10-05 22:13:47.646 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2020-10-05 22:13:47.776 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2020-10-05 22:13:47.776 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2020-10-05 22:13:47.989 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 22:13:48.748 INFO  com.netflix.discovery.DiscoveryClient Line:1004 - Disable delta property : false
+2020-10-05 22:13:48.748 INFO  com.netflix.discovery.DiscoveryClient Line:1005 - Single vip registry refresh property : null
+2020-10-05 22:13:48.748 INFO  com.netflix.discovery.DiscoveryClient Line:1006 - Force full registry fetch : false
+2020-10-05 22:13:48.748 INFO  com.netflix.discovery.DiscoveryClient Line:1007 - Application is null : false
+2020-10-05 22:13:48.748 INFO  com.netflix.discovery.DiscoveryClient Line:1008 - Registered Applications size is zero : true
+2020-10-05 22:13:48.748 INFO  com.netflix.discovery.DiscoveryClient Line:1010 - Application version is -1: true
+2020-10-05 22:13:48.748 INFO  com.netflix.discovery.DiscoveryClient Line:1093 - Getting all instance registry info from the eureka server
+2020-10-05 22:13:48.828 INFO  com.netflix.discovery.DiscoveryClient Line:1102 - The response status is 200
+2020-10-05 22:13:48.830 INFO  com.netflix.discovery.DiscoveryClient Line:1317 - Starting heartbeat executor: renew interval is: 30
+2020-10-05 22:13:48.832 INFO  com.netflix.discovery.InstanceInfoReplicator Line:60  - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-10-05 22:13:48.837 INFO  com.netflix.discovery.DiscoveryClient Line:491 - Discovery Client initialized at timestamp 1601907228835 with initial instances count: 0
+2020-10-05 22:13:48.841 INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Line:41  - Registering application BBACK with eureka with status UP
+2020-10-05 22:13:48.842 INFO  com.netflix.discovery.DiscoveryClient Line:1353 - Saw local status change event StatusChangeEvent [timestamp=1601907228842, current=UP, previous=STARTING]
+2020-10-05 22:13:48.844 INFO  com.netflix.discovery.DiscoveryClient Line:870 - DiscoveryClient_BBACK/DESKTOP-4V2GEPM:bback:8006: registering service...
+2020-10-05 22:13:48.845 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8006"]
+2020-10-05 22:13:48.921 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8006 (http) with context path ''
+2020-10-05 22:13:48.922 INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Line:145 - Updating port to 8006
+2020-10-05 22:13:48.935 INFO  com.netflix.discovery.DiscoveryClient Line:879 - DiscoveryClient_BBACK/DESKTOP-4V2GEPM:bback:8006 - registration status: 204
+2020-10-05 22:13:51.232 INFO  org.springframework.data.repository.config.DeferredRepositoryInitializationListener Line:49  - Triggering deferred initialization of Spring Data repositories…
+2020-10-05 22:13:51.693 INFO  org.springframework.data.repository.config.DeferredRepositoryInitializationListener Line:53  - Spring Data repositories initialized!
+2020-10-05 22:13:51.744 INFO  org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor Line:309 - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-05 22:13:51.754 INFO  com.bench.Bench.BenchBackApplication Line:61  - Started BenchBackApplication in 33.109 seconds (JVM running for 38.534)
+2020-10-05 22:13:53.026 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-05 22:13:54.063 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-10-05 22:13:54.063 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@5eb4984e
+2020-10-05 22:13:54.064 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 22:13:54.065 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(0) returned true
+2020-10-05 22:13:54.065 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 22:13:54.073 INFO  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:249 - Fetching config from server at : http://localhost:8888
+2020-10-05 22:14:18.832 INFO  com.netflix.discovery.DiscoveryClient Line:1004 - Disable delta property : false
+2020-10-05 22:14:18.832 INFO  com.netflix.discovery.DiscoveryClient Line:1005 - Single vip registry refresh property : null
+2020-10-05 22:14:18.832 INFO  com.netflix.discovery.DiscoveryClient Line:1006 - Force full registry fetch : false
+2020-10-05 22:14:18.833 INFO  com.netflix.discovery.DiscoveryClient Line:1007 - Application is null : false
+2020-10-05 22:14:18.833 INFO  com.netflix.discovery.DiscoveryClient Line:1008 - Registered Applications size is zero : true
+2020-10-05 22:14:18.834 INFO  com.netflix.discovery.DiscoveryClient Line:1010 - Application version is -1: false
+2020-10-05 22:14:18.834 INFO  com.netflix.discovery.DiscoveryClient Line:1093 - Getting all instance registry info from the eureka server
+2020-10-05 22:14:18.856 INFO  com.netflix.discovery.DiscoveryClient Line:1102 - The response status is 200
+2020-10-05 22:18:48.752 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 22:23:48.754 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 22:28:48.756 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 22:33:48.758 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 22:38:48.759 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 22:43:00.379 INFO  log4jdbc.log4j2 Line:365 - 11. Connection opened. {executed in 4ms} 
+2020-10-05 22:43:00.379 INFO  log4jdbc.log4j2 Line:197 - 11. Connection.new Connection returned 
+2020-10-05 22:43:00.379 INFO  log4jdbc.log4j2 Line:197 - 11. Connection.isReadOnly() returned false
+2020-10-05 22:43:00.379 INFO  log4jdbc.log4j2 Line:197 - 11. Connection.getAutoCommit() returned true
+2020-10-05 22:43:00.407 INFO  log4jdbc.log4j2 Line:365 - 5. Connection closed. {executed in 32ms} 
+2020-10-05 22:43:00.407 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.close() returned 
+2020-10-05 22:43:02.335 INFO  log4jdbc.log4j2 Line:365 - 1. Connection closed. {executed in 0ms} 
+2020-10-05 22:43:02.335 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.close() returned 
+2020-10-05 22:43:02.339 INFO  log4jdbc.log4j2 Line:365 - 12. Connection opened. {executed in 4ms} 
+2020-10-05 22:43:02.340 INFO  log4jdbc.log4j2 Line:197 - 12. Connection.new Connection returned 
+2020-10-05 22:43:02.340 INFO  log4jdbc.log4j2 Line:197 - 12. Connection.isReadOnly() returned false
+2020-10-05 22:43:02.340 INFO  log4jdbc.log4j2 Line:197 - 12. Connection.getAutoCommit() returned true
+2020-10-05 22:43:02.453 INFO  log4jdbc.log4j2 Line:365 - 3. Connection closed. {executed in 0ms} 
+2020-10-05 22:43:02.454 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.close() returned 
+2020-10-05 22:43:02.460 INFO  log4jdbc.log4j2 Line:365 - 13. Connection opened. {executed in 7ms} 
+2020-10-05 22:43:02.460 INFO  log4jdbc.log4j2 Line:197 - 13. Connection.new Connection returned 
+2020-10-05 22:43:02.460 INFO  log4jdbc.log4j2 Line:197 - 13. Connection.isReadOnly() returned false
+2020-10-05 22:43:02.460 INFO  log4jdbc.log4j2 Line:197 - 13. Connection.getAutoCommit() returned true
+2020-10-05 22:43:10.221 INFO  log4jdbc.log4j2 Line:365 - 2. Connection closed. {executed in 0ms} 
+2020-10-05 22:43:10.222 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.close() returned 
+2020-10-05 22:43:10.224 INFO  log4jdbc.log4j2 Line:365 - 14. Connection opened. {executed in 3ms} 
+2020-10-05 22:43:10.225 INFO  log4jdbc.log4j2 Line:197 - 14. Connection.new Connection returned 
+2020-10-05 22:43:10.225 INFO  log4jdbc.log4j2 Line:197 - 14. Connection.isReadOnly() returned false
+2020-10-05 22:43:10.225 INFO  log4jdbc.log4j2 Line:197 - 14. Connection.getAutoCommit() returned true
+2020-10-05 22:43:16.613 INFO  log4jdbc.log4j2 Line:365 - 8. Connection closed. {executed in 0ms} 
+2020-10-05 22:43:16.614 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.close() returned 
+2020-10-05 22:43:16.616 INFO  log4jdbc.log4j2 Line:365 - 15. Connection opened. {executed in 3ms} 
+2020-10-05 22:43:16.616 INFO  log4jdbc.log4j2 Line:197 - 15. Connection.new Connection returned 
+2020-10-05 22:43:16.617 INFO  log4jdbc.log4j2 Line:197 - 15. Connection.isReadOnly() returned false
+2020-10-05 22:43:16.617 INFO  log4jdbc.log4j2 Line:197 - 15. Connection.getAutoCommit() returned true
+2020-10-05 22:43:18.577 INFO  log4jdbc.log4j2 Line:365 - 10. Connection closed. {executed in 1ms} 
+2020-10-05 22:43:18.578 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.close() returned 
+2020-10-05 22:43:18.582 INFO  log4jdbc.log4j2 Line:365 - 16. Connection opened. {executed in 5ms} 
+2020-10-05 22:43:18.582 INFO  log4jdbc.log4j2 Line:197 - 16. Connection.new Connection returned 
+2020-10-05 22:43:18.582 INFO  log4jdbc.log4j2 Line:197 - 16. Connection.isReadOnly() returned false
+2020-10-05 22:43:18.583 INFO  log4jdbc.log4j2 Line:197 - 16. Connection.getAutoCommit() returned true
+2020-10-05 22:43:23.275 INFO  log4jdbc.log4j2 Line:365 - 7. Connection closed. {executed in 0ms} 
+2020-10-05 22:43:23.276 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.close() returned 
+2020-10-05 22:43:23.279 INFO  log4jdbc.log4j2 Line:365 - 17. Connection opened. {executed in 4ms} 
+2020-10-05 22:43:23.280 INFO  log4jdbc.log4j2 Line:197 - 17. Connection.new Connection returned 
+2020-10-05 22:43:23.280 INFO  log4jdbc.log4j2 Line:197 - 17. Connection.isReadOnly() returned false
+2020-10-05 22:43:23.280 INFO  log4jdbc.log4j2 Line:197 - 17. Connection.getAutoCommit() returned true
+2020-10-05 22:43:24.279 INFO  log4jdbc.log4j2 Line:365 - 4. Connection closed. {executed in 0ms} 
+2020-10-05 22:43:24.280 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.close() returned 
+2020-10-05 22:43:24.282 INFO  log4jdbc.log4j2 Line:365 - 18. Connection opened. {executed in 3ms} 
+2020-10-05 22:43:24.283 INFO  log4jdbc.log4j2 Line:197 - 18. Connection.new Connection returned 
+2020-10-05 22:43:24.283 INFO  log4jdbc.log4j2 Line:197 - 18. Connection.isReadOnly() returned false
+2020-10-05 22:43:24.283 INFO  log4jdbc.log4j2 Line:197 - 18. Connection.getAutoCommit() returned true
+2020-10-05 22:43:30.687 INFO  log4jdbc.log4j2 Line:365 - 9. Connection closed. {executed in 0ms} 
+2020-10-05 22:43:30.687 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.close() returned 
+2020-10-05 22:43:30.690 INFO  log4jdbc.log4j2 Line:365 - 19. Connection opened. {executed in 4ms} 
+2020-10-05 22:43:30.691 INFO  log4jdbc.log4j2 Line:197 - 19. Connection.new Connection returned 
+2020-10-05 22:43:30.691 INFO  log4jdbc.log4j2 Line:197 - 19. Connection.isReadOnly() returned false
+2020-10-05 22:43:30.691 INFO  log4jdbc.log4j2 Line:197 - 19. Connection.getAutoCommit() returned true
+2020-10-05 22:43:33.232 INFO  log4jdbc.log4j2 Line:365 - 6. Connection closed. {executed in 1ms} 
+2020-10-05 22:43:33.232 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.close() returned 
+2020-10-05 22:43:33.235 INFO  log4jdbc.log4j2 Line:365 - 20. Connection opened. {executed in 3ms} 
+2020-10-05 22:43:33.235 INFO  log4jdbc.log4j2 Line:197 - 20. Connection.new Connection returned 
+2020-10-05 22:43:33.235 INFO  log4jdbc.log4j2 Line:197 - 20. Connection.isReadOnly() returned false
+2020-10-05 22:43:33.235 INFO  log4jdbc.log4j2 Line:197 - 20. Connection.getAutoCommit() returned true
+2020-10-05 22:43:48.761 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 22:48:48.763 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 22:53:48.764 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 22:58:48.766 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 23:03:48.768 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 23:08:48.771 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 23:12:25.270 INFO  log4jdbc.log4j2 Line:365 - 13. Connection closed. {executed in 0ms} 
+2020-10-05 23:12:25.270 INFO  log4jdbc.log4j2 Line:197 - 13. Connection.close() returned 
+2020-10-05 23:12:25.274 INFO  log4jdbc.log4j2 Line:365 - 21. Connection opened. {executed in 4ms} 
+2020-10-05 23:12:25.274 INFO  log4jdbc.log4j2 Line:197 - 21. Connection.new Connection returned 
+2020-10-05 23:12:25.275 INFO  log4jdbc.log4j2 Line:197 - 21. Connection.isReadOnly() returned false
+2020-10-05 23:12:25.275 INFO  log4jdbc.log4j2 Line:197 - 21. Connection.getAutoCommit() returned true
+2020-10-05 23:12:25.824 INFO  log4jdbc.log4j2 Line:365 - 12. Connection closed. {executed in 0ms} 
+2020-10-05 23:12:25.824 INFO  log4jdbc.log4j2 Line:197 - 12. Connection.close() returned 
+2020-10-05 23:12:25.827 INFO  log4jdbc.log4j2 Line:365 - 22. Connection opened. {executed in 3ms} 
+2020-10-05 23:12:25.827 INFO  log4jdbc.log4j2 Line:197 - 22. Connection.new Connection returned 
+2020-10-05 23:12:25.827 INFO  log4jdbc.log4j2 Line:197 - 22. Connection.isReadOnly() returned false
+2020-10-05 23:12:25.828 INFO  log4jdbc.log4j2 Line:197 - 22. Connection.getAutoCommit() returned true
+2020-10-05 23:12:26.461 INFO  log4jdbc.log4j2 Line:365 - 14. Connection closed. {executed in 0ms} 
+2020-10-05 23:12:26.461 INFO  log4jdbc.log4j2 Line:197 - 14. Connection.close() returned 
+2020-10-05 23:12:26.467 INFO  log4jdbc.log4j2 Line:365 - 23. Connection opened. {executed in 5ms} 
+2020-10-05 23:12:26.467 INFO  log4jdbc.log4j2 Line:197 - 23. Connection.new Connection returned 
+2020-10-05 23:12:26.467 INFO  log4jdbc.log4j2 Line:197 - 23. Connection.isReadOnly() returned false
+2020-10-05 23:12:26.467 INFO  log4jdbc.log4j2 Line:197 - 23. Connection.getAutoCommit() returned true
+2020-10-05 23:12:50.091 INFO  log4jdbc.log4j2 Line:365 - 18. Connection closed. {executed in 1ms} 
+2020-10-05 23:12:50.091 INFO  log4jdbc.log4j2 Line:197 - 18. Connection.close() returned 
+2020-10-05 23:12:50.094 INFO  log4jdbc.log4j2 Line:365 - 24. Connection opened. {executed in 4ms} 
+2020-10-05 23:12:50.095 INFO  log4jdbc.log4j2 Line:197 - 24. Connection.new Connection returned 
+2020-10-05 23:12:50.095 INFO  log4jdbc.log4j2 Line:197 - 24. Connection.isReadOnly() returned false
+2020-10-05 23:12:50.095 INFO  log4jdbc.log4j2 Line:197 - 24. Connection.getAutoCommit() returned true
+2020-10-05 23:12:54.795 INFO  log4jdbc.log4j2 Line:365 - 11. Connection closed. {executed in 0ms} 
+2020-10-05 23:12:54.795 INFO  log4jdbc.log4j2 Line:197 - 11. Connection.close() returned 
+2020-10-05 23:12:54.798 INFO  log4jdbc.log4j2 Line:365 - 25. Connection opened. {executed in 3ms} 
+2020-10-05 23:12:54.798 INFO  log4jdbc.log4j2 Line:197 - 25. Connection.new Connection returned 
+2020-10-05 23:12:54.798 INFO  log4jdbc.log4j2 Line:197 - 25. Connection.isReadOnly() returned false
+2020-10-05 23:12:54.798 INFO  log4jdbc.log4j2 Line:197 - 25. Connection.getAutoCommit() returned true
+2020-10-05 23:13:00.367 INFO  log4jdbc.log4j2 Line:365 - 20. Connection closed. {executed in 0ms} 
+2020-10-05 23:13:00.368 INFO  log4jdbc.log4j2 Line:197 - 20. Connection.close() returned 
+2020-10-05 23:13:00.370 INFO  log4jdbc.log4j2 Line:365 - 26. Connection opened. {executed in 3ms} 
+2020-10-05 23:13:00.370 INFO  log4jdbc.log4j2 Line:197 - 26. Connection.new Connection returned 
+2020-10-05 23:13:00.370 INFO  log4jdbc.log4j2 Line:197 - 26. Connection.isReadOnly() returned false
+2020-10-05 23:13:00.370 INFO  log4jdbc.log4j2 Line:197 - 26. Connection.getAutoCommit() returned true
+2020-10-05 23:13:06.621 INFO  log4jdbc.log4j2 Line:365 - 15. Connection closed. {executed in 0ms} 
+2020-10-05 23:13:06.621 INFO  log4jdbc.log4j2 Line:197 - 15. Connection.close() returned 
+2020-10-05 23:13:06.624 INFO  log4jdbc.log4j2 Line:365 - 27. Connection opened. {executed in 3ms} 
+2020-10-05 23:13:06.624 INFO  log4jdbc.log4j2 Line:197 - 27. Connection.new Connection returned 
+2020-10-05 23:13:06.624 INFO  log4jdbc.log4j2 Line:197 - 27. Connection.isReadOnly() returned false
+2020-10-05 23:13:06.624 INFO  log4jdbc.log4j2 Line:197 - 27. Connection.getAutoCommit() returned true
+2020-10-05 23:13:14.546 INFO  log4jdbc.log4j2 Line:365 - 16. Connection closed. {executed in 1ms} 
+2020-10-05 23:13:14.546 INFO  log4jdbc.log4j2 Line:197 - 16. Connection.close() returned 
+2020-10-05 23:13:14.548 INFO  log4jdbc.log4j2 Line:365 - 28. Connection opened. {executed in 3ms} 
+2020-10-05 23:13:14.548 INFO  log4jdbc.log4j2 Line:197 - 28. Connection.new Connection returned 
+2020-10-05 23:13:14.549 INFO  log4jdbc.log4j2 Line:197 - 28. Connection.isReadOnly() returned false
+2020-10-05 23:13:14.549 INFO  log4jdbc.log4j2 Line:197 - 28. Connection.getAutoCommit() returned true
+2020-10-05 23:13:15.753 INFO  log4jdbc.log4j2 Line:365 - 19. Connection closed. {executed in 0ms} 
+2020-10-05 23:13:15.754 INFO  log4jdbc.log4j2 Line:197 - 19. Connection.close() returned 
+2020-10-05 23:13:15.756 INFO  log4jdbc.log4j2 Line:365 - 29. Connection opened. {executed in 3ms} 
+2020-10-05 23:13:15.757 INFO  log4jdbc.log4j2 Line:197 - 29. Connection.new Connection returned 
+2020-10-05 23:13:15.757 INFO  log4jdbc.log4j2 Line:197 - 29. Connection.isReadOnly() returned false
+2020-10-05 23:13:15.757 INFO  log4jdbc.log4j2 Line:197 - 29. Connection.getAutoCommit() returned true
+2020-10-05 23:13:19.183 INFO  log4jdbc.log4j2 Line:365 - 17. Connection closed. {executed in 0ms} 
+2020-10-05 23:13:19.184 INFO  log4jdbc.log4j2 Line:197 - 17. Connection.close() returned 
+2020-10-05 23:13:19.186 INFO  log4jdbc.log4j2 Line:365 - 30. Connection opened. {executed in 3ms} 
+2020-10-05 23:13:19.186 INFO  log4jdbc.log4j2 Line:197 - 30. Connection.new Connection returned 
+2020-10-05 23:13:19.187 INFO  log4jdbc.log4j2 Line:197 - 30. Connection.isReadOnly() returned false
+2020-10-05 23:13:19.187 INFO  log4jdbc.log4j2 Line:197 - 30. Connection.getAutoCommit() returned true
+2020-10-05 23:13:48.772 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 23:18:48.773 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 23:23:48.775 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 23:28:48.776 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 23:33:48.777 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 23:38:48.780 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 23:41:44.025 INFO  log4jdbc.log4j2 Line:365 - 21. Connection closed. {executed in 1ms} 
+2020-10-05 23:41:44.025 INFO  log4jdbc.log4j2 Line:197 - 21. Connection.close() returned 
+2020-10-05 23:41:44.031 INFO  log4jdbc.log4j2 Line:365 - 31. Connection opened. {executed in 7ms} 
+2020-10-05 23:41:44.031 INFO  log4jdbc.log4j2 Line:197 - 31. Connection.new Connection returned 
+2020-10-05 23:41:44.031 INFO  log4jdbc.log4j2 Line:197 - 31. Connection.isReadOnly() returned false
+2020-10-05 23:41:44.031 INFO  log4jdbc.log4j2 Line:197 - 31. Connection.getAutoCommit() returned true
+2020-10-05 23:42:01.851 INFO  log4jdbc.log4j2 Line:365 - 22. Connection closed. {executed in 1ms} 
+2020-10-05 23:42:01.851 INFO  log4jdbc.log4j2 Line:197 - 22. Connection.close() returned 
+2020-10-05 23:42:01.853 INFO  log4jdbc.log4j2 Line:365 - 32. Connection opened. {executed in 3ms} 
+2020-10-05 23:42:01.854 INFO  log4jdbc.log4j2 Line:197 - 32. Connection.new Connection returned 
+2020-10-05 23:42:01.854 INFO  log4jdbc.log4j2 Line:197 - 32. Connection.isReadOnly() returned false
+2020-10-05 23:42:01.854 INFO  log4jdbc.log4j2 Line:197 - 32. Connection.getAutoCommit() returned true
+2020-10-05 23:42:10.917 INFO  log4jdbc.log4j2 Line:365 - 23. Connection closed. {executed in 0ms} 
+2020-10-05 23:42:10.917 INFO  log4jdbc.log4j2 Line:197 - 23. Connection.close() returned 
+2020-10-05 23:42:10.921 INFO  log4jdbc.log4j2 Line:365 - 33. Connection opened. {executed in 5ms} 
+2020-10-05 23:42:10.921 INFO  log4jdbc.log4j2 Line:197 - 33. Connection.new Connection returned 
+2020-10-05 23:42:10.921 INFO  log4jdbc.log4j2 Line:197 - 33. Connection.isReadOnly() returned false
+2020-10-05 23:42:10.921 INFO  log4jdbc.log4j2 Line:197 - 33. Connection.getAutoCommit() returned true
+2020-10-05 23:42:24.983 INFO  log4jdbc.log4j2 Line:365 - 27. Connection closed. {executed in 0ms} 
+2020-10-05 23:42:24.984 INFO  log4jdbc.log4j2 Line:197 - 27. Connection.close() returned 
+2020-10-05 23:42:24.988 INFO  log4jdbc.log4j2 Line:365 - 34. Connection opened. {executed in 5ms} 
+2020-10-05 23:42:24.988 INFO  log4jdbc.log4j2 Line:197 - 34. Connection.new Connection returned 
+2020-10-05 23:42:24.988 INFO  log4jdbc.log4j2 Line:197 - 34. Connection.isReadOnly() returned false
+2020-10-05 23:42:24.988 INFO  log4jdbc.log4j2 Line:197 - 34. Connection.getAutoCommit() returned true
+2020-10-05 23:42:29.573 INFO  log4jdbc.log4j2 Line:365 - 26. Connection closed. {executed in 0ms} 
+2020-10-05 23:42:29.573 INFO  log4jdbc.log4j2 Line:197 - 26. Connection.close() returned 
+2020-10-05 23:42:29.577 INFO  log4jdbc.log4j2 Line:365 - 35. Connection opened. {executed in 4ms} 
+2020-10-05 23:42:29.577 INFO  log4jdbc.log4j2 Line:197 - 35. Connection.new Connection returned 
+2020-10-05 23:42:29.578 INFO  log4jdbc.log4j2 Line:197 - 35. Connection.isReadOnly() returned false
+2020-10-05 23:42:29.578 INFO  log4jdbc.log4j2 Line:197 - 35. Connection.getAutoCommit() returned true
+2020-10-05 23:42:42.601 INFO  log4jdbc.log4j2 Line:365 - 24. Connection closed. {executed in 0ms} 
+2020-10-05 23:42:42.601 INFO  log4jdbc.log4j2 Line:197 - 24. Connection.close() returned 
+2020-10-05 23:42:42.604 INFO  log4jdbc.log4j2 Line:365 - 36. Connection opened. {executed in 3ms} 
+2020-10-05 23:42:42.604 INFO  log4jdbc.log4j2 Line:197 - 36. Connection.new Connection returned 
+2020-10-05 23:42:42.604 INFO  log4jdbc.log4j2 Line:197 - 36. Connection.isReadOnly() returned false
+2020-10-05 23:42:42.604 INFO  log4jdbc.log4j2 Line:197 - 36. Connection.getAutoCommit() returned true
+2020-10-05 23:42:45.133 INFO  log4jdbc.log4j2 Line:365 - 28. Connection closed. {executed in 0ms} 
+2020-10-05 23:42:45.133 INFO  log4jdbc.log4j2 Line:197 - 28. Connection.close() returned 
+2020-10-05 23:42:45.137 INFO  log4jdbc.log4j2 Line:365 - 37. Connection opened. {executed in 4ms} 
+2020-10-05 23:42:45.138 INFO  log4jdbc.log4j2 Line:197 - 37. Connection.new Connection returned 
+2020-10-05 23:42:45.138 INFO  log4jdbc.log4j2 Line:197 - 37. Connection.isReadOnly() returned false
+2020-10-05 23:42:45.138 INFO  log4jdbc.log4j2 Line:197 - 37. Connection.getAutoCommit() returned true
+2020-10-05 23:42:53.244 INFO  log4jdbc.log4j2 Line:365 - 25. Connection closed. {executed in 2ms} 
+2020-10-05 23:42:53.245 INFO  log4jdbc.log4j2 Line:197 - 25. Connection.close() returned 
+2020-10-05 23:42:53.250 INFO  log4jdbc.log4j2 Line:365 - 38. Connection opened. {executed in 8ms} 
+2020-10-05 23:42:53.251 INFO  log4jdbc.log4j2 Line:197 - 38. Connection.new Connection returned 
+2020-10-05 23:42:53.251 INFO  log4jdbc.log4j2 Line:197 - 38. Connection.isReadOnly() returned false
+2020-10-05 23:42:53.251 INFO  log4jdbc.log4j2 Line:197 - 38. Connection.getAutoCommit() returned true
+2020-10-05 23:43:07.878 INFO  log4jdbc.log4j2 Line:365 - 30. Connection closed. {executed in 0ms} 
+2020-10-05 23:43:07.879 INFO  log4jdbc.log4j2 Line:197 - 30. Connection.close() returned 
+2020-10-05 23:43:07.884 INFO  log4jdbc.log4j2 Line:365 - 39. Connection opened. {executed in 6ms} 
+2020-10-05 23:43:07.885 INFO  log4jdbc.log4j2 Line:197 - 39. Connection.new Connection returned 
+2020-10-05 23:43:07.885 INFO  log4jdbc.log4j2 Line:197 - 39. Connection.isReadOnly() returned false
+2020-10-05 23:43:07.885 INFO  log4jdbc.log4j2 Line:197 - 39. Connection.getAutoCommit() returned true
+2020-10-05 23:43:08.089 INFO  log4jdbc.log4j2 Line:365 - 29. Connection closed. {executed in 0ms} 
+2020-10-05 23:43:08.089 INFO  log4jdbc.log4j2 Line:197 - 29. Connection.close() returned 
+2020-10-05 23:43:08.097 INFO  log4jdbc.log4j2 Line:365 - 40. Connection opened. {executed in 9ms} 
+2020-10-05 23:43:08.097 INFO  log4jdbc.log4j2 Line:197 - 40. Connection.new Connection returned 
+2020-10-05 23:43:08.097 INFO  log4jdbc.log4j2 Line:197 - 40. Connection.isReadOnly() returned false
+2020-10-05 23:43:08.097 INFO  log4jdbc.log4j2 Line:197 - 40. Connection.getAutoCommit() returned true
+2020-10-05 23:43:48.781 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 23:48:48.782 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 23:52:54.092 INFO  org.hibernate.validator.internal.util.Version Line:21  - HV000001: Hibernate Validator 6.1.5.Final
+2020-10-05 23:52:54.183 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-05 23:52:56.342 INFO  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:249 - Fetching config from server at : http://localhost:8888
+2020-10-05 23:53:13.217 INFO  com.bench.Bench.BenchBackApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-10-05 23:53:14.766 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-05 23:53:14.767 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-10-05 23:53:14.817 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.ArticleDao. If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository, org.springframework.data.elasticsearch.repository.ElasticsearchRepository.
+2020-10-05 23:53:14.819 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.MuserDao. If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository, org.springframework.data.elasticsearch.repository.ElasticsearchRepository.
+2020-10-05 23:53:14.820 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.UserDao. If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository, org.springframework.data.elasticsearch.repository.ElasticsearchRepository.
+2020-10-05 23:53:14.821 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 44ms. Found 0 Elasticsearch repository interfaces.
+2020-10-05 23:53:14.825 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-05 23:53:14.826 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-10-05 23:53:14.831 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.ArticleDao. If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository.
+2020-10-05 23:53:14.832 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.MuserDao. If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository.
+2020-10-05 23:53:14.832 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.UserDao. If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository.
+2020-10-05 23:53:14.833 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 6ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-10-05 23:53:14.846 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-05 23:53:14.847 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-05 23:53:14.913 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 61ms. Found 3 JPA repository interfaces.
+2020-10-05 23:53:14.929 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-05 23:53:14.931 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-05 23:53:14.947 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.ArticleDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-10-05 23:53:14.948 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.MuserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-10-05 23:53:14.948 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.UserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-10-05 23:53:14.948 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-10-05 23:53:15.557 INFO  org.springframework.cloud.context.scope.GenericScope Line:295 - BeanFactory id=7ce6a58b-5776-31bd-b015-6eeb52c33355
+2020-10-05 23:53:17.269 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8006 (http)
+2020-10-05 23:53:17.290 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8006"]
+2020-10-05 23:53:17.291 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-10-05 23:53:17.292 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-05 23:53:18.342 INFO  org.apache.jasper.servlet.TldScanner Line:173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-05 23:53:18.350 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-10-05 23:53:18.350 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:285 - Root WebApplicationContext: initialization completed in 5104 ms
+2020-10-05 23:53:18.668 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-05 23:53:18.692 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@52862e80
+2020-10-05 23:53:20.204 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-05 23:53:20.236 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2020-10-05 23:53:20.687 INFO  log4jdbc.log4j2 Line:365 - 1. Connection opened. {executed in 401ms} 
+2020-10-05 23:53:20.688 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.new Connection returned 
+2020-10-05 23:53:20.689 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getNetworkTimeout() returned 0
+2020-10-05 23:53:20.690 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isReadOnly() returned false
+2020-10-05 23:53:20.691 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-10-05 23:53:20.692 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(1) returned true
+2020-10-05 23:53:20.694 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getTransactionIsolation() returned 4
+2020-10-05 23:53:20.699 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2020-10-05 23:53:20.708 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@20dbd927
+2020-10-05 23:53:20.714 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:53:20.868 INFO  log4jdbc.log4j2 Line:365 - 2. Connection opened. {executed in 9ms} 
+2020-10-05 23:53:20.869 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.new Connection returned 
+2020-10-05 23:53:20.870 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.isReadOnly() returned false
+2020-10-05 23:53:20.870 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.getAutoCommit() returned true
+2020-10-05 23:53:20.883 INFO  log4jdbc.log4j2 Line:365 - 3. Connection opened. {executed in 13ms} 
+2020-10-05 23:53:20.885 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.new Connection returned 
+2020-10-05 23:53:20.885 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.isReadOnly() returned false
+2020-10-05 23:53:20.885 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.getAutoCommit() returned true
+2020-10-05 23:53:20.893 INFO  log4jdbc.log4j2 Line:365 - 4. Connection opened. {executed in 8ms} 
+2020-10-05 23:53:20.893 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.new Connection returned 
+2020-10-05 23:53:20.894 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.isReadOnly() returned false
+2020-10-05 23:53:20.894 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.getAutoCommit() returned true
+2020-10-05 23:53:20.896 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-05 23:53:20.900 INFO  log4jdbc.log4j2 Line:365 - 5. Connection opened. {executed in 6ms} 
+2020-10-05 23:53:20.901 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.new Connection returned 
+2020-10-05 23:53:20.901 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.isReadOnly() returned false
+2020-10-05 23:53:20.901 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.getAutoCommit() returned true
+2020-10-05 23:53:20.910 INFO  log4jdbc.log4j2 Line:365 - 6. Connection opened. {executed in 9ms} 
+2020-10-05 23:53:20.911 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.new Connection returned 
+2020-10-05 23:53:20.911 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.isReadOnly() returned false
+2020-10-05 23:53:20.911 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.getAutoCommit() returned true
+2020-10-05 23:53:20.921 INFO  log4jdbc.log4j2 Line:365 - 7. Connection opened. {executed in 10ms} 
+2020-10-05 23:53:20.922 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.new Connection returned 
+2020-10-05 23:53:20.922 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.isReadOnly() returned false
+2020-10-05 23:53:20.923 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.getAutoCommit() returned true
+2020-10-05 23:53:20.929 INFO  log4jdbc.log4j2 Line:365 - 8. Connection opened. {executed in 5ms} 
+2020-10-05 23:53:20.930 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.new Connection returned 
+2020-10-05 23:53:20.930 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.isReadOnly() returned false
+2020-10-05 23:53:20.930 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.getAutoCommit() returned true
+2020-10-05 23:53:20.951 INFO  log4jdbc.log4j2 Line:365 - 9. Connection opened. {executed in 21ms} 
+2020-10-05 23:53:20.952 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.new Connection returned 
+2020-10-05 23:53:20.952 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.isReadOnly() returned false
+2020-10-05 23:53:20.952 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.getAutoCommit() returned true
+2020-10-05 23:53:20.963 INFO  log4jdbc.log4j2 Line:365 - 10. Connection opened. {executed in 10ms} 
+2020-10-05 23:53:20.963 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.new Connection returned 
+2020-10-05 23:53:20.964 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.isReadOnly() returned false
+2020-10-05 23:53:20.964 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.getAutoCommit() returned true
+2020-10-05 23:53:21.160 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-05 23:53:21.223 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-05 23:53:21.944 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-05 23:53:22.227 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-10-05 23:53:22.228 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@425fbb3
+2020-10-05 23:53:22.249 INFO  org.hibernate.dialect.Dialect Line:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2020-10-05 23:53:22.289 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getCatalog() returned s3-bench
+2020-10-05 23:53:22.317 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getSchema() returned null
+2020-10-05 23:53:22.319 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getSchema() returned null
+2020-10-05 23:53:22.338 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@5b581a3f
+2020-10-05 23:53:22.381 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.createClob() returned com.mysql.jdbc.Clob@62472995
+2020-10-05 23:53:22.383 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:53:23.765 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-05 23:53:23.779 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-05 23:53:23.780 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-10-05 23:53:23.780 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@413b6d1a
+2020-10-05 23:53:23.780 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:53:30.583 INFO  org.springframework.data.elasticsearch.support.VersionInfo Line:59  - Version Spring Data Elasticsearch: 4.0.4.RELEASE
+2020-10-05 23:53:30.583 INFO  org.springframework.data.elasticsearch.support.VersionInfo Line:60  - Version Elasticsearch Client in build: 7.6.2
+2020-10-05 23:53:30.584 INFO  org.springframework.data.elasticsearch.support.VersionInfo Line:61  - Version Elasticsearch Client used: 7.6.2
+2020-10-05 23:53:32.847 INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:58  - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-10-05 23:53:33.003 INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory Line:72  - Setting initial instance status as: STARTING
+2020-10-05 23:53:33.084 INFO  com.netflix.discovery.DiscoveryClient Line:371 - Initializing Eureka in region us-east-1
+2020-10-05 23:53:33.184 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2020-10-05 23:53:33.184 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2020-10-05 23:53:33.403 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2020-10-05 23:53:33.404 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2020-10-05 23:53:33.669 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 23:53:34.683 INFO  com.netflix.discovery.DiscoveryClient Line:1004 - Disable delta property : false
+2020-10-05 23:53:34.684 INFO  com.netflix.discovery.DiscoveryClient Line:1005 - Single vip registry refresh property : null
+2020-10-05 23:53:34.684 INFO  com.netflix.discovery.DiscoveryClient Line:1006 - Force full registry fetch : false
+2020-10-05 23:53:34.684 INFO  com.netflix.discovery.DiscoveryClient Line:1007 - Application is null : false
+2020-10-05 23:53:34.685 INFO  com.netflix.discovery.DiscoveryClient Line:1008 - Registered Applications size is zero : true
+2020-10-05 23:53:34.685 INFO  com.netflix.discovery.DiscoveryClient Line:1010 - Application version is -1: true
+2020-10-05 23:53:34.685 INFO  com.netflix.discovery.DiscoveryClient Line:1093 - Getting all instance registry info from the eureka server
+2020-10-05 23:53:34.853 INFO  com.netflix.discovery.DiscoveryClient Line:1102 - The response status is 200
+2020-10-05 23:53:34.858 INFO  com.netflix.discovery.DiscoveryClient Line:1317 - Starting heartbeat executor: renew interval is: 30
+2020-10-05 23:53:34.862 INFO  com.netflix.discovery.InstanceInfoReplicator Line:60  - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-10-05 23:53:34.868 INFO  com.netflix.discovery.DiscoveryClient Line:491 - Discovery Client initialized at timestamp 1601913214867 with initial instances count: 2
+2020-10-05 23:53:34.875 INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Line:41  - Registering application BBACK with eureka with status UP
+2020-10-05 23:53:34.876 INFO  com.netflix.discovery.DiscoveryClient Line:1353 - Saw local status change event StatusChangeEvent [timestamp=1601913214876, current=UP, previous=STARTING]
+2020-10-05 23:53:34.878 INFO  com.netflix.discovery.DiscoveryClient Line:870 - DiscoveryClient_BBACK/DESKTOP-4V2GEPM:bback:8006: registering service...
+2020-10-05 23:53:34.879 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8006"]
+2020-10-05 23:53:34.922 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8006 (http) with context path ''
+2020-10-05 23:53:34.924 INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Line:145 - Updating port to 8006
+2020-10-05 23:53:34.936 INFO  com.netflix.discovery.DiscoveryClient Line:879 - DiscoveryClient_BBACK/DESKTOP-4V2GEPM:bback:8006 - registration status: 204
+2020-10-05 23:53:37.547 INFO  org.springframework.data.repository.config.DeferredRepositoryInitializationListener Line:49  - Triggering deferred initialization of Spring Data repositories…
+2020-10-05 23:53:38.017 INFO  org.springframework.data.repository.config.DeferredRepositoryInitializationListener Line:53  - Spring Data repositories initialized!
+2020-10-05 23:53:38.049 INFO  org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor Line:309 - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-05 23:53:38.063 INFO  com.bench.Bench.BenchBackApplication Line:61  - Started BenchBackApplication in 46.263 seconds (JVM running for 49.836)
+2020-10-05 23:53:38.451 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-05 23:53:41.479 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-10-05 23:53:41.481 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setReadOnly(true) returned 
+2020-10-05 23:53:41.481 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-10-05 23:53:41.482 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setAutoCommit(false) returned 
+2020-10-05 23:53:41.820 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.new PreparedStatement returned 
+2020-10-05 23:53:41.821 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.prepareStatement(select s3user0_.id as id1_2_, s3user0_.account as account2_2_, s3user0_.address as address3_2_, s3user0_.certificainfo as certific4_2_, s3user0_.email as email5_2_, s3user0_.phone as phone6_2_, s3user0_.pwd as pwd7_2_, s3user0_.regtime as regtime8_2_, s3user0_.repwd as repwd9_2_, s3user0_.signature as signatu10_2_, s3user0_.uhead as uhead11_2_, s3user0_.ulevel as ulevel12_2_, s3user0_.urich as urich13_2_, s3user0_.uviplevel as uviplev14_2_ from s3_user s3user0_ order by s3user0_.regtime asc limit ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@4d638c84
+2020-10-05 23:53:41.828 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.setInt(1, 10) returned 
+2020-10-05 23:53:41.860 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getMaxRows() returned 0
+2020-10-05 23:53:41.861 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getQueryTimeout() returned 0
+2020-10-05 23:53:41.862 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.close() returned 
+2020-10-05 23:53:41.872 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.rollback() returned 
+2020-10-05 23:53:41.873 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setAutoCommit(true) returned 
+2020-10-05 23:53:41.877 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setReadOnly(false) returned 
+2020-10-05 23:53:41.893 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.isValid(5) returned true
+2020-10-05 23:53:41.894 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:53:41.894 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:53:41.894 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@276c77c6
+2020-10-05 23:53:41.895 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.clearWarnings() returned 
+2020-10-05 23:53:41.896 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.isValid(0) returned true
+2020-10-05 23:53:41.897 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.clearWarnings() returned 
+2020-10-05 23:53:41.909 INFO  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:249 - Fetching config from server at : http://localhost:8888
+2020-10-05 23:54:34.765 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-10-05 23:54:34.766 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setReadOnly(true) returned 
+2020-10-05 23:54:34.767 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-10-05 23:54:34.768 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setAutoCommit(false) returned 
+2020-10-05 23:54:34.770 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.new PreparedStatement returned 
+2020-10-05 23:54:34.771 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.prepareStatement(select s3user0_.id as id1_2_, s3user0_.account as account2_2_, s3user0_.address as address3_2_, s3user0_.certificainfo as certific4_2_, s3user0_.email as email5_2_, s3user0_.phone as phone6_2_, s3user0_.pwd as pwd7_2_, s3user0_.regtime as regtime8_2_, s3user0_.repwd as repwd9_2_, s3user0_.signature as signatu10_2_, s3user0_.uhead as uhead11_2_, s3user0_.ulevel as ulevel12_2_, s3user0_.urich as urich13_2_, s3user0_.uviplevel as uviplev14_2_ from s3_user s3user0_ order by s3user0_.regtime asc limit ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@110db556
+2020-10-05 23:54:34.772 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.setInt(1, 10) returned 
+2020-10-05 23:54:34.780 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getMaxRows() returned 0
+2020-10-05 23:54:34.781 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getQueryTimeout() returned 0
+2020-10-05 23:54:34.782 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.close() returned 
+2020-10-05 23:54:34.783 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.rollback() returned 
+2020-10-05 23:54:34.784 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setAutoCommit(true) returned 
+2020-10-05 23:54:34.784 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setReadOnly(false) returned 
+2020-10-05 23:54:34.785 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:54:34.785 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:55:20.803 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-10-05 23:55:20.804 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setReadOnly(true) returned 
+2020-10-05 23:55:20.804 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-10-05 23:55:20.805 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setAutoCommit(false) returned 
+2020-10-05 23:55:20.807 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.new PreparedStatement returned 
+2020-10-05 23:55:20.808 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.prepareStatement(select s3user0_.id as id1_2_, s3user0_.account as account2_2_, s3user0_.address as address3_2_, s3user0_.certificainfo as certific4_2_, s3user0_.email as email5_2_, s3user0_.phone as phone6_2_, s3user0_.pwd as pwd7_2_, s3user0_.regtime as regtime8_2_, s3user0_.repwd as repwd9_2_, s3user0_.signature as signatu10_2_, s3user0_.uhead as uhead11_2_, s3user0_.ulevel as ulevel12_2_, s3user0_.urich as urich13_2_, s3user0_.uviplevel as uviplev14_2_ from s3_user s3user0_ order by s3user0_.regtime asc limit ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@ffeff0a
+2020-10-05 23:55:20.809 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.setInt(1, 10) returned 
+2020-10-05 23:55:20.813 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getMaxRows() returned 0
+2020-10-05 23:55:20.814 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getQueryTimeout() returned 0
+2020-10-05 23:55:20.814 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.close() returned 
+2020-10-05 23:55:20.815 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.rollback() returned 
+2020-10-05 23:55:20.816 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setAutoCommit(true) returned 
+2020-10-05 23:55:20.817 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setReadOnly(false) returned 
+2020-10-05 23:55:20.818 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:55:20.818 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:56:01.424 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-10-05 23:56:01.425 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setReadOnly(true) returned 
+2020-10-05 23:56:01.425 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-10-05 23:56:01.426 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setAutoCommit(false) returned 
+2020-10-05 23:56:01.429 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.new PreparedStatement returned 
+2020-10-05 23:56:01.430 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.prepareStatement(select s3user0_.id as id1_2_, s3user0_.account as account2_2_, s3user0_.address as address3_2_, s3user0_.certificainfo as certific4_2_, s3user0_.email as email5_2_, s3user0_.phone as phone6_2_, s3user0_.pwd as pwd7_2_, s3user0_.regtime as regtime8_2_, s3user0_.repwd as repwd9_2_, s3user0_.signature as signatu10_2_, s3user0_.uhead as uhead11_2_, s3user0_.ulevel as ulevel12_2_, s3user0_.urich as urich13_2_, s3user0_.uviplevel as uviplev14_2_ from s3_user s3user0_ order by s3user0_.regtime asc limit ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@3c53116c
+2020-10-05 23:56:01.430 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.setInt(1, 10) returned 
+2020-10-05 23:56:01.435 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getMaxRows() returned 0
+2020-10-05 23:56:01.436 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getQueryTimeout() returned 0
+2020-10-05 23:56:01.436 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.close() returned 
+2020-10-05 23:56:01.437 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.rollback() returned 
+2020-10-05 23:56:01.437 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setAutoCommit(true) returned 
+2020-10-05 23:56:01.438 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setReadOnly(false) returned 
+2020-10-05 23:56:01.438 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:56:01.438 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:57:27.943 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-10-05 23:57:27.944 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setReadOnly(true) returned 
+2020-10-05 23:57:27.945 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-10-05 23:57:27.945 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setAutoCommit(false) returned 
+2020-10-05 23:57:27.947 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.new PreparedStatement returned 
+2020-10-05 23:57:27.947 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.prepareStatement(select s3user0_.id as id1_2_, s3user0_.account as account2_2_, s3user0_.address as address3_2_, s3user0_.certificainfo as certific4_2_, s3user0_.email as email5_2_, s3user0_.phone as phone6_2_, s3user0_.pwd as pwd7_2_, s3user0_.regtime as regtime8_2_, s3user0_.repwd as repwd9_2_, s3user0_.signature as signatu10_2_, s3user0_.uhead as uhead11_2_, s3user0_.ulevel as ulevel12_2_, s3user0_.urich as urich13_2_, s3user0_.uviplevel as uviplev14_2_ from s3_user s3user0_ order by s3user0_.regtime asc limit ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@614960c9
+2020-10-05 23:57:27.947 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.setInt(1, 10) returned 
+2020-10-05 23:57:27.950 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getMaxRows() returned 0
+2020-10-05 23:57:27.950 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getQueryTimeout() returned 0
+2020-10-05 23:57:27.950 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.close() returned 
+2020-10-05 23:57:27.951 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.rollback() returned 
+2020-10-05 23:57:27.952 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setAutoCommit(true) returned 
+2020-10-05 23:57:27.952 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setReadOnly(false) returned 
+2020-10-05 23:57:27.953 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:57:27.953 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:57:51.574 INFO  org.hibernate.validator.internal.util.Version Line:21  - HV000001: Hibernate Validator 6.1.5.Final
+2020-10-05 23:57:51.679 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-05 23:57:54.175 INFO  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:249 - Fetching config from server at : http://localhost:8888
+2020-10-05 23:58:10.394 INFO  com.bench.Bench.BenchBackApplication Line:651 - No active profile set, falling back to default profiles: default
+2020-10-05 23:58:11.764 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-05 23:58:11.765 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-10-05 23:58:11.804 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.ArticleDao. If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository, org.springframework.data.elasticsearch.repository.ElasticsearchRepository.
+2020-10-05 23:58:11.805 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.MuserDao. If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository, org.springframework.data.elasticsearch.repository.ElasticsearchRepository.
+2020-10-05 23:58:11.807 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.UserDao. If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository, org.springframework.data.elasticsearch.repository.ElasticsearchRepository.
+2020-10-05 23:58:11.808 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 39ms. Found 0 Elasticsearch repository interfaces.
+2020-10-05 23:58:11.812 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-05 23:58:11.813 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-10-05 23:58:11.817 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.ArticleDao. If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository.
+2020-10-05 23:58:11.818 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.MuserDao. If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository.
+2020-10-05 23:58:11.818 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.UserDao. If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository.
+2020-10-05 23:58:11.818 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 4ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-10-05 23:58:11.828 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-05 23:58:11.829 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-05 23:58:11.896 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 58ms. Found 3 JPA repository interfaces.
+2020-10-05 23:58:11.912 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-05 23:58:11.913 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-05 23:58:11.927 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.ArticleDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-10-05 23:58:11.928 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.MuserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-10-05 23:58:11.929 INFO  org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport Line:348 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.bench.Bench.dao.UserDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-10-05 23:58:11.929 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate Line:187 - Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2020-10-05 23:58:12.544 INFO  org.springframework.cloud.context.scope.GenericScope Line:295 - BeanFactory id=7ce6a58b-5776-31bd-b015-6eeb52c33355
+2020-10-05 23:58:13.492 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:108 - Tomcat initialized with port(s): 8006 (http)
+2020-10-05 23:58:13.504 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Initializing ProtocolHandler ["http-nio-8006"]
+2020-10-05 23:58:13.504 INFO  org.apache.catalina.core.StandardService Line:173 - Starting service [Tomcat]
+2020-10-05 23:58:13.505 INFO  org.apache.catalina.core.StandardEngine Line:173 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-05 23:58:14.030 INFO  org.apache.jasper.servlet.TldScanner Line:173 - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-05 23:58:14.035 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring embedded WebApplicationContext
+2020-10-05 23:58:14.035 INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Line:285 - Root WebApplicationContext: initialization completed in 3620 ms
+2020-10-05 23:58:14.199 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-05 23:58:14.214 INFO  com.netflix.config.DynamicPropertyFactory Line:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6becef19
+2020-10-05 23:58:15.043 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Line:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-05 23:58:15.059 INFO  com.zaxxer.hikari.HikariDataSource Line:110 - HikariPool-1 - Starting...
+2020-10-05 23:58:15.283 INFO  log4jdbc.log4j2 Line:365 - 1. Connection opened. {executed in 204ms} 
+2020-10-05 23:58:15.284 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.new Connection returned 
+2020-10-05 23:58:15.284 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getNetworkTimeout() returned 0
+2020-10-05 23:58:15.285 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isReadOnly() returned false
+2020-10-05 23:58:15.286 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-10-05 23:58:15.286 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(1) returned true
+2020-10-05 23:58:15.287 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getTransactionIsolation() returned 4
+2020-10-05 23:58:15.290 INFO  com.zaxxer.hikari.HikariDataSource Line:123 - HikariPool-1 - Start completed.
+2020-10-05 23:58:15.298 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@1deccb5e
+2020-10-05 23:58:15.304 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:58:15.363 INFO  org.hibernate.jpa.internal.util.LogHelper Line:31  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-05 23:58:15.401 INFO  log4jdbc.log4j2 Line:365 - 2. Connection opened. {executed in 7ms} 
+2020-10-05 23:58:15.402 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.new Connection returned 
+2020-10-05 23:58:15.402 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.isReadOnly() returned false
+2020-10-05 23:58:15.402 INFO  log4jdbc.log4j2 Line:197 - 2. Connection.getAutoCommit() returned true
+2020-10-05 23:58:15.408 INFO  log4jdbc.log4j2 Line:365 - 3. Connection opened. {executed in 5ms} 
+2020-10-05 23:58:15.408 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.new Connection returned 
+2020-10-05 23:58:15.409 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.isReadOnly() returned false
+2020-10-05 23:58:15.409 INFO  log4jdbc.log4j2 Line:197 - 3. Connection.getAutoCommit() returned true
+2020-10-05 23:58:15.418 INFO  log4jdbc.log4j2 Line:365 - 4. Connection opened. {executed in 9ms} 
+2020-10-05 23:58:15.418 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.new Connection returned 
+2020-10-05 23:58:15.418 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.isReadOnly() returned false
+2020-10-05 23:58:15.418 INFO  log4jdbc.log4j2 Line:197 - 4. Connection.getAutoCommit() returned true
+2020-10-05 23:58:15.425 INFO  log4jdbc.log4j2 Line:365 - 5. Connection opened. {executed in 6ms} 
+2020-10-05 23:58:15.425 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.new Connection returned 
+2020-10-05 23:58:15.425 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.isReadOnly() returned false
+2020-10-05 23:58:15.425 INFO  log4jdbc.log4j2 Line:197 - 5. Connection.getAutoCommit() returned true
+2020-10-05 23:58:15.432 INFO  log4jdbc.log4j2 Line:365 - 6. Connection opened. {executed in 6ms} 
+2020-10-05 23:58:15.432 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.new Connection returned 
+2020-10-05 23:58:15.432 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.isReadOnly() returned false
+2020-10-05 23:58:15.433 INFO  log4jdbc.log4j2 Line:197 - 6. Connection.getAutoCommit() returned true
+2020-10-05 23:58:15.438 INFO  log4jdbc.log4j2 Line:365 - 7. Connection opened. {executed in 5ms} 
+2020-10-05 23:58:15.438 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.new Connection returned 
+2020-10-05 23:58:15.438 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.isReadOnly() returned false
+2020-10-05 23:58:15.438 INFO  log4jdbc.log4j2 Line:197 - 7. Connection.getAutoCommit() returned true
+2020-10-05 23:58:15.445 INFO  log4jdbc.log4j2 Line:365 - 8. Connection opened. {executed in 6ms} 
+2020-10-05 23:58:15.445 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.new Connection returned 
+2020-10-05 23:58:15.445 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.isReadOnly() returned false
+2020-10-05 23:58:15.445 INFO  log4jdbc.log4j2 Line:197 - 8. Connection.getAutoCommit() returned true
+2020-10-05 23:58:15.449 INFO  log4jdbc.log4j2 Line:365 - 9. Connection opened. {executed in 4ms} 
+2020-10-05 23:58:15.450 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.new Connection returned 
+2020-10-05 23:58:15.450 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.isReadOnly() returned false
+2020-10-05 23:58:15.450 INFO  log4jdbc.log4j2 Line:197 - 9. Connection.getAutoCommit() returned true
+2020-10-05 23:58:15.457 INFO  log4jdbc.log4j2 Line:365 - 10. Connection opened. {executed in 7ms} 
+2020-10-05 23:58:15.457 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.new Connection returned 
+2020-10-05 23:58:15.458 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.isReadOnly() returned false
+2020-10-05 23:58:15.458 INFO  log4jdbc.log4j2 Line:197 - 10. Connection.getAutoCommit() returned true
+2020-10-05 23:58:15.465 INFO  com.netflix.config.sources.URLConfigurationSource Line:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-10-05 23:58:15.473 INFO  org.hibernate.Version Line:44  - HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-05 23:58:15.777 INFO  org.hibernate.annotations.common.Version Line:49  - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-05 23:58:15.970 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-10-05 23:58:15.970 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@6c9d4626
+2020-10-05 23:58:15.987 INFO  org.hibernate.dialect.Dialect Line:170 - HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2020-10-05 23:58:16.019 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getCatalog() returned s3-bench
+2020-10-05 23:58:16.035 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getSchema() returned null
+2020-10-05 23:58:16.035 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getSchema() returned null
+2020-10-05 23:58:16.048 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@19973a21
+2020-10-05 23:58:16.050 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.createClob() returned com.mysql.jdbc.Clob@12f72963
+2020-10-05 23:58:16.051 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:58:17.449 INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator Line:52  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-05 23:58:17.468 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Line:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-05 23:58:17.469 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-10-05 23:58:17.469 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@28fb6071
+2020-10-05 23:58:17.469 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:58:24.010 INFO  org.springframework.data.elasticsearch.support.VersionInfo Line:59  - Version Spring Data Elasticsearch: 4.0.4.RELEASE
+2020-10-05 23:58:24.010 INFO  org.springframework.data.elasticsearch.support.VersionInfo Line:60  - Version Elasticsearch Client in build: 7.6.2
+2020-10-05 23:58:24.010 INFO  org.springframework.data.elasticsearch.support.VersionInfo Line:61  - Version Elasticsearch Client used: 7.6.2
+2020-10-05 23:58:26.159 INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Line:58  - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-10-05 23:58:26.292 INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory Line:72  - Setting initial instance status as: STARTING
+2020-10-05 23:58:26.345 INFO  com.netflix.discovery.DiscoveryClient Line:371 - Initializing Eureka in region us-east-1
+2020-10-05 23:58:26.410 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:70  - Using JSON encoding codec LegacyJacksonJson
+2020-10-05 23:58:26.411 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:71  - Using JSON decoding codec LegacyJacksonJson
+2020-10-05 23:58:26.587 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:80  - Using XML encoding codec XStreamXml
+2020-10-05 23:58:26.588 INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider Line:81  - Using XML decoding codec XStreamXml
+2020-10-05 23:58:26.856 INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Line:43  - Resolving eureka endpoints via configuration
+2020-10-05 23:58:27.781 INFO  com.netflix.discovery.DiscoveryClient Line:1004 - Disable delta property : false
+2020-10-05 23:58:27.782 INFO  com.netflix.discovery.DiscoveryClient Line:1005 - Single vip registry refresh property : null
+2020-10-05 23:58:27.782 INFO  com.netflix.discovery.DiscoveryClient Line:1006 - Force full registry fetch : false
+2020-10-05 23:58:27.782 INFO  com.netflix.discovery.DiscoveryClient Line:1007 - Application is null : false
+2020-10-05 23:58:27.783 INFO  com.netflix.discovery.DiscoveryClient Line:1008 - Registered Applications size is zero : true
+2020-10-05 23:58:27.783 INFO  com.netflix.discovery.DiscoveryClient Line:1010 - Application version is -1: true
+2020-10-05 23:58:27.783 INFO  com.netflix.discovery.DiscoveryClient Line:1093 - Getting all instance registry info from the eureka server
+2020-10-05 23:58:27.913 INFO  com.netflix.discovery.DiscoveryClient Line:1102 - The response status is 200
+2020-10-05 23:58:27.916 INFO  com.netflix.discovery.DiscoveryClient Line:1317 - Starting heartbeat executor: renew interval is: 30
+2020-10-05 23:58:27.920 INFO  com.netflix.discovery.InstanceInfoReplicator Line:60  - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-10-05 23:58:27.927 INFO  com.netflix.discovery.DiscoveryClient Line:491 - Discovery Client initialized at timestamp 1601913507925 with initial instances count: 2
+2020-10-05 23:58:27.934 INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Line:41  - Registering application BBACK with eureka with status UP
+2020-10-05 23:58:27.935 INFO  com.netflix.discovery.DiscoveryClient Line:1353 - Saw local status change event StatusChangeEvent [timestamp=1601913507935, current=UP, previous=STARTING]
+2020-10-05 23:58:27.937 INFO  com.netflix.discovery.DiscoveryClient Line:870 - DiscoveryClient_BBACK/DESKTOP-4V2GEPM:bback:8006: registering service...
+2020-10-05 23:58:27.939 INFO  org.apache.coyote.http11.Http11NioProtocol Line:173 - Starting ProtocolHandler ["http-nio-8006"]
+2020-10-05 23:58:27.974 INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer Line:220 - Tomcat started on port(s): 8006 (http) with context path ''
+2020-10-05 23:58:27.975 INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Line:145 - Updating port to 8006
+2020-10-05 23:58:27.987 INFO  com.netflix.discovery.DiscoveryClient Line:879 - DiscoveryClient_BBACK/DESKTOP-4V2GEPM:bback:8006 - registration status: 204
+2020-10-05 23:58:30.340 INFO  org.springframework.data.repository.config.DeferredRepositoryInitializationListener Line:49  - Triggering deferred initialization of Spring Data repositories…
+2020-10-05 23:58:30.736 INFO  org.springframework.data.repository.config.DeferredRepositoryInitializationListener Line:53  - Spring Data repositories initialized!
+2020-10-05 23:58:30.756 INFO  org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor Line:309 - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2020-10-05 23:58:30.766 INFO  com.bench.Bench.BenchBackApplication Line:61  - Started BenchBackApplication in 41.84 seconds (JVM running for 45.335)
+2020-10-05 23:58:32.075 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-10-05 23:58:32.076 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@24181b04
+2020-10-05 23:58:32.077 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:58:32.078 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(0) returned true
+2020-10-05 23:58:32.079 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:58:32.093 INFO  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:249 - Fetching config from server at : http://localhost:8888
+2020-10-05 23:58:32.216 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Line:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-05 23:58:56.132 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.isValid(5) returned true
+2020-10-05 23:58:56.133 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setReadOnly(true) returned 
+2020-10-05 23:58:56.133 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.getAutoCommit() returned true
+2020-10-05 23:58:56.134 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setAutoCommit(false) returned 
+2020-10-05 23:58:56.351 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.new PreparedStatement returned 
+2020-10-05 23:58:56.351 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.prepareStatement(select s3user0_.id as id1_2_, s3user0_.account as account2_2_, s3user0_.address as address3_2_, s3user0_.certificainfo as certific4_2_, s3user0_.email as email5_2_, s3user0_.phone as phone6_2_, s3user0_.pwd as pwd7_2_, s3user0_.regtime as regtime8_2_, s3user0_.signature as signatur9_2_, s3user0_.uhead as uhead10_2_, s3user0_.ulevel as ulevel11_2_, s3user0_.urich as urich12_2_, s3user0_.uviplevel as uviplev13_2_ from s3_user s3user0_ order by s3user0_.regtime asc limit ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@4cf2d355
+2020-10-05 23:58:56.355 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.setInt(1, 10) returned 
+2020-10-05 23:58:56.367 INFO  log4jdbc.log4j2 Line:243 - 1. select s3user0_.id as id1_2_, s3user0_.account as account2_2_, s3user0_.address as address3_2_, 
+s3user0_.certificainfo as certific4_2_, s3user0_.email as email5_2_, s3user0_.phone as phone6_2_, 
+s3user0_.pwd as pwd7_2_, s3user0_.regtime as regtime8_2_, s3user0_.signature as signatur9_2_, 
+s3user0_.uhead as uhead10_2_, s3user0_.ulevel as ulevel11_2_, s3user0_.urich as urich12_2_, 
+s3user0_.uviplevel as uviplev13_2_ from s3_user s3user0_ order by s3user0_.regtime asc limit 
+10  {executed in 8 ms}
+2020-10-05 23:58:56.373 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.new ResultSet returned 
+2020-10-05 23:58:56.374 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.executeQuery() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@10c60f9b
+2020-10-05 23:58:56.376 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned true
+2020-10-05 23:58:56.406 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getInt(id1_2_) returned 25
+2020-10-05 23:58:56.407 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.425 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(account2_2_) returned admin
+2020-10-05 23:58:56.425 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.425 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(address3_2_) returned 湖南
+2020-10-05 23:58:56.426 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.426 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(certific4_2_) returned 知名游戏主播
+2020-10-05 23:58:56.426 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.426 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(email5_2_) returned 1529072552@qq.com
+2020-10-05 23:58:56.427 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.427 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(phone6_2_) returned 17673471352
+2020-10-05 23:58:56.427 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.427 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(pwd7_2_) returned 4655332D67BFC42ACE94CC2D96FE07D1
+2020-10-05 23:58:56.428 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.431 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getTimestamp(regtime8_2_) returned 2020-09-24 18:33:37.0
+2020-10-05 23:58:56.432 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.433 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(signatur9_2_) returned 人生一场梦
+2020-10-05 23:58:56.433 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.434 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(uhead10_2_) returned /images/20190122101256_ajuPN.gif
+2020-10-05 23:58:56.434 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.434 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getInt(ulevel11_2_) returned 0
+2020-10-05 23:58:56.435 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.435 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(urich12_2_) returned 0
+2020-10-05 23:58:56.435 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.436 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(uviplev13_2_) returned void
+2020-10-05 23:58:56.437 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned true
+2020-10-05 23:58:56.438 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getInt(id1_2_) returned 28
+2020-10-05 23:58:56.438 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.438 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(account2_2_) returned wusong
+2020-10-05 23:58:56.439 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.439 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(address3_2_) returned 湖南
+2020-10-05 23:58:56.439 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.439 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(certific4_2_) returned 作者
+2020-10-05 23:58:56.440 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.440 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(email5_2_) returned 1529072552@qq.com
+2020-10-05 23:58:56.440 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.440 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(phone6_2_) returned 17673471352
+2020-10-05 23:58:56.440 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.441 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(pwd7_2_) returned 4655332D67BFC42ACE94CC2D96FE07D1
+2020-10-05 23:58:56.441 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.441 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getTimestamp(regtime8_2_) returned 2020-09-28 08:35:18.0
+2020-10-05 23:58:56.442 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.442 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(signatur9_2_) returned 学而时习之不亦乐乎
+2020-10-05 23:58:56.442 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.443 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(uhead10_2_) returned /images/头像6.jpg
+2020-10-05 23:58:56.443 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.443 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getInt(ulevel11_2_) returned 0
+2020-10-05 23:58:56.443 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.444 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(urich12_2_) returned 0
+2020-10-05 23:58:56.444 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.444 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(uviplev13_2_) returned void
+2020-10-05 23:58:56.444 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned true
+2020-10-05 23:58:56.444 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getInt(id1_2_) returned 29
+2020-10-05 23:58:56.445 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.446 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(account2_2_) returned 人生如梦
+2020-10-05 23:58:56.447 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.447 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(address3_2_) returned 湖南
+2020-10-05 23:58:56.448 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.448 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(certific4_2_) returned void
+2020-10-05 23:58:56.449 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(email5_2_) returned 1529072552@qq.com
+2020-10-05 23:58:56.449 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.449 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(phone6_2_) returned 17673471352
+2020-10-05 23:58:56.450 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.450 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(pwd7_2_) returned 4655332D67BFC42ACE94CC2D96FE07D1
+2020-10-05 23:58:56.450 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.451 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getTimestamp(regtime8_2_) returned 2020-09-28 12:49:33.0
+2020-10-05 23:58:56.451 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.451 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(signatur9_2_) returned 人生如梦
+2020-10-05 23:58:56.452 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.452 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(uhead10_2_) returned /images/头像4.jpeg
+2020-10-05 23:58:56.452 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.452 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getInt(ulevel11_2_) returned 0
+2020-10-05 23:58:56.453 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.453 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(urich12_2_) returned 0
+2020-10-05 23:58:56.453 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.453 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(uviplev13_2_) returned void
+2020-10-05 23:58:56.453 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned true
+2020-10-05 23:58:56.454 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getInt(id1_2_) returned 30
+2020-10-05 23:58:56.454 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.454 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(account2_2_) returned zhangsan
+2020-10-05 23:58:56.454 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.454 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(address3_2_) returned 南京
+2020-10-05 23:58:56.455 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.455 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(certific4_2_) returned 游戏主播
+2020-10-05 23:58:56.455 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.455 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(email5_2_) returned 1529072552@qq.com
+2020-10-05 23:58:56.456 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.456 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(phone6_2_) returned 17673471352
+2020-10-05 23:58:56.456 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.456 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(pwd7_2_) returned 4655332D67BFC42ACE94CC2D96FE07D1
+2020-10-05 23:58:56.456 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.457 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getTimestamp(regtime8_2_) returned 2020-09-28 12:51:46.0
+2020-10-05 23:58:56.457 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.457 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(signatur9_2_) returned 新人求关注
+2020-10-05 23:58:56.458 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.458 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(uhead10_2_) returned /images/头像16.jpg
+2020-10-05 23:58:56.458 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.458 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getInt(ulevel11_2_) returned 0
+2020-10-05 23:58:56.458 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.459 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(urich12_2_) returned 0
+2020-10-05 23:58:56.459 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.459 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(uviplev13_2_) returned void
+2020-10-05 23:58:56.459 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned true
+2020-10-05 23:58:56.459 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getInt(id1_2_) returned 31
+2020-10-05 23:58:56.459 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.460 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(account2_2_) returned 嫣然
+2020-10-05 23:58:56.460 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.460 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(address3_2_) returned 北京
+2020-10-05 23:58:56.461 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.462 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(certific4_2_) returned 美图分享博主
+2020-10-05 23:58:56.463 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.464 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(email5_2_) returned 1529072552@qq.com
+2020-10-05 23:58:56.465 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.465 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(phone6_2_) returned 17673471352
+2020-10-05 23:58:56.465 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.465 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(pwd7_2_) returned 4655332D67BFC42ACE94CC2D96FE07D1
+2020-10-05 23:58:56.466 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.466 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getTimestamp(regtime8_2_) returned 2020-09-28 16:53:11.0
+2020-10-05 23:58:56.466 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.467 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(signatur9_2_) returned 分享一些美图
+2020-10-05 23:58:56.467 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.467 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(uhead10_2_) returned /images/20171222212850_KCNEW.gif
+2020-10-05 23:58:56.468 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.469 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getInt(ulevel11_2_) returned 0
+2020-10-05 23:58:56.469 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.469 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(urich12_2_) returned 0
+2020-10-05 23:58:56.470 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.470 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(uviplev13_2_) returned void
+2020-10-05 23:58:56.471 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned true
+2020-10-05 23:58:56.471 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getInt(id1_2_) returned 32
+2020-10-05 23:58:56.471 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.472 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(account2_2_) returned 简单的心
+2020-10-05 23:58:56.472 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.473 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(address3_2_) returned void
+2020-10-05 23:58:56.473 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(certific4_2_) returned void
+2020-10-05 23:58:56.473 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(email5_2_) returned 1529072552@qq.com
+2020-10-05 23:58:56.474 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.474 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(phone6_2_) returned 17673471352
+2020-10-05 23:58:56.474 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.475 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(pwd7_2_) returned 4655332D67BFC42ACE94CC2D96FE07D1
+2020-10-05 23:58:56.475 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.475 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getTimestamp(regtime8_2_) returned 2020-09-29 20:06:54.0
+2020-10-05 23:58:56.475 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.476 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(signatur9_2_) returned void
+2020-10-05 23:58:56.476 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(uhead10_2_) returned /images/20200811075224_AznLj.gif
+2020-10-05 23:58:56.476 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.476 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getInt(ulevel11_2_) returned 40
+2020-10-05 23:58:56.476 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.477 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(urich12_2_) returned 0
+2020-10-05 23:58:56.477 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.477 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(uviplev13_2_) returned void
+2020-10-05 23:58:56.477 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned true
+2020-10-05 23:58:56.478 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getInt(id1_2_) returned 33
+2020-10-05 23:58:56.478 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.479 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(account2_2_) returned 时光深巷少女与猫i
+2020-10-05 23:58:56.480 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.481 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(address3_2_) returned void
+2020-10-05 23:58:56.481 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(certific4_2_) returned void
+2020-10-05 23:58:56.482 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(email5_2_) returned 1529072552@qq.com
+2020-10-05 23:58:56.482 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.482 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(phone6_2_) returned 17673471352
+2020-10-05 23:58:56.483 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.483 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(pwd7_2_) returned 4655332D67BFC42ACE94CC2D96FE07D1
+2020-10-05 23:58:56.483 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.484 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getTimestamp(regtime8_2_) returned 2020-09-29 20:19:54.0
+2020-10-05 23:58:56.484 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.484 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(signatur9_2_) returned void
+2020-10-05 23:58:56.484 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(uhead10_2_) returned /images/20190122101259_vcifW.gif
+2020-10-05 23:58:56.485 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.485 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getInt(ulevel11_2_) returned 30
+2020-10-05 23:58:56.485 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.485 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(urich12_2_) returned 0
+2020-10-05 23:58:56.485 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.wasNull() returned false
+2020-10-05 23:58:56.486 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.getString(uviplev13_2_) returned void
+2020-10-05 23:58:56.489 INFO  log4jdbc.log4j2 Line:390 - 
+|---|----------|--------|--------------|------------------|------------|---------------------------------|----------------------|----------|---------------------------------|-------|------|----------|
+|id |account   |address |certificainfo |email             |phone       |pwd                              |regtime               |signature |uhead                            |ulevel |urich |uviplevel |
+|---|----------|--------|--------------|------------------|------------|---------------------------------|----------------------|----------|---------------------------------|-------|------|----------|
+|25 |admin     |湖南      |知名游戏主播        |1529072552@qq.com |17673471352 |4655332D67BFC42ACE94CC2D96FE07D1 |2020-09-24 18:33:37.0 |人生一场梦     |/images/20190122101256_ajuPN.gif |0      |0     |null      |
+|28 |wusong    |湖南      |作者            |1529072552@qq.com |17673471352 |4655332D67BFC42ACE94CC2D96FE07D1 |2020-09-28 08:35:18.0 |学而时习之不亦乐乎 |/images/头像6.jpg                  |0      |0     |null      |
+|29 |人生如梦      |湖南      |null          |1529072552@qq.com |17673471352 |4655332D67BFC42ACE94CC2D96FE07D1 |2020-09-28 12:49:33.0 |人生如梦      |/images/头像4.jpeg                 |0      |0     |null      |
+|30 |zhangsan  |南京      |游戏主播          |1529072552@qq.com |17673471352 |4655332D67BFC42ACE94CC2D96FE07D1 |2020-09-28 12:51:46.0 |新人求关注     |/images/头像16.jpg                 |0      |0     |null      |
+|31 |嫣然        |北京      |美图分享博主        |1529072552@qq.com |17673471352 |4655332D67BFC42ACE94CC2D96FE07D1 |2020-09-28 16:53:11.0 |分享一些美图    |/images/20171222212850_KCNEW.gif |0      |0     |null      |
+|32 |简单的心      |null    |null          |1529072552@qq.com |17673471352 |4655332D67BFC42ACE94CC2D96FE07D1 |2020-09-29 20:06:54.0 |null      |/images/20200811075224_AznLj.gif |40     |0     |null      |
+|33 |时光深巷少女与猫i |null    |null          |1529072552@qq.com |17673471352 |4655332D67BFC42ACE94CC2D96FE07D1 |2020-09-29 20:19:54.0 |null      |/images/20190122101259_vcifW.gif |30     |0     |null      |
+|---|----------|--------|--------------|------------------|------------|---------------------------------|----------------------|----------|---------------------------------|-------|------|----------|
+
+2020-10-05 23:58:56.489 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.next() returned false
+2020-10-05 23:58:56.495 INFO  log4jdbc.log4j2 Line:197 - 1. ResultSet.close() returned void
+2020-10-05 23:58:56.495 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getMaxRows() returned 0
+2020-10-05 23:58:56.495 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.getQueryTimeout() returned 0
+2020-10-05 23:58:56.496 INFO  log4jdbc.log4j2 Line:197 - 1. PreparedStatement.close() returned 
+2020-10-05 23:58:56.534 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.commit() returned 
+2020-10-05 23:58:56.535 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setAutoCommit(true) returned 
+2020-10-05 23:58:56.536 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.setReadOnly(false) returned 
+2020-10-05 23:58:56.580 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 
+2020-10-05 23:58:56.580 INFO  log4jdbc.log4j2 Line:197 - 1. Connection.clearWarnings() returned 

@@ -6,7 +6,6 @@ import java.util.concurrent.TimeUnit;
 import javax.annotation.Resource;
 import javax.validation.Valid;
 
-import com.bench.bean.S3Muser;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -20,7 +19,6 @@ import org.springframework.web.bind.support.SessionStatus;
 
 import com.bench.Bench.remote.IUserAction;
 import com.bench.Bench.util.SendMail;
-import com.bench.bean.Result;
 import com.bench.bean.S3User;
 
 @Controller

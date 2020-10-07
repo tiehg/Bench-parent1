@@ -2,7 +2,7 @@
   <el-aside :width="iscollapsed?'64px':'200px'">
     <!--左侧导航-->
     <aside :class="{showSidebar:!iscollapsed}"
-           style="margin-left: -8px;margin-top: -1px;">
+           style="margin-left: -8px;margin-top: -1px;height: 850px">
       <!--展开折叠开关-->
       <div class="menu-toggle" @click.prevent="iscollapse" >
         <i class="el-icon-s-fold" v-show="!iscollapsed" title="收起"></i>
@@ -20,11 +20,11 @@
               <el-submenu v-if="!item.leaf" :index="index+''" v-show="item.menuShow">
 
                 <template slot="title">
-                  <i :class="item.iconCls"></i><span slot="title" style="color: white">{{item.name}}</span>
+                  <i :class="item.iconCls"></i><span slot="title" style="color: #000000">{{item.name}}</span>
                 </template>
 
                 <el-menu-item v-for="term in item.children" :key="term.path" :index="term.path" v-if="term.menuShow"
-                              :class="$route.path==term.path?'is-active':''" style="background: #2c3e50;color: white">
+                              :class="$route.path==term.path?'is-active':''" style="background: #000000;color: #000000">
                   <i :class="term.iconCls"></i><span slot="title" >{{term.name}}</span>
                 </el-menu-item>
 
@@ -32,7 +32,7 @@
 
               <el-menu-item v-else-if="item.leaf" :index="item.path"
                             :class="$route.path==item.path?'is-active':''" v-show="item.menuShow">
-                <i :class="item.iconCls"></i><span slot="title" style="color: white">{{item.name}}</span>
+                <i :class="item.iconCls"></i><span slot="title" style="color: #000000">{{item.name}}</span>
               </el-menu-item>
 
             </template>

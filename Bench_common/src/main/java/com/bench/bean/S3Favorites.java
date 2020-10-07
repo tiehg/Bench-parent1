@@ -1,5 +1,7 @@
 package com.bench.bean;
 
+import java.util.Date;
+
 public class S3Favorites implements java.io.Serializable{
     /**
 	 * 
@@ -12,7 +14,22 @@ public class S3Favorites implements java.io.Serializable{
 
     private Integer uid;
 
-    public Integer getId() {
+    private Date regtime;
+    
+
+    private S3Article art;
+    
+    
+
+    public S3Article getArt() {
+		return art;
+	}
+
+	public void setArt(S3Article art) {
+		this.art = art;
+	}
+
+	public Integer getId() {
         return id;
     }
 
@@ -34,5 +51,13 @@ public class S3Favorites implements java.io.Serializable{
 
     public void setUid(Integer uid) {
         this.uid = uid;
+    }
+
+    public Date getRegtime() {
+        return regtime;
+    }
+
+    public void setRegtime(Date regtime) {
+        this.regtime = regtime;
     }
 }

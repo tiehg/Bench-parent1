@@ -1,0 +1,414 @@
+2020-10-05 10:55:24.004 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:153 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/bback/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-10-05 10:55:26.058 WARN  org.springframework.boot.actuate.endpoint.EndpointId Line:155 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-10-05 10:55:26.072 WARN  org.springframework.boot.actuate.endpoint.EndpointId Line:155 - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-10-05 10:55:26.274 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'articleDao' and 'com.bench.Bench.dao.ArticleDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 10:55:26.275 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'muserDao' and 'com.bench.Bench.dao.MuserDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 10:55:26.276 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'userDao' and 'com.bench.Bench.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 10:55:26.276 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - No MyBatis mapper was found in '[com.bench.Bench.dao]' package. Please check your configuration.
+2020-10-05 10:55:27.472 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2020-10-05 10:55:29.419 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2020-10-05 10:55:29.594 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration Line:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-05 10:55:30.059 WARN  org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Line:106 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-05 10:55:35.684 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext Line:559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'enableRedisKeyspaceNotificationsInitializer' defined in class path resource [org/springframework/boot/autoconfigure/session/RedisSessionConfiguration$SpringBootRedisHttpSessionConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to localhost:6379
+2020-10-05 10:55:35.830 WARN  org.apache.catalina.loader.WebappClassLoaderBase Line:173 - The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:748)
+2020-10-05 10:56:00.517 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:153 - Could not locate PropertySource: 500 : [no body]
+2020-10-05 10:56:02.124 WARN  org.springframework.boot.actuate.endpoint.EndpointId Line:155 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-10-05 10:56:02.140 WARN  org.springframework.boot.actuate.endpoint.EndpointId Line:155 - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-10-05 10:56:02.325 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'articleDao' and 'com.bench.Bench.dao.ArticleDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 10:56:02.325 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'muserDao' and 'com.bench.Bench.dao.MuserDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 10:56:02.325 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'userDao' and 'com.bench.Bench.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 10:56:02.326 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - No MyBatis mapper was found in '[com.bench.Bench.dao]' package. Please check your configuration.
+2020-10-05 10:56:03.577 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2020-10-05 10:56:04.413 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2020-10-05 10:56:04.495 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration Line:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-05 10:56:05.012 WARN  org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Line:106 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-05 10:56:10.037 WARN  org.springframework.data.convert.CustomConversions Line:273 - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 10:56:10.038 WARN  org.springframework.data.convert.CustomConversions Line:263 - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 10:56:10.038 WARN  org.springframework.data.convert.CustomConversions Line:273 - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 10:56:10.038 WARN  org.springframework.data.convert.CustomConversions Line:263 - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 10:56:11.647 WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:61  - Unable to start LiveReload server
+2020-10-05 10:56:12.867 WARN  org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger Line:86  - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-10-05 10:56:18.521 WARN  org.springframework.boot.actuate.elasticsearch.ElasticsearchRestHealthIndicator Line:87  - Elasticsearch health check failed
+java.net.ConnectException: Connection refused: no further information
+	at org.elasticsearch.client.RestClient.extractAndWrapCause(RestClient.java:823)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:248)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:235)
+	at org.springframework.boot.actuate.elasticsearch.ElasticsearchRestHealthIndicator.doHealthCheck(ElasticsearchRestHealthIndicator.java:60)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:71)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:39)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:99)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:96)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:74)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:61)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor104.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	... 1 common frames omitted
+2020-10-05 10:56:18.545 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:153 - Could not locate PropertySource: 500 : [no body]
+2020-10-05 11:44:30.665 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:153 - Could not locate PropertySource: 500 : [no body]
+2020-10-05 11:44:32.345 WARN  org.springframework.boot.actuate.endpoint.EndpointId Line:155 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-10-05 11:44:32.374 WARN  org.springframework.boot.actuate.endpoint.EndpointId Line:155 - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-10-05 11:44:32.665 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'articleDao' and 'com.bench.Bench.dao.ArticleDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 11:44:32.666 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'muserDao' and 'com.bench.Bench.dao.MuserDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 11:44:32.666 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'userDao' and 'com.bench.Bench.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 11:44:32.667 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - No MyBatis mapper was found in '[com.bench.Bench.dao]' package. Please check your configuration.
+2020-10-05 11:44:34.323 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2020-10-05 11:44:35.234 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2020-10-05 11:44:35.364 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration Line:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-05 11:44:36.026 WARN  org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Line:106 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-05 11:44:40.524 WARN  org.springframework.data.convert.CustomConversions Line:273 - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 11:44:40.525 WARN  org.springframework.data.convert.CustomConversions Line:263 - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 11:44:40.525 WARN  org.springframework.data.convert.CustomConversions Line:273 - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 11:44:40.525 WARN  org.springframework.data.convert.CustomConversions Line:263 - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 11:44:41.694 WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:61  - Unable to start LiveReload server
+2020-10-05 11:44:43.220 WARN  org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger Line:86  - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-10-05 11:44:49.518 WARN  org.springframework.boot.actuate.elasticsearch.ElasticsearchRestHealthIndicator Line:87  - Elasticsearch health check failed
+java.net.ConnectException: Timeout connecting to [localhost/127.0.0.1:9200]
+	at org.elasticsearch.client.RestClient.extractAndWrapCause(RestClient.java:823)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:248)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:235)
+	at org.springframework.boot.actuate.elasticsearch.ElasticsearchRestHealthIndicator.doHealthCheck(ElasticsearchRestHealthIndicator.java:60)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:71)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:39)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:99)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:96)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:74)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:61)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor103.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Timeout connecting to [localhost/127.0.0.1:9200]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	... 1 common frames omitted
+2020-10-05 11:44:49.769 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:153 - Could not locate PropertySource: None of labels [] found
+2020-10-05 22:13:26.896 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:153 - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/bback/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-10-05 22:13:30.742 WARN  org.springframework.boot.actuate.endpoint.EndpointId Line:155 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-10-05 22:13:30.794 WARN  org.springframework.boot.actuate.endpoint.EndpointId Line:155 - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-10-05 22:13:31.012 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'articleDao' and 'com.bench.Bench.dao.ArticleDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 22:13:31.012 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'muserDao' and 'com.bench.Bench.dao.MuserDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 22:13:31.013 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'userDao' and 'com.bench.Bench.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 22:13:31.013 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - No MyBatis mapper was found in '[com.bench.Bench.dao]' package. Please check your configuration.
+2020-10-05 22:13:34.131 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2020-10-05 22:13:36.682 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2020-10-05 22:13:36.975 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration Line:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-05 22:13:37.857 WARN  org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Line:106 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-05 22:13:44.395 WARN  org.springframework.data.convert.CustomConversions Line:273 - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 22:13:44.395 WARN  org.springframework.data.convert.CustomConversions Line:263 - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 22:13:44.395 WARN  org.springframework.data.convert.CustomConversions Line:273 - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 22:13:44.395 WARN  org.springframework.data.convert.CustomConversions Line:263 - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 22:13:45.771 WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:61  - Unable to start LiveReload server
+2020-10-05 22:13:47.311 WARN  org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger Line:86  - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-10-05 22:13:54.060 WARN  org.springframework.boot.actuate.elasticsearch.ElasticsearchRestHealthIndicator Line:87  - Elasticsearch health check failed
+java.net.ConnectException: Timeout connecting to [localhost/127.0.0.1:9200]
+	at org.elasticsearch.client.RestClient.extractAndWrapCause(RestClient.java:823)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:248)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:235)
+	at org.springframework.boot.actuate.elasticsearch.ElasticsearchRestHealthIndicator.doHealthCheck(ElasticsearchRestHealthIndicator.java:60)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:71)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:39)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:99)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:96)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:74)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:61)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor105.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Timeout connecting to [localhost/127.0.0.1:9200]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	... 1 common frames omitted
+2020-10-05 22:13:55.033 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:153 - Could not locate PropertySource: 500 : [no body]
+2020-10-05 23:53:13.215 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:153 - Could not locate PropertySource: 500 : [no body]
+2020-10-05 23:53:15.140 WARN  org.springframework.boot.actuate.endpoint.EndpointId Line:155 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-10-05 23:53:15.164 WARN  org.springframework.boot.actuate.endpoint.EndpointId Line:155 - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-10-05 23:53:15.443 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'articleDao' and 'com.bench.Bench.dao.ArticleDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 23:53:15.444 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'muserDao' and 'com.bench.Bench.dao.MuserDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 23:53:15.444 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'userDao' and 'com.bench.Bench.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 23:53:15.445 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - No MyBatis mapper was found in '[com.bench.Bench.dao]' package. Please check your configuration.
+2020-10-05 23:53:18.667 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2020-10-05 23:53:21.160 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2020-10-05 23:53:21.483 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration Line:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-05 23:53:22.714 WARN  org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Line:106 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-05 23:53:29.493 WARN  org.springframework.data.convert.CustomConversions Line:273 - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 23:53:29.494 WARN  org.springframework.data.convert.CustomConversions Line:263 - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 23:53:29.494 WARN  org.springframework.data.convert.CustomConversions Line:273 - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 23:53:29.495 WARN  org.springframework.data.convert.CustomConversions Line:263 - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 23:53:30.748 WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:61  - Unable to start LiveReload server
+2020-10-05 23:53:32.751 WARN  org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger Line:86  - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-10-05 23:53:41.856 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper Line:137 - SQL Error: 1054, SQLState: 42S22
+2020-10-05 23:53:41.889 WARN  org.springframework.boot.actuate.elasticsearch.ElasticsearchRestHealthIndicator Line:87  - Elasticsearch health check failed
+java.net.ConnectException: Connection refused: no further information
+	at org.elasticsearch.client.RestClient.extractAndWrapCause(RestClient.java:823)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:248)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:235)
+	at org.springframework.boot.actuate.elasticsearch.ElasticsearchRestHealthIndicator.doHealthCheck(ElasticsearchRestHealthIndicator.java:60)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:71)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:39)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:99)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:96)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:74)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:61)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.GeneratedMethodAccessor105.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	... 1 common frames omitted
+2020-10-05 23:53:42.339 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:153 - Could not locate PropertySource: None of labels [] found
+2020-10-05 23:54:34.779 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper Line:137 - SQL Error: 1054, SQLState: 42S22
+2020-10-05 23:55:20.812 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper Line:137 - SQL Error: 1054, SQLState: 42S22
+2020-10-05 23:56:01.434 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper Line:137 - SQL Error: 1054, SQLState: 42S22
+2020-10-05 23:57:27.949 WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper Line:137 - SQL Error: 1054, SQLState: 42S22
+2020-10-05 23:58:10.392 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:153 - Could not locate PropertySource: 500 : [no body]
+2020-10-05 23:58:12.119 WARN  org.springframework.boot.actuate.endpoint.EndpointId Line:155 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-10-05 23:58:12.143 WARN  org.springframework.boot.actuate.endpoint.EndpointId Line:155 - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-10-05 23:58:12.408 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'articleDao' and 'com.bench.Bench.dao.ArticleDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 23:58:12.409 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'muserDao' and 'com.bench.Bench.dao.MuserDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 23:58:12.409 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - Skipping MapperFactoryBean with name 'userDao' and 'com.bench.Bench.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2020-10-05 23:58:12.409 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner Line:44  - No MyBatis mapper was found in '[com.bench.Bench.dao]' package. Please check your configuration.
+2020-10-05 23:58:14.199 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2020-10-05 23:58:15.464 WARN  com.netflix.config.sources.URLConfigurationSource Line:121 - No URLs will be polled as dynamic configuration sources.
+2020-10-05 23:58:15.586 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration Line:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-05 23:58:16.368 WARN  org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration Line:106 - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-10-05 23:58:22.925 WARN  org.springframework.data.convert.CustomConversions Line:273 - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 23:58:22.926 WARN  org.springframework.data.convert.CustomConversions Line:263 - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 23:58:22.926 WARN  org.springframework.data.convert.CustomConversions Line:273 - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 23:58:22.926 WARN  org.springframework.data.convert.CustomConversions Line:263 - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2020-10-05 23:58:24.181 WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:61  - Unable to start LiveReload server
+2020-10-05 23:58:26.069 WARN  org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger Line:86  - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-10-05 23:58:32.071 WARN  org.springframework.boot.actuate.elasticsearch.ElasticsearchRestHealthIndicator Line:87  - Elasticsearch health check failed
+java.net.ConnectException: Timeout connecting to [localhost/127.0.0.1:9200]
+	at org.elasticsearch.client.RestClient.extractAndWrapCause(RestClient.java:823)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:248)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:235)
+	at org.springframework.boot.actuate.elasticsearch.ElasticsearchRestHealthIndicator.doHealthCheck(ElasticsearchRestHealthIndicator.java:60)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:71)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:39)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:99)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:96)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:74)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:61)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:65)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:346)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:683)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Timeout connecting to [localhost/127.0.0.1:9200]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	... 1 common frames omitted
+2020-10-05 23:58:32.386 WARN  org.springframework.cloud.config.client.ConfigServicePropertySourceLocator Line:153 - Could not locate PropertySource: None of labels [] found

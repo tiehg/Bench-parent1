@@ -1,22 +1,43 @@
 package com.bench.bean;
 
-import java.util.Date;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+import javax.persistence.*;
+import java.util.Date;
+import java.util.Optional;
+
+@Entity
+@Table(name = "s3_article")
+@JsonIgnoreProperties({"handler","hibernateLazyInitializer"})
 public class S3Article implements java.io.Serializable{
     /**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 1L;
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "aid")
 	private Integer aid;
+
+    /**
+     * 把S3User 对象的 id 属性作为 uid 进行了查询。
+     * JoinColumn(name = "uid")通过uid进行查询
+     *
+     * cascade对应的级联操作，
+     * optional（任选）表示是否接受为空，false不接受。
+     * fetch（ 取来） 加载模式，可选的有懒加载、立即加载。配置懒加载之后会有一定问题，需要另行配置，
+     */
+  /*  @ManyToOne(cascade = {CascadeType.MERGE, CascadeType.REFRESH},
+            optional = false,fetch = FetchType.LAZY)
+    @JoinColumn(name = "uid")*/
+    @Transient
+    private S3User user;
 
     private Integer categoryid;
 
     private Integer uid;
 
     private String atitle;
-
-    private String acontent;
 
     private Date sendtime;
 
@@ -29,8 +50,34 @@ public class S3Article implements java.io.Serializable{
     private Integer top;
 
     private Integer solve;
+    @Transient
+    private Integer reply;
+    @Transient
+    private Integer reder;
 
-    public Integer getAid() {
+    private String status;
+
+    private String acontent;
+    @Transient
+    private String TimeChange;
+
+    public String getTimeChange() {
+		return TimeChange;
+	}
+
+	public void setTimeChange(String timeChange) {
+		TimeChange = timeChange;
+	}
+
+	public S3User getUser() {
+		return user;
+	}
+
+	public void setUser(S3User user) {
+		this.user = user;
+	}
+
+	public Integer getAid() {
         return aid;
     }
 
@@ -60,14 +107,6 @@ public class S3Article implements java.io.Serializable{
 
     public void setAtitle(String atitle) {
         this.atitle = atitle == null ? null : atitle.trim();
-    }
-
-    public String getAcontent() {
-        return acontent;
-    }
-
-    public void setAcontent(String acontent) {
-        this.acontent = acontent == null ? null : acontent.trim();
     }
 
     public Date getSendtime() {
@@ -116,5 +155,37 @@ public class S3Article implements java.io.Serializable{
 
     public void setSolve(Integer solve) {
         this.solve = solve;
+    }
+
+    public Integer getReply() {
+        return reply;
+    }
+
+    public void setReply(Integer reply) {
+        this.reply = reply;
+    }
+
+    public Integer getReder() {
+        return reder;
+    }
+
+    public void setReder(Integer reder) {
+        this.reder = reder;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status == null ? null : status.trim();
+    }
+
+    public String getAcontent() {
+        return acontent;
+    }
+
+    public void setAcontent(String acontent) {
+        this.acontent = acontent == null ? null : acontent.trim();
     }
 }

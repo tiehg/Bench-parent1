@@ -17,12 +17,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.bench.Bench.remote.IUserAction;
-import com.bench.bean.Result;
 import com.bench.bean.S3User;
 
 @Controller
 public class UserAction {
-	
+
 	@Resource
 	private IUserAction iua;
 	@Resource
@@ -77,7 +76,7 @@ public class UserAction {
 			return "html/user/set";
 		}
 
-		
+
 		// 修改邮箱，性别，地点，个性签名
 
 		@RequestMapping("update1")
@@ -141,7 +140,7 @@ public class UserAction {
 			user.setUhead(spath+filename);
 			Result res=iua.updateimg(user);
 			return touserset(m,Integer.valueOf(id));
-			
+
 		}
 		//保存id  30分钟
 		@RequestMapping("savesession")

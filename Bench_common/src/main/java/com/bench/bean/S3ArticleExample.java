@@ -355,76 +355,6 @@ public class S3ArticleExample {
             return (Criteria) this;
         }
 
-        public Criteria andAcontentIsNull() {
-            addCriterion("acontent is null");
-            return (Criteria) this;
-        }
-
-        public Criteria andAcontentIsNotNull() {
-            addCriterion("acontent is not null");
-            return (Criteria) this;
-        }
-
-        public Criteria andAcontentEqualTo(String value) {
-            addCriterion("acontent =", value, "acontent");
-            return (Criteria) this;
-        }
-
-        public Criteria andAcontentNotEqualTo(String value) {
-            addCriterion("acontent <>", value, "acontent");
-            return (Criteria) this;
-        }
-
-        public Criteria andAcontentGreaterThan(String value) {
-            addCriterion("acontent >", value, "acontent");
-            return (Criteria) this;
-        }
-
-        public Criteria andAcontentGreaterThanOrEqualTo(String value) {
-            addCriterion("acontent >=", value, "acontent");
-            return (Criteria) this;
-        }
-
-        public Criteria andAcontentLessThan(String value) {
-            addCriterion("acontent <", value, "acontent");
-            return (Criteria) this;
-        }
-
-        public Criteria andAcontentLessThanOrEqualTo(String value) {
-            addCriterion("acontent <=", value, "acontent");
-            return (Criteria) this;
-        }
-
-        public Criteria andAcontentLike(String value) {
-            addCriterion("acontent like", value, "acontent");
-            return (Criteria) this;
-        }
-
-        public Criteria andAcontentNotLike(String value) {
-            addCriterion("acontent not like", value, "acontent");
-            return (Criteria) this;
-        }
-
-        public Criteria andAcontentIn(List<String> values) {
-            addCriterion("acontent in", values, "acontent");
-            return (Criteria) this;
-        }
-
-        public Criteria andAcontentNotIn(List<String> values) {
-            addCriterion("acontent not in", values, "acontent");
-            return (Criteria) this;
-        }
-
-        public Criteria andAcontentBetween(String value1, String value2) {
-            addCriterion("acontent between", value1, value2, "acontent");
-            return (Criteria) this;
-        }
-
-        public Criteria andAcontentNotBetween(String value1, String value2) {
-            addCriterion("acontent not between", value1, value2, "acontent");
-            return (Criteria) this;
-        }
-
         public Criteria andSendtimeIsNull() {
             addCriterion("sendtime is null");
             return (Criteria) this;
@@ -792,6 +722,196 @@ public class S3ArticleExample {
 
         public Criteria andSolveNotBetween(Integer value1, Integer value2) {
             addCriterion("solve not between", value1, value2, "solve");
+            return (Criteria) this;
+        }
+
+        public Criteria andReplyIsNull() {
+            addCriterion("reply is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andReplyIsNotNull() {
+            addCriterion("reply is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andReplyEqualTo(Integer value) {
+            addCriterion("reply =", value, "reply");
+            return (Criteria) this;
+        }
+
+        public Criteria andReplyNotEqualTo(Integer value) {
+            addCriterion("reply <>", value, "reply");
+            return (Criteria) this;
+        }
+
+        public Criteria andReplyGreaterThan(Integer value) {
+            addCriterion("reply >", value, "reply");
+            return (Criteria) this;
+        }
+
+        public Criteria andReplyGreaterThanOrEqualTo(Integer value) {
+            addCriterion("reply >=", value, "reply");
+            return (Criteria) this;
+        }
+
+        public Criteria andReplyLessThan(Integer value) {
+            addCriterion("reply <", value, "reply");
+            return (Criteria) this;
+        }
+
+        public Criteria andReplyLessThanOrEqualTo(Integer value) {
+            addCriterion("reply <=", value, "reply");
+            return (Criteria) this;
+        }
+
+        public Criteria andReplyIn(List<Integer> values) {
+            addCriterion("reply in", values, "reply");
+            return (Criteria) this;
+        }
+
+        public Criteria andReplyNotIn(List<Integer> values) {
+            addCriterion("reply not in", values, "reply");
+            return (Criteria) this;
+        }
+
+        public Criteria andReplyBetween(Integer value1, Integer value2) {
+            addCriterion("reply between", value1, value2, "reply");
+            return (Criteria) this;
+        }
+
+        public Criteria andReplyNotBetween(Integer value1, Integer value2) {
+            addCriterion("reply not between", value1, value2, "reply");
+            return (Criteria) this;
+        }
+
+        public Criteria andRederIsNull() {
+            addCriterion("reder is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andRederIsNotNull() {
+            addCriterion("reder is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andRederEqualTo(Integer value) {
+            addCriterion("reder =", value, "reder");
+            return (Criteria) this;
+        }
+
+        public Criteria andRederNotEqualTo(Integer value) {
+            addCriterion("reder <>", value, "reder");
+            return (Criteria) this;
+        }
+
+        public Criteria andRederGreaterThan(Integer value) {
+            addCriterion("reder >", value, "reder");
+            return (Criteria) this;
+        }
+
+        public Criteria andRederGreaterThanOrEqualTo(Integer value) {
+            addCriterion("reder >=", value, "reder");
+            return (Criteria) this;
+        }
+
+        public Criteria andRederLessThan(Integer value) {
+            addCriterion("reder <", value, "reder");
+            return (Criteria) this;
+        }
+
+        public Criteria andRederLessThanOrEqualTo(Integer value) {
+            addCriterion("reder <=", value, "reder");
+            return (Criteria) this;
+        }
+
+        public Criteria andRederIn(List<Integer> values) {
+            addCriterion("reder in", values, "reder");
+            return (Criteria) this;
+        }
+
+        public Criteria andRederNotIn(List<Integer> values) {
+            addCriterion("reder not in", values, "reder");
+            return (Criteria) this;
+        }
+
+        public Criteria andRederBetween(Integer value1, Integer value2) {
+            addCriterion("reder between", value1, value2, "reder");
+            return (Criteria) this;
+        }
+
+        public Criteria andRederNotBetween(Integer value1, Integer value2) {
+            addCriterion("reder not between", value1, value2, "reder");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusIsNull() {
+            addCriterion("status is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusIsNotNull() {
+            addCriterion("status is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusEqualTo(String value) {
+            addCriterion("status =", value, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusNotEqualTo(String value) {
+            addCriterion("status <>", value, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusGreaterThan(String value) {
+            addCriterion("status >", value, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusGreaterThanOrEqualTo(String value) {
+            addCriterion("status >=", value, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusLessThan(String value) {
+            addCriterion("status <", value, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusLessThanOrEqualTo(String value) {
+            addCriterion("status <=", value, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusLike(String value) {
+            addCriterion("status like", value, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusNotLike(String value) {
+            addCriterion("status not like", value, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusIn(List<String> values) {
+            addCriterion("status in", values, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusNotIn(List<String> values) {
+            addCriterion("status not in", values, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusBetween(String value1, String value2) {
+            addCriterion("status between", value1, value2, "status");
+            return (Criteria) this;
+        }
+
+        public Criteria andStatusNotBetween(String value1, String value2) {
+            addCriterion("status not between", value1, value2, "status");
             return (Criteria) this;
         }
     }

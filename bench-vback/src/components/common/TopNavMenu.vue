@@ -53,7 +53,7 @@
             </el-dropdown-item>
             <!--修改管理员密码-->
             <el-dropdown-item>
-              <div @click="jumpTo('/user/changepwd')"><span style="color: #555;font-size: 14px;">修改密码</span></div>
+              <div @click="jumpTo('/user/chagepwd')"><span style="color: #555;font-size: 14px;">修改密码</span></div>
             </el-dropdown-item>
             <!--管理员退出系统-->
             <el-dropdown-item divided @click.native="logout">退出登录</el-dropdown-item>

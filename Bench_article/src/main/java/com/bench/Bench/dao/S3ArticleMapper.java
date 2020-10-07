@@ -2,8 +2,6 @@ package com.bench.Bench.dao;
 
 import java.util.List;
 
-import com.bench.bean.S3Article;
-import com.bench.bean.S3ArticleExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface S3ArticleMapper {

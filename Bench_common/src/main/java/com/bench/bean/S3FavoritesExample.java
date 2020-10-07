@@ -1,6 +1,7 @@
 package com.bench.bean;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class S3FavoritesExample {
@@ -281,6 +282,66 @@ public class S3FavoritesExample {
 
         public Criteria andUidNotBetween(Integer value1, Integer value2) {
             addCriterion("uid not between", value1, value2, "uid");
+            return (Criteria) this;
+        }
+
+        public Criteria andRegtimeIsNull() {
+            addCriterion("regtime is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andRegtimeIsNotNull() {
+            addCriterion("regtime is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andRegtimeEqualTo(Date value) {
+            addCriterion("regtime =", value, "regtime");
+            return (Criteria) this;
+        }
+
+        public Criteria andRegtimeNotEqualTo(Date value) {
+            addCriterion("regtime <>", value, "regtime");
+            return (Criteria) this;
+        }
+
+        public Criteria andRegtimeGreaterThan(Date value) {
+            addCriterion("regtime >", value, "regtime");
+            return (Criteria) this;
+        }
+
+        public Criteria andRegtimeGreaterThanOrEqualTo(Date value) {
+            addCriterion("regtime >=", value, "regtime");
+            return (Criteria) this;
+        }
+
+        public Criteria andRegtimeLessThan(Date value) {
+            addCriterion("regtime <", value, "regtime");
+            return (Criteria) this;
+        }
+
+        public Criteria andRegtimeLessThanOrEqualTo(Date value) {
+            addCriterion("regtime <=", value, "regtime");
+            return (Criteria) this;
+        }
+
+        public Criteria andRegtimeIn(List<Date> values) {
+            addCriterion("regtime in", values, "regtime");
+            return (Criteria) this;
+        }
+
+        public Criteria andRegtimeNotIn(List<Date> values) {
+            addCriterion("regtime not in", values, "regtime");
+            return (Criteria) this;
+        }
+
+        public Criteria andRegtimeBetween(Date value1, Date value2) {
+            addCriterion("regtime between", value1, value2, "regtime");
+            return (Criteria) this;
+        }
+
+        public Criteria andRegtimeNotBetween(Date value1, Date value2) {
+            addCriterion("regtime not between", value1, value2, "regtime");
             return (Criteria) this;
         }
     }

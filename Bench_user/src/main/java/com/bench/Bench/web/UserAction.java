@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bench.bean.Result;
 import com.bench.bean.S3User;
 import com.bench.bean.S3UserExample;
 
